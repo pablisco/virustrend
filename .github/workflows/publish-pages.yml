@@ -16,8 +16,10 @@ jobs:
         run: ./gradlew :crawler:crawlConvidRepo
 
       - name: Publish generated content to GitHub Pages
-        uses: tsunematsu21/actions-publish-gh-pages@v1.0.0
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1.3.0
         with:
-          dir: dist
-          branch: gh-pages
-          token: ${{ secrets.ACCESS_TOKEN }}
+          build_dir: build/pages
+          target_branch: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
