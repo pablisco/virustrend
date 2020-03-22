@@ -23,3 +23,4 @@ jobs:
           target_branch: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
