@@ -1,0 +1,23 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v1
+
+      - name: Crawl Convid-19 Data from Repo
+        run: ./gradlew :crawler:crawlConvidRepo
+
+      - name: Publish generated content to GitHub Pages
+        uses: tsunematsu21/actions-publish-gh-pages@v1.0.0
+        with:
+          dir: dist
+          branch: gh-pages
+          token: ${{ secrets.ACCESS_TOKEN }}
