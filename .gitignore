@@ -1,0 +1,5 @@
+/.idea/
+**/.gradle/**
+**/build/**
+**/out/**
+/buildSrc/src/main/kotlin/modules.kt
