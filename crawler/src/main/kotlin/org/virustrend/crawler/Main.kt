@@ -1,10 +1,7 @@
 package org.virustrend.crawler
 
-import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
-import kotlinx.serialization.builtins.MapSerializer
-import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
 import java.net.URL
 import java.nio.file.Files
@@ -17,38 +14,46 @@ fun main(args: Array<String>) {
     val target = Paths.get(workingDirectory).resolve("../build/pages/api")
     Files.createDirectories(target)
     val timeCasesCsv = timeCasesUrl.readCsv()
-    val dayInfoMap = timeCasesCsv.mapDayInfo()
+    val dayInfoMap = timeCasesCsv.asCountryTimeCases()
     dayInfoMap.toJson(prettyJson).saveTo(output = target.resolve("timeCases.pretty.json"))
     dayInfoMap.toJson(defaultJson).saveTo(output = target.resolve("timeCases.json"))
 }
 
-private fun Map<String, List<DayInfo>>.toJson(json: Json) =
-    json.stringify(DayInfoMapSerializer, this)
+private fun List<CountryTimeCases>.toJson(json: Json) =
+    json.stringify(ListSerializer(CountryTimeCases.serializer()), this)
 
-private fun List<Row>.mapDayInfo(): Map<String, List<DayInfo>> =
-    map {
-        it.string("Country_Region") to DayInfo(
-            day = it.localDate("Last_Update") ?: LocalDate.MIN,
-            dataPoint = DataPoint(
-                confirmed = it.int("Confirmed") ?: 0,
-                deaths = it.int("Deaths") ?: 0,
-                recovered = it.int("Recovered") ?: 0,
-                active = it.int("Active") ?: 0,
-                deltaConfirmed = it.int("Delta_Confirmed") ?: 0,
-                deltaRecovered = it.float("Delta_Recovered") ?: 0f
-            )
+private fun List<Row>.asCountryTimeCases(): List<CountryTimeCases> =
+    map { it.toTimeCase() }
+        .groupBy({ it.first }, { it.second })
+        .map { (countryName, days) ->
+            CountryTimeCases(countryName = countryName, days = days)
+        }
+
+private fun Row.toTimeCase() =
+    string("Country_Region") to TimeCase(
+        day = localDate("Last_Update") ?: LocalDate.MIN,
+        dataPoint = DataPoint(
+            confirmed = int("Confirmed") ?: 0,
+            deaths = int("Deaths") ?: 0,
+            recovered = int("Recovered") ?: 0,
+            active = int("Active") ?: 0,
+            deltaConfirmed = int("Delta_Confirmed") ?: 0,
+            deltaRecovered = float("Delta_Recovered") ?: 0f
         )
-    }.groupBy({ it.first }, { it.second })
+    )
 
 private fun String.saveTo(output: Path) {
     toByteArray().let { Files.write(output, it) }
 }
 
-private val DayInfoMapSerializer: KSerializer<Map<String, List<DayInfo>>> =
-    MapSerializer(String.serializer(), ListSerializer(DayInfo.serializer()))
+@Serializable
+data class CountryTimeCases(
+    val countryName: String,
+    val days: List<TimeCase>
+)
 
 @Serializable
-data class DayInfo(
+data class TimeCase(
     @Serializable(with = LocalDateSerializer::class) val day: LocalDate,
     val dataPoint: DataPoint
 )
