@@ -1,9 +1,8 @@
 name: Publish to GitHub Pages
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: '*/10 * * * *'
 
 jobs:
   publish:
@@ -21,6 +20,7 @@ jobs:
         with:
           build_dir: build/pages
           target_branch: gh-pages
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
