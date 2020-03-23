@@ -28,14 +28,14 @@ private fun Map<String, List<DayInfo>>.toJson(json: Json) =
 private fun List<Row>.mapDayInfo(): Map<String, List<DayInfo>> =
     map {
         it.string("Country_Region") to DayInfo(
-            day = it.localDate("Last_Update"),
+            day = it.localDate("Last_Update") ?: LocalDate.MIN,
             dataPoint = DataPoint(
-                confirmed = it.int("Confirmed"),
-                deaths = it.int("Deaths"),
-                recovered = it.int("Recovered"),
-                active = it.int("Active"),
-                deltaConfirmed = it.int("Delta_Confirmed"),
-                deltaRecovered = it.float("Delta_Recovered")
+                confirmed = it.int("Confirmed") ?: 0,
+                deaths = it.int("Deaths") ?: 0,
+                recovered = it.int("Recovered") ?: 0,
+                active = it.int("Active") ?: 0,
+                deltaConfirmed = it.int("Delta_Confirmed") ?: 0,
+                deltaRecovered = it.float("Delta_Recovered") ?: 0f
             )
         )
     }.groupBy({ it.first }, { it.second })
