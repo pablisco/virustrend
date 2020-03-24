@@ -1,6 +1,9 @@
 name: Publish to GitHub Pages
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '*/10 * * * *'
 
@@ -13,6 +16,12 @@ jobs:
 
       - name: Crawl Convid-19 Data from Repo
         run: ./gradlew :crawler:crawlConvidRepo
+        uses: actions/cache@v1
+          with:
+            path: ~/.gradle/caches
+            key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+            restore-keys: |
+              ${{ runner.os }}-gradle-
 
       - name: Publish generated content to GitHub Pages
         if: success()
