@@ -20,7 +20,7 @@ jobs:
           path: ~/.gradle
           key: ${{ runner.os }}-gradle-all-${{ hashFiles('**/*.gradle*') }}
           restore-keys: |
-            ${{ runner.os }}-gradle-
+            ${{ runner.os }}-gradle-all-
 
       - name: Crawl Convid-19 Data from Repo
         run: ./gradlew :crawler:crawlConvidRepo
