@@ -14,14 +14,16 @@ jobs:
       - name: Check out
         uses: actions/checkout@v1
 
+      - name: Cache
+        uses: actions/cache@v1
+          with:
+            path: ~/.gradle/caches
+            key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+            restore-keys: |
+              ${{ runner.os }}-gradle-
+
       - name: Crawl Convid-19 Data from Repo
         run: ./gradlew :crawler:crawlConvidRepo
-        uses: actions/cache@v1
-        with:
-          path: ~/.gradle/caches
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
 
       - name: Publish generated content to GitHub Pages
         if: success()
