@@ -5,12 +5,13 @@ plugins {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation("com.github.doyaaaaaken:kotlin-csv-jvm:0.7.3")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0")
+    implementation(project(":models", configuration = "jvmDefault"))
+    implementation(libraries.csv)
+    implementation(libraries.kotlinX.serializable)
 }
 
 tasks.create<JavaExec>("crawlConvidRepo") {
     main = "org.virustrend.crawler.MainKt"
-    classpath = sourceSets.main.get().runtimeClasspath
+    classpath = sourceSets.main.runtimeClasspath
     args = listOf(rootProject.buildDir.absolutePath)
 }

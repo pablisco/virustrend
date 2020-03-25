@@ -1,111 +1,98 @@
 package org.virustrend.crawler
 
-import kotlinx.serialization.Serializable
-import kotlinx.serialization.builtins.ListSerializer
+import com.soywiz.klock.Date
+import kotlinx.serialization.ImplicitReflectionSerializer
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.stringify
+import org.virustrend.*
 import java.net.URL
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
-import java.time.LocalDate
-import java.time.LocalDateTime
 
+@ImplicitReflectionSerializer
 fun main(args: Array<String>) {
     val workingDirectory = args.firstOrNull() ?: error("missing working directory")
     val target = Paths.get(workingDirectory).resolve("../build/pages/api")
-    Files.createDirectories(target)
-    val timeCasesCsv = timeCasesUrl.readCsv()
-    val countryTimeCases = timeCasesCsv.asCountryTimeCases()
-    countryTimeCases.toJson(prettyJson).saveTo(output = target.resolve("timeCases.pretty.json"))
-    countryTimeCases.toJson(defaultJson).saveTo(output = target.resolve("timeCases.json"))
+    val cache = Paths.get(workingDirectory).resolve("../build/pages/cache")
+    val (casesByTime, casesUrl, casesByStateUrl, casesByCountryUrl) =
+        Csv.values().map { it.read(cache) }
+    val casesByDayByCountry: List<CasesByDayByCountry> = casesByTime.asCasesByDayByCountry()
 
-    val globalInfo = countryTimeCases
-        .mapNotNull { (_, timeCases) -> timeCases.maxBy { it.day }?.dataPoint }
-        .reduce { current, next -> current + next }
-        .let { compositeDataPoint ->
-            GlobalInfo(dataPoint = compositeDataPoint)
+    saveJson(target, "daily") {
+        stringify(casesByDayByCountry)
+    }
+
+    saveJson(target, "countries") {
+        stringify(casesByDayByCountry.map { Country(it.countryName) })
+    }
+
+    casesByDayByCountry.forEach { (countryName, casesByDay) ->
+        saveJson(target.resolve("daily"), countryName.urlEncode()) {
+            stringify(casesByDay)
         }
+    }
 
-    globalInfo.toJson(prettyJson).saveTo(output = target.resolve("globalInfo.pretty.json"))
-    globalInfo.toJson(defaultJson).saveTo(output = target.resolve("globalInfo.json"))
+    saveJson(target, "global-info") {
+        casesByDayByCountry
+            .mapNotNull { (_, timeCases) -> timeCases.maxBy { it.day }?.cases }
+            .reduce { current, next -> current + next }
+            .let { compositeDataPoint -> GlobalInfo(dataPoint = compositeDataPoint) }
+            .let { stringify(it) }
+    }
 
 }
 
-private fun List<CountryTimeCases>.toJson(json: Json) =
-    json.stringify(ListSerializer(CountryTimeCases.serializer()), this)
+private fun saveJson(directory: Path, fileName: String, parse: Json.() -> String) {
+    Files.createDirectories(directory)
+    prettyJson.parse().saveTo(output = directory.resolve("$fileName.pretty.json"))
+    defaultJson.parse().saveTo(output = directory.resolve("$fileName.json"))
+}
 
-private fun GlobalInfo.toJson(json: Json) =
-    json.stringify(GlobalInfo.serializer(), this)
-
-private fun List<Row>.asCountryTimeCases(): List<CountryTimeCases> =
+private fun List<Row>.asCasesByDayByCountry(): List<CasesByDayByCountry> =
     map { it.toTimeCase() }
         .groupBy({ it.first }, { it.second })
         .map { (countryName, days) ->
-            CountryTimeCases(countryName = countryName, days = days)
+            CasesByDayByCountry(countryName = countryName, days = days)
         }
 
 private fun Row.toTimeCase() =
-    string("Country_Region") to TimeCase(
-        day = localDate("Last_Update") ?: LocalDate.MIN,
-        dataPoint = DataPoint(
-            confirmed = int("Confirmed") ?: 0,
-            deaths = int("Deaths") ?: 0,
-            recovered = int("Recovered") ?: 0,
-            active = int("Active") ?: 0
-        ),
-        delta = Delta(
-            deltaConfirmed = int("Delta_Confirmed") ?: 0,
-            deltaRecovered = float("Delta_Recovered") ?: 0f
-        )
+    string("Country_Region") to CaseByDay(
+        day = localDate("Last_Update") ?: Date(encoded = Int.MIN_VALUE),
+        cases = cases,
+        delta = delta
     )
 
-private fun String.saveTo(output: Path) {
+private val Row.cases
+    get() = Cases(
+        confirmed = int("Confirmed") ?: 0,
+        deaths = int("Deaths") ?: 0,
+        recovered = int("Recovered") ?: 0,
+        active = int("Active") ?: 0
+    )
+
+private val Row.delta
+    get() = Delta(
+        deltaConfirmed = int("Delta_Confirmed") ?: 0,
+        deltaRecovered = float("Delta_Recovered") ?: 0f
+    )
+
+internal fun String.saveTo(output: Path) {
     toByteArray().let { Files.write(output, it) }
 }
 
-@Serializable
-data class GlobalInfo(
-    val dataPoint: DataPoint,
-    @Serializable(with = LocalDateTimeSerializer::class)
-    val updateTime: LocalDateTime = LocalDateTime.now()
-)
-
-@Serializable
-data class CountryTimeCases(
-    val countryName: String,
-    val days: List<TimeCase>
-)
-
-@Serializable
-data class TimeCase(
-    @Serializable(with = LocalDateSerializer::class)
-    val day: LocalDate,
-    val dataPoint: DataPoint,
-    val delta: Delta
-)
-
-@Serializable
-data class DataPoint(
-    val confirmed: Int,
-    val deaths: Int,
-    val recovered: Int,
-    val active: Int
-)
-
-@Serializable
-data class Delta(
-    val deltaConfirmed: Int,
-    val deltaRecovered: Float
-)
-
-operator fun DataPoint.plus(other: DataPoint): DataPoint =
-    copy(
-        confirmed = confirmed + other.confirmed,
-        deaths = deaths + other.deaths,
-        recovered = recovered + other.recovered,
-        active = active + other.active
-    )
 
 private const val convidRepo = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19"
-private val timeCasesUrl = URL("$convidRepo/web-data/data/cases_time.csv")
 
+private const val csvPath: String = "$convidRepo/web-data/data/"
+
+enum class Csv(private val fileName: String) {
+    CasesByTime("cases_time"),
+    CasesUrl("cases"),
+    CasesByStateUrl("cases_state"),
+    CasesByCountryUrl("cases_country");
+
+    fun read(cache: Path)  : List<Row> =
+        URL("$csvPath/$fileName.csv").saveTo(cache, "$fileName.csv").readCsv()
+
+}
