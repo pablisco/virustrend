@@ -807,6 +807,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 74,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 34,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -1616,6 +1629,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 15,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 123,
+                    "deaths": 5,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 19,
                     "deltaRecovered": 0.0
                 }
             }
@@ -2429,6 +2455,19 @@
                     "deltaConfirmed": 29,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 264,
+                    "deaths": 19,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 34,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -3238,6 +3277,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 20,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 164,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 31,
                     "deltaRecovered": 0.0
                 }
             }
@@ -4051,6 +4103,19 @@
                     "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -4860,6 +4925,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 2,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -5673,6 +5751,19 @@
                     "deltaConfirmed": 35,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 387,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 86,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -6482,6 +6573,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 41,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 249,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 14,
                     "deltaRecovered": 0.0
                 }
             }
@@ -7295,6 +7399,19 @@
                     "deltaConfirmed": 133,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2044,
+                    "deaths": 8,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 362,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -8104,6 +8221,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 892,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 5283,
+                    "deaths": 28,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 809,
                     "deltaRecovered": 0.0
                 }
             }
@@ -8917,6 +9047,19 @@
                     "deltaConfirmed": 7,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 87,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 15,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -9726,6 +9869,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 5,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
             }
@@ -10539,6 +10695,19 @@
                     "deltaConfirmed": 43,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 392,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 15,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -11343,6 +11512,19 @@
                 "dataPoint": {
                     "confirmed": 33,
                     "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 6,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 39,
+                    "deaths": 4,
                     "recovered": 0,
                     "active": 0
                 },
@@ -12161,6 +12343,19 @@
                     "deltaConfirmed": 3,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 18,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -12970,6 +13165,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 5,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 81,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -13783,6 +13991,19 @@
                     "deltaConfirmed": 342,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 4269,
+                    "deaths": 122,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 526,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -14592,6 +14813,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -15405,6 +15639,19 @@
                     "deltaConfirmed": 3,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 6,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -16206,6 +16453,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 2,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 2,
                     "deaths": 0,
@@ -17027,6 +17287,19 @@
                     "deltaConfirmed": 3,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 29,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -17836,6 +18109,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 10,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 166,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 30,
                     "deltaRecovered": 0.0
                 }
             }
@@ -18649,6 +18935,19 @@
                     "deltaConfirmed": 378,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2247,
+                    "deaths": 46,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 323,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -19458,6 +19757,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 3,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 104,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 13,
                     "deltaRecovered": 0.0
                 }
             }
@@ -20271,6 +20583,19 @@
                     "deltaConfirmed": 14,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 218,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 17,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -21082,6 +21407,19 @@
                     "deltaConfirmed": 24,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 114,
+                    "deaths": 4,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 15,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -21886,6 +22224,19 @@
                 "dataPoint": {
                     "confirmed": 3,
                     "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 1,
                     "recovered": 0,
                     "active": 0
                 },
@@ -22704,6 +23055,19 @@
                     "deltaConfirmed": 3,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 91,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 4,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -23513,6 +23877,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 16,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 66,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 10,
                     "deltaRecovered": 0.0
                 }
             }
@@ -24326,6 +24703,19 @@
                     "deltaConfirmed": 619,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2790,
+                    "deaths": 26,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 702,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -25127,6 +25517,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 3,
                     "deaths": 0,
@@ -25948,6 +26351,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -26757,6 +27173,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 114,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 922,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 176,
                     "deltaRecovered": 0.0
                 }
             }
@@ -27570,6 +27999,19 @@
                     "deltaConfirmed": 63,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 81591,
+                    "deaths": 3281,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 93,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -28379,6 +28821,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 46,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 378,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 101,
                     "deltaRecovered": 0.0
                 }
             }
@@ -29192,6 +29647,19 @@
                     "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 4,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -30001,6 +30469,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 6,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 45,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 9,
                     "deltaRecovered": 0.0
                 }
             }
@@ -30814,6 +31295,19 @@
                     "deltaConfirmed": 24,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 177,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 19,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -31623,6 +32117,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 11,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 73,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 48,
                     "deltaRecovered": 0.0
                 }
             }
@@ -32436,815 +32943,17 @@
                     "deltaConfirmed": 61,
                     "deltaRecovered": 0.0
                 }
-            }
-        ]
-    },
-    {
-        "countryName": "Cruise Ship",
-        "days": [
-            {
-                "day": "2020-01-22",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
             },
             {
-                "day": "2020-01-23",
+                "day": "2020-03-24",
                 "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-01-24",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-01-25",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-01-26",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-01-27",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-01-28",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-01-29",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-01-30",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-01-31",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-01",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-02",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-03",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-04",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-05",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-06",
-                "dataPoint": {
-                    "confirmed": 0,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-07",
-                "dataPoint": {
-                    "confirmed": 61,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 61,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-08",
-                "dataPoint": {
-                    "confirmed": 61,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-09",
-                "dataPoint": {
-                    "confirmed": 64,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 3,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-10",
-                "dataPoint": {
-                    "confirmed": 135,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 71,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-11",
-                "dataPoint": {
-                    "confirmed": 135,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-12",
-                "dataPoint": {
-                    "confirmed": 175,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 40,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-13",
-                "dataPoint": {
-                    "confirmed": 175,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-14",
-                "dataPoint": {
-                    "confirmed": 218,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 43,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-15",
-                "dataPoint": {
-                    "confirmed": 285,
-                    "deaths": 0,
+                    "confirmed": 382,
+                    "deaths": 1,
                     "recovered": 0,
                     "active": 0
                 },
                 "delta": {
                     "deltaConfirmed": 67,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-16",
-                "dataPoint": {
-                    "confirmed": 355,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 70,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-17",
-                "dataPoint": {
-                    "confirmed": 454,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 99,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-18",
-                "dataPoint": {
-                    "confirmed": 542,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 88,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-19",
-                "dataPoint": {
-                    "confirmed": 621,
-                    "deaths": 0,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 79,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-20",
-                "dataPoint": {
-                    "confirmed": 634,
-                    "deaths": 2,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 13,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-21",
-                "dataPoint": {
-                    "confirmed": 634,
-                    "deaths": 2,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-22",
-                "dataPoint": {
-                    "confirmed": 634,
-                    "deaths": 2,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-23",
-                "dataPoint": {
-                    "confirmed": 691,
-                    "deaths": 3,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 57,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-24",
-                "dataPoint": {
-                    "confirmed": 691,
-                    "deaths": 3,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-25",
-                "dataPoint": {
-                    "confirmed": 691,
-                    "deaths": 3,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-26",
-                "dataPoint": {
-                    "confirmed": 705,
-                    "deaths": 4,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 14,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-27",
-                "dataPoint": {
-                    "confirmed": 705,
-                    "deaths": 4,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-28",
-                "dataPoint": {
-                    "confirmed": 705,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-02-29",
-                "dataPoint": {
-                    "confirmed": 705,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-01",
-                "dataPoint": {
-                    "confirmed": 705,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-02",
-                "dataPoint": {
-                    "confirmed": 705,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-03",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 1,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-04",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-05",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-06",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-07",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-08",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-09",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-10",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 6,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-11",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-12",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-13",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-14",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-15",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-16",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-17",
-                "dataPoint": {
-                    "confirmed": 706,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-18",
-                "dataPoint": {
-                    "confirmed": 712,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 6,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-19",
-                "dataPoint": {
-                    "confirmed": 712,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-20",
-                "dataPoint": {
-                    "confirmed": 712,
-                    "deaths": 7,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-21",
-                "dataPoint": {
-                    "confirmed": 712,
-                    "deaths": 8,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-22",
-                "dataPoint": {
-                    "confirmed": 712,
-                    "deaths": 8,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
-                    "deltaRecovered": 0.0
-                }
-            },
-            {
-                "day": "2020-03-23",
-                "dataPoint": {
-                    "confirmed": 712,
-                    "deaths": 8,
-                    "recovered": 0,
-                    "active": 0
-                },
-                "delta": {
-                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -34058,6 +33767,19 @@
                     "deltaConfirmed": 5,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 48,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 8,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -34867,6 +34589,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 21,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 124,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 8,
                     "deltaRecovered": 0.0
                 }
             }
@@ -35680,6 +35415,19 @@
                     "deltaConfirmed": 116,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1394,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 158,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -36489,6 +36237,843 @@
                 },
                 "delta": {
                     "deltaConfirmed": 58,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1718,
+                    "deaths": 32,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 146,
+                    "deltaRecovered": 0.0
+                }
+            }
+        ]
+    },
+    {
+        "countryName": "Diamond Princess",
+        "days": [
+            {
+                "day": "2020-01-22",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-23",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-24",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-25",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-26",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-27",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-28",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-29",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-30",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-31",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-01",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-02",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-03",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-04",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-05",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-06",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-07",
+                "dataPoint": {
+                    "confirmed": 61,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 61,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-08",
+                "dataPoint": {
+                    "confirmed": 61,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-09",
+                "dataPoint": {
+                    "confirmed": 64,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 3,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-10",
+                "dataPoint": {
+                    "confirmed": 135,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 71,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-11",
+                "dataPoint": {
+                    "confirmed": 135,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-12",
+                "dataPoint": {
+                    "confirmed": 175,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 40,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-13",
+                "dataPoint": {
+                    "confirmed": 175,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-14",
+                "dataPoint": {
+                    "confirmed": 218,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 43,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-15",
+                "dataPoint": {
+                    "confirmed": 285,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 67,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-16",
+                "dataPoint": {
+                    "confirmed": 355,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 70,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-17",
+                "dataPoint": {
+                    "confirmed": 454,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 99,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-18",
+                "dataPoint": {
+                    "confirmed": 542,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 88,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-19",
+                "dataPoint": {
+                    "confirmed": 621,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 79,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-20",
+                "dataPoint": {
+                    "confirmed": 634,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 13,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-21",
+                "dataPoint": {
+                    "confirmed": 634,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-22",
+                "dataPoint": {
+                    "confirmed": 634,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-23",
+                "dataPoint": {
+                    "confirmed": 691,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 57,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-24",
+                "dataPoint": {
+                    "confirmed": 691,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-25",
+                "dataPoint": {
+                    "confirmed": 691,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-26",
+                "dataPoint": {
+                    "confirmed": 705,
+                    "deaths": 4,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 14,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-27",
+                "dataPoint": {
+                    "confirmed": 705,
+                    "deaths": 4,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-28",
+                "dataPoint": {
+                    "confirmed": 705,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-29",
+                "dataPoint": {
+                    "confirmed": 705,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-01",
+                "dataPoint": {
+                    "confirmed": 705,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-02",
+                "dataPoint": {
+                    "confirmed": 705,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-03",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-04",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-05",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-06",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-07",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-08",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-09",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-10",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-11",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-12",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-13",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-14",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-15",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-16",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-17",
+                "dataPoint": {
+                    "confirmed": 706,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-18",
+                "dataPoint": {
+                    "confirmed": 712,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 6,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-19",
+                "dataPoint": {
+                    "confirmed": 712,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-20",
+                "dataPoint": {
+                    "confirmed": 712,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-21",
+                "dataPoint": {
+                    "confirmed": 712,
+                    "deaths": 8,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-22",
+                "dataPoint": {
+                    "confirmed": 712,
+                    "deaths": 8,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 712,
+                    "deaths": 8,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 712,
+                    "deaths": 10,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -37302,6 +37887,19 @@
                     "deltaConfirmed": 2,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -38111,6 +38709,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -38924,6 +39535,19 @@
                     "deltaConfirmed": 43,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 312,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 67,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -39733,6 +40357,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 192,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1082,
+                    "deaths": 27,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 101,
                     "deltaRecovered": 0.0
                 }
             }
@@ -40546,6 +41183,19 @@
                     "deltaConfirmed": 39,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 402,
+                    "deaths": 20,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 36,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -41355,6 +42005,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 5,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
                     "deltaRecovered": 0.0
                 }
             }
@@ -42168,6 +42831,19 @@
                     "deltaConfirmed": 3,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 9,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -42969,6 +43645,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 1,
                     "deaths": 0,
@@ -43790,6 +44479,19 @@
                     "deltaConfirmed": 26,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 369,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 17,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -44591,6 +45293,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 4,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 4,
                     "deaths": 0,
@@ -45412,6 +46127,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 12,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -46215,6 +46943,19 @@
                 "day": "2020-03-23",
                 "dataPoint": {
                     "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 4,
                     "deaths": 0,
                     "recovered": 0,
                     "active": 0
@@ -47034,6 +47775,19 @@
                     "deltaConfirmed": 74,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 792,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 92,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -47843,6 +48597,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 3880,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 22622,
+                    "deaths": 1102,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2499,
                     "deltaRecovered": 0.0
                 }
             }
@@ -48656,6 +49423,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 6,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -49459,6 +50239,19 @@
                 "day": "2020-03-23",
                 "dataPoint": {
                     "confirmed": 2,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
                     "deaths": 1,
                     "recovered": 0,
                     "active": 0
@@ -50278,6 +51071,19 @@
                     "deltaConfirmed": 7,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 70,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 9,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -51087,6 +51893,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 4183,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 32986,
+                    "deaths": 157,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 3930,
                     "deltaRecovered": 0.0
                 }
             }
@@ -51900,6 +52719,19 @@
                     "deltaConfirmed": 4,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 53,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 26,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -52711,6 +53543,19 @@
                     "deltaConfirmed": 71,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 743,
+                    "deaths": 20,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 48,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -53512,6 +54357,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 1,
                     "deaths": 0,
@@ -54333,6 +55191,19 @@
                     "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 21,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -55142,6 +56013,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 2,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 4,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -55955,6 +56839,19 @@
                     "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 5,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": -15,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -56764,6 +57661,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 4,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 7,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
             }
@@ -57577,6 +58487,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 4,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 3,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -58386,6 +59309,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 4,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 30,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -59199,6 +60135,19 @@
                     "deltaConfirmed": 36,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 187,
+                    "deaths": 9,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 20,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -60008,6 +60957,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 20,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 648,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 60,
                     "deltaRecovered": 0.0
                 }
             }
@@ -60821,6 +61783,19 @@
                     "deltaConfirmed": 103,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 536,
+                    "deaths": 10,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 37,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -61630,6 +62605,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 65,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 686,
+                    "deaths": 55,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 107,
                     "deltaRecovered": 0.0
                 }
             }
@@ -62443,6 +63431,19 @@
                     "deltaConfirmed": 1411,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 24811,
+                    "deaths": 1934,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1762,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -63252,6 +64253,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 33,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 316,
+                    "deaths": 27,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 50,
                     "deltaRecovered": 0.0
                 }
             }
@@ -64065,6 +65079,19 @@
                     "deltaConfirmed": 219,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1329,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 204,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -64874,6 +65901,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 371,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1930,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 488,
                     "deltaRecovered": 0.0
                 }
             }
@@ -65687,6 +66727,19 @@
                     "deltaConfirmed": 4789,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 69176,
+                    "deaths": 6820,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 5249,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -66496,6 +67549,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 21,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
                     "deltaRecovered": 0.0
                 }
             }
@@ -67309,6 +68375,19 @@
                     "deltaConfirmed": 27,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1193,
+                    "deaths": 43,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 65,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -68118,6 +69197,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 15,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 154,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 27,
                     "deltaRecovered": 0.0
                 }
             }
@@ -68931,6 +70023,19 @@
                     "deltaConfirmed": 2,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 72,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 10,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -69740,6 +70845,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 25,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 9,
                     "deltaRecovered": 0.0
                 }
             }
@@ -70553,6 +71671,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 9037,
+                    "deaths": 120,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 76,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -71364,6 +72495,19 @@
                     "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 191,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -72167,6 +73311,843 @@
                 "day": "2020-03-23",
                 "dataPoint": {
                     "confirmed": 16,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 42,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 26,
+                    "deltaRecovered": 0.0
+                }
+            }
+        ]
+    },
+    {
+        "countryName": "Laos",
+        "days": [
+            {
+                "day": "2020-01-22",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-23",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-24",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-25",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-26",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-27",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-28",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-29",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-30",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-31",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-01",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-02",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-03",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-04",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-05",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-06",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-07",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-08",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-09",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-10",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-11",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-12",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-13",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-14",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-15",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-16",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-17",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-18",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-19",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-20",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-21",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-22",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-23",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-24",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-25",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-26",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-27",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-28",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-29",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-01",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-02",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-03",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-04",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-05",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-06",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-07",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-08",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-09",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-10",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-11",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-12",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-13",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-14",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-15",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-16",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-17",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-18",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-19",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-20",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-21",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-22",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2,
                     "deaths": 0,
                     "recovered": 0,
                     "active": 0
@@ -72986,6 +74967,19 @@
                     "deltaConfirmed": 41,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 197,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 17,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -73795,6 +75789,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 19,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 318,
+                    "deaths": 4,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 51,
                     "deltaRecovered": 0.0
                 }
             }
@@ -74608,6 +76615,843 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            }
+        ]
+    },
+    {
+        "countryName": "Libya",
+        "days": [
+            {
+                "day": "2020-01-22",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-23",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-24",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-25",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-26",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-27",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-28",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-29",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-30",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-01-31",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-01",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-02",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-03",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-04",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-05",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-06",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-07",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-08",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-09",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-10",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-11",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-12",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-13",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-14",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-15",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-16",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-17",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-18",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-19",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-20",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-21",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-22",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-23",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-24",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-25",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-26",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-27",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-28",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-02-29",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-01",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-02",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-03",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-04",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-05",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-06",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-07",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-08",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-09",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-10",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-11",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-12",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-13",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-14",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-15",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-16",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-17",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-18",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-19",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-20",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-21",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-22",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 0,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -75417,6 +78261,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 14,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 51,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -76230,6 +79087,19 @@
                     "deltaConfirmed": 36,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 209,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 30,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -77039,6 +79909,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 77,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1099,
+                    "deaths": 8,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 224,
                     "deltaRecovered": 0.0
                 }
             }
@@ -77852,6 +80735,19 @@
                     "deltaConfirmed": 9,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 17,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 5,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -78663,6 +81559,19 @@
                     "deltaConfirmed": 212,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1624,
+                    "deaths": 16,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 106,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -79464,6 +82373,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 13,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 13,
                     "deaths": 0,
@@ -80285,6 +83207,19 @@
                     "deltaConfirmed": 17,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 110,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 3,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -81086,6 +84021,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 2,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 2,
                     "deaths": 0,
@@ -81907,6 +84855,19 @@
                     "deltaConfirmed": 8,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 42,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 6,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -82716,6 +85677,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 65,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 367,
+                    "deaths": 4,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 51,
                     "deltaRecovered": 0.0
                 }
             }
@@ -83529,6 +86503,19 @@
                     "deltaConfirmed": 15,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 125,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 16,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -84330,6 +87317,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 23,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 23,
                     "deaths": 0,
@@ -85151,6 +88151,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 10,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -85960,6 +88973,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 6,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 47,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 20,
                     "deltaRecovered": 0.0
                 }
             }
@@ -86773,6 +89799,19 @@
                     "deltaConfirmed": 28,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 170,
+                    "deaths": 5,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 27,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -87582,6 +90621,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
                     "deltaRecovered": 0.0
                 }
             }
@@ -88395,6 +91447,19 @@
                     "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 7,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 3,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -89204,6 +92269,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -90017,6 +93095,19 @@
                     "deltaConfirmed": 547,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 5580,
+                    "deaths": 277,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 816,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -90828,6 +93919,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 155,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 53,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -91629,6 +94733,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 2,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 2,
                     "deaths": 0,
@@ -92450,6 +95567,19 @@
                     "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -93259,6 +96389,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 10,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 44,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 4,
                     "deltaRecovered": 0.0
                 }
             }
@@ -94072,6 +97215,19 @@
                     "deltaConfirmed": 21,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 148,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 12,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -94881,6 +98037,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 236,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2863,
+                    "deaths": 12,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 242,
                     "deltaRecovered": 0.0
                 }
             }
@@ -95694,6 +98863,19 @@
                     "deltaConfirmed": 11,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 84,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 18,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -96503,6 +99685,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 99,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 972,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 97,
                     "deltaRecovered": 0.0
                 }
             }
@@ -97316,6 +100511,19 @@
                     "deltaConfirmed": 32,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 345,
+                    "deaths": 6,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -98117,6 +101325,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 1,
                     "deaths": 0,
@@ -98938,6 +102159,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 27,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 5,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -99747,6 +102981,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 32,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 416,
+                    "deaths": 7,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 21,
                     "deltaRecovered": 0.0
                 }
             }
@@ -100560,6 +103807,19 @@
                     "deltaConfirmed": 82,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 552,
+                    "deaths": 35,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 90,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -101369,6 +104629,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 115,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 901,
+                    "deaths": 10,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 152,
                     "deltaRecovered": 0.0
                 }
             }
@@ -102182,6 +105455,19 @@
                     "deltaConfirmed": 460,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2362,
+                    "deaths": 33,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 302,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -102991,6 +106277,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 7,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 526,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 25,
                     "deltaRecovered": 0.0
                 }
             }
@@ -103804,6 +107103,19 @@
                     "deltaConfirmed": 143,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 794,
+                    "deaths": 11,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 218,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -104613,6 +107925,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 71,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 495,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 57,
                     "deltaRecovered": 0.0
                 }
             }
@@ -105426,6 +108751,19 @@
                     "deltaConfirmed": 17,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 40,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 4,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -106237,6 +109575,19 @@
                     "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -107038,6 +110389,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 1,
                     "deaths": 0,
@@ -107859,6 +111223,19 @@
                     "deltaConfirmed": 12,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 187,
+                    "deaths": 21,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -108668,6 +112045,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 51,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 767,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 205,
                     "deltaRecovered": 0.0
                 }
             }
@@ -109481,6 +112871,19 @@
                     "deltaConfirmed": 12,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 86,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 7,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -110292,6 +113695,19 @@
                     "deltaConfirmed": 27,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 303,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 54,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -111093,6 +114509,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 7,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 7,
                     "deaths": 0,
@@ -111914,6 +115343,19 @@
                     "deltaConfirmed": 54,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 558,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 49,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -112723,6 +116165,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 204,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 18,
                     "deltaRecovered": 0.0
                 }
             }
@@ -113536,6 +116991,19 @@
                     "deltaConfirmed": 28,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 480,
+                    "deaths": 4,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 38,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -114337,6 +117805,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 1,
                     "deaths": 0,
@@ -115158,6 +118639,19 @@
                     "deltaConfirmed": 128,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 554,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 152,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -115967,6 +119461,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 6368,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 39885,
+                    "deaths": 2808,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 4749,
                     "deltaRecovered": 0.0
                 }
             }
@@ -116780,6 +120287,19 @@
                     "deltaConfirmed": 15,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 102,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 5,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -117589,6 +121109,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1,
                     "deltaRecovered": 0.0
                 }
             }
@@ -118402,6 +121935,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 7,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -119211,6 +122757,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 112,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 2286,
+                    "deaths": 36,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 240,
                     "deltaRecovered": 0.0
                 }
             }
@@ -120024,6 +123583,19 @@
                     "deltaConfirmed": 1321,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 9877,
+                    "deaths": 122,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1082,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -120825,6 +124397,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 1,
                     "deaths": 0,
@@ -121646,6 +125231,19 @@
                     "deltaConfirmed": 26,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 215,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 20,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -122447,6 +126045,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 12,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 12,
                     "deaths": 0,
@@ -123268,6 +126879,19 @@
                     "deltaConfirmed": 122,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 827,
+                    "deaths": 4,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 106,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -124069,6 +127693,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 1,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 1,
                     "deaths": 0,
@@ -124890,6 +128527,19 @@
                     "deltaConfirmed": 2,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 20,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 2,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -125699,6 +129349,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 1,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 57,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 6,
                     "deltaRecovered": 0.0
                 }
             }
@@ -126512,6 +130175,19 @@
                     "deltaConfirmed": 14,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 114,
+                    "deaths": 4,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 25,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -127321,6 +130997,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 293,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 1872,
+                    "deaths": 44,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 343,
                     "deltaRecovered": 0.0
                 }
             }
@@ -128134,6 +131823,19 @@
                     "deltaConfirmed": 10571,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 53740,
+                    "deaths": 706,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 9893,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -128943,6 +132645,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 8,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 9,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -129756,6 +133471,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 97,
+                    "deaths": 3,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 24,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -130565,6 +134293,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 45,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 248,
+                    "deaths": 2,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 50,
                     "deltaRecovered": 0.0
                 }
             }
@@ -131378,6 +135119,19 @@
                     "deltaConfirmed": 981,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 8164,
+                    "deaths": 423,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 1438,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -132187,6 +135941,19 @@
                 },
                 "delta": {
                     "deltaConfirmed": 4,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 162,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
             }
@@ -133000,6 +136767,19 @@
                     "deltaConfirmed": 3,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 50,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 4,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -133803,6 +137583,19 @@
                 "day": "2020-03-23",
                 "dataPoint": {
                     "confirmed": 77,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 7,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 84,
                     "deaths": 0,
                     "recovered": 0,
                     "active": 0
@@ -134622,6 +138415,19 @@
                     "deltaConfirmed": 10,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 134,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 11,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -135433,6 +139239,19 @@
                     "deltaConfirmed": 0,
                     "deltaRecovered": 0.0
                 }
+            },
+            {
+                "day": "2020-03-24",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 0,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
             }
         ]
     },
@@ -136234,6 +140053,19 @@
             },
             {
                 "day": "2020-03-23",
+                "dataPoint": {
+                    "confirmed": 3,
+                    "deaths": 1,
+                    "recovered": 0,
+                    "active": 0
+                },
+                "delta": {
+                    "deltaConfirmed": 0,
+                    "deltaRecovered": 0.0
+                }
+            },
+            {
+                "day": "2020-03-24",
                 "dataPoint": {
                     "confirmed": 3,
                     "deaths": 1,
