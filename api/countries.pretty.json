@@ -628,10 +628,6 @@
         "slug": "thailand"
     },
     {
-        "name": "The West Bank and Gaza",
-        "slug": "the-west-bank-and-gaza"
-    },
-    {
         "name": "Timor-Leste",
         "slug": "timor-leste"
     },
@@ -686,6 +682,10 @@
     {
         "name": "Vietnam",
         "slug": "vietnam"
+    },
+    {
+        "name": "West Bank and Gaza",
+        "slug": "west-bank-and-gaza"
     },
     {
         "name": "Zambia",
