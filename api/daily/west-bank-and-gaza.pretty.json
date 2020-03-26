@@ -821,13 +821,13 @@
     {
         "dayUnix": 132383513,
         "cases": {
-            "confirmed": -1,
-            "deaths": -1,
+            "confirmed": 59,
+            "deaths": 0,
             "recovered": 0,
             "active": 0
         },
         "delta": {
-            "deltaConfirmed": -60,
+            "deltaConfirmed": 0,
             "deltaRecovered": 0.0
         }
     }
