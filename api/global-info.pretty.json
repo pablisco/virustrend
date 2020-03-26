@@ -1,9 +1,9 @@
 {
     "dataPoint": {
-        "confirmed": 418045,
-        "deaths": 18625,
+        "confirmed": 467593,
+        "deaths": 21180,
         "recovered": 0,
         "active": 0
     },
-    "updateTimeUnix": 1.585181197693E12
+    "updateTimeUnix": 1.585184647967E12
 }

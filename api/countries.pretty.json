@@ -272,6 +272,10 @@
         "slug": "guinea"
     },
     {
+        "name": "Guinea-Bissau",
+        "slug": "guinea-bissau"
+    },
+    {
         "name": "Guyana",
         "slug": "guyana"
     },
@@ -400,6 +404,10 @@
         "slug": "maldives"
     },
     {
+        "name": "Mali",
+        "slug": "mali"
+    },
+    {
         "name": "Malta",
         "slug": "malta"
     },
@@ -526,6 +534,10 @@
     {
         "name": "Rwanda",
         "slug": "rwanda"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "slug": "saint-kitts-and-nevis"
     },
     {
         "name": "Saint Lucia",
