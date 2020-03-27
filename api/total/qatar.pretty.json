@@ -1,0 +1,9 @@
+{
+    "countryName": "Qatar",
+    "cases": {
+        "confirmed": 562,
+        "deaths": 0,
+        "recovered": 43,
+        "active": 519
+    }
+}

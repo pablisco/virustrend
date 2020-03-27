@@ -1,0 +1,9 @@
+{
+    "countryName": "Syria",
+    "cases": {
+        "confirmed": 5,
+        "deaths": 0,
+        "recovered": 0,
+        "active": 5
+    }
+}

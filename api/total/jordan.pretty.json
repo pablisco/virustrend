@@ -1,0 +1,9 @@
+{
+    "countryName": "Jordan",
+    "cases": {
+        "confirmed": 235,
+        "deaths": 0,
+        "recovered": 17,
+        "active": 218
+    }
+}

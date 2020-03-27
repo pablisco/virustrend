@@ -1,0 +1,9 @@
+{
+    "countryName": "Eswatini",
+    "cases": {
+        "confirmed": 9,
+        "deaths": 0,
+        "recovered": 0,
+        "active": 9
+    }
+}

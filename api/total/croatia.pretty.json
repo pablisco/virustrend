@@ -1,0 +1,9 @@
+{
+    "countryName": "Croatia",
+    "cases": {
+        "confirmed": 586,
+        "deaths": 3,
+        "recovered": 37,
+        "active": 546
+    }
+}

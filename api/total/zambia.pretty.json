@@ -1,0 +1,9 @@
+{
+    "countryName": "Zambia",
+    "cases": {
+        "confirmed": 22,
+        "deaths": 0,
+        "recovered": 0,
+        "active": 22
+    }
+}

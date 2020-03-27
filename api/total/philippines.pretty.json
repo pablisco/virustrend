@@ -1,0 +1,9 @@
+{
+    "countryName": "Philippines",
+    "cases": {
+        "confirmed": 803,
+        "deaths": 54,
+        "recovered": 31,
+        "active": 718
+    }
+}

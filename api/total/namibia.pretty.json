@@ -1,0 +1,9 @@
+{
+    "countryName": "Namibia",
+    "cases": {
+        "confirmed": 8,
+        "deaths": 0,
+        "recovered": 2,
+        "active": 6
+    }
+}
