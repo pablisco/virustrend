@@ -1,9 +1,9 @@
 {
     "countryName": "Spain",
     "cases": {
-        "confirmed": 64059,
-        "deaths": 4934,
+        "confirmed": 64285,
+        "deaths": 4940,
         "recovered": 9357,
-        "active": 49768
+        "active": 49988
     }
 }
