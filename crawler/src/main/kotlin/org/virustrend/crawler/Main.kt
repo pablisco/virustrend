@@ -5,6 +5,8 @@ import kotlinx.serialization.ImplicitReflectionSerializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.stringify
 import org.virustrend.*
+import org.virustrend.json.defaultJson
+import org.virustrend.json.prettyJson
 import java.net.URL
 import java.nio.file.Files
 import java.nio.file.Path
@@ -15,30 +17,43 @@ fun main(args: Array<String>) {
     val workingDirectory = args.firstOrNull() ?: error("missing working directory")
     val target = Paths.get(workingDirectory).resolve("../build/pages/api")
     val cache = Paths.get(workingDirectory).resolve("../build/pages/cache")
-    val (casesByTime, casesUrl, casesByStateUrl, casesByCountryUrl) =
-        Csv.values().map { it.read(cache) }
-    val casesByDayByCountry: List<CasesByDayByCountry> = casesByTime.asCasesByDayByCountry()
+    val (
+        casesByTimeRows,
+        casesRows,
+        casesByStateRows,
+        casesByCountryRows
+    ) = Csv.values().map { it.read(cache) }
 
-    saveJson(target, "daily") {
-        stringify(casesByDayByCountry)
-    }
+    casesByTimeRows.asCasesByDayByCountry().also { daily ->
+        saveJson(target, "daily") {
+            stringify(daily)
+        }
 
-    saveJson(target, "countries") {
-        stringify(casesByDayByCountry.map { Country(it.countryName) })
-    }
+        daily.forEach { casesByDay ->
+            casesByDay.country?.apply {
+                saveJson(target.resolve("daily"), slug) {
+                    stringify(casesByDay)
+                }
+            }
 
-    casesByDayByCountry.forEach { (countryName, casesByDay) ->
-        saveJson(target.resolve("daily"), countryName.urlEncode()) {
-            stringify(casesByDay)
         }
     }
 
-    saveJson(target, "global-info") {
-        casesByDayByCountry
-            .mapNotNull { (_, timeCases) -> timeCases.maxBy { it.day }?.cases }
-            .reduce { current, next -> current + next }
-            .let { compositeDataPoint -> GlobalInfo(dataPoint = compositeDataPoint) }
-            .let { stringify(it) }
+    casesByCountryRows.map { it.countryCases }.also { countryCases: List<CountryCases> ->
+        saveJson(target, "total") {
+            stringify(GlobalTotal(
+                cases = countryCases.map { it.cases }.reduce { current, next -> current + next },
+                countryCases = countryCases
+            ))
+        }
+        countryCases.forEach { cases ->
+            cases.country?.apply {
+                saveJson(target.resolve("total"), slug) {
+                    stringify(cases)
+                }
+            }
+
+        }
     }
 
 }
@@ -50,14 +65,13 @@ private fun saveJson(directory: Path, fileName: String, parse: Json.() -> String
 }
 
 private fun List<Row>.asCasesByDayByCountry(): List<CasesByDayByCountry> =
-    map { it.toTimeCase() }
-        .groupBy({ it.first }, { it.second })
-        .map { (countryName, days) ->
-            CasesByDayByCountry(countryName = countryName, days = days)
+    groupBy({ it.country }, { it.casesByDay })
+        .mapNotNull { (country, days) ->
+            country?.let { CasesByDayByCountry(countryName = it.countryName, days = days) }
         }
 
-private fun Row.toTimeCase() =
-    string("Country_Region") to CaseByDay(
+private val Row.casesByDay: CaseByDay
+    get() = CaseByDay(
         day = localDate("Last_Update") ?: Date(encoded = Int.MIN_VALUE),
         cases = cases,
         delta = delta
@@ -77,6 +91,15 @@ private val Row.delta
         deltaRecovered = float("Delta_Recovered") ?: 0f
     )
 
+private val Row.countryCases
+    get() = CountryCases(
+        countryName = country?.countryName,
+        cases = cases
+    )
+
+private val Row.country: Country?
+    get() = Country(string("Country_Region"))
+
 internal fun String.saveTo(output: Path) {
     toByteArray().let { Files.write(output, it) }
 }
@@ -88,11 +111,11 @@ private const val csvPath: String = "$convidRepo/web-data/data/"
 
 enum class Csv(private val fileName: String) {
     CasesByTime("cases_time"),
-    CasesUrl("cases"),
-    CasesByStateUrl("cases_state"),
-    CasesByCountryUrl("cases_country");
+    Cases("cases"),
+    CasesByState("cases_state"),
+    CasesByCountry("cases_country");
 
-    fun read(cache: Path)  : List<Row> =
+    fun read(cache: Path): List<Row> =
         URL("$csvPath/$fileName.csv").saveTo(cache, "$fileName.csv").readCsv()
 
 }

@@ -2,4 +2,7 @@ rootProject.name = "virustrend"
 
 enableFeaturePreview("GRADLE_METADATA")
 
-include(":android", ":client", ":crawler", ":models")
+plugins {
+    id("com.pablisco.gradle.automodule") version "0.11"
+}
+

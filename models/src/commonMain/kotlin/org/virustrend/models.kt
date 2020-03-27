@@ -5,46 +5,34 @@ import com.soywiz.klock.DateTime
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class GlobalInfo(
-    val dataPoint: Cases,
+data class GlobalTotal(
+    val cases: Cases,
+    val countryCases: List<CountryCases>,
     val updateTimeUnix: Double
 ) {
-
     companion object {
         operator fun invoke(
-            dataPoint: Cases,
-            updateTime: DateTime = DateTime.now()
-        ) = GlobalInfo(dataPoint = dataPoint, updateTimeUnix = updateTime.unixMillis)
-    }
-
-    val updateTime: DateTime get() = DateTime(updateTimeUnix)
-
-}
-
-@Serializable
-data class CasesByDayByCountry(
-    val countryName: String,
-    val days: List<CaseByDay>
-)
-
-@Serializable
-data class CaseByDay(
-    val dayUnix: Int,
-    val cases: Cases,
-    val delta: Delta
-) {
-
-    companion object {
-        operator fun invoke(
-            day: Date,
             cases: Cases,
-            delta: Delta
-        ) = CaseByDay(dayUnix = day.encoded, cases = cases, delta = delta)
+            countryCases: List<CountryCases>,
+            updateTime: DateTime = DateTime.now()
+        ) = GlobalTotal(cases, countryCases, updateTime.unixMillis)
     }
-
-    val day: Date get() = Date(dayUnix)
-
 }
+
+@Serializable
+data class CasesByDayByCountry(val countryName: String, val days: List<CaseByDay>)
+
+val CasesByDayByCountry.country: Country? get() = Country(countryName)
+
+@Serializable
+data class CaseByDay(val dayUnix: Int, val cases: Cases, val delta: Delta) {
+    companion object {
+        operator fun invoke(day: Date, cases: Cases, delta: Delta) =
+            CaseByDay(dayUnix = day.encoded, cases = cases, delta = delta)
+    }
+}
+
+val CaseByDay.day: Date get() = Date(dayUnix)
 
 @Serializable
 data class Cases(
@@ -55,10 +43,7 @@ data class Cases(
 )
 
 @Serializable
-data class Delta(
-    val deltaConfirmed: Int,
-    val deltaRecovered: Float
-)
+data class Delta(val deltaConfirmed: Int, val deltaRecovered: Float)
 
 @Serializable
 data class CasesByLocation(
@@ -80,26 +65,9 @@ data class Location(
 )
 
 @Serializable
-data class StateCase(
-    val location: Location,
-    val dataPoint: Cases
-)
+data class CountryCases(val countryName: String?, val cases: Cases)
 
-@Serializable
-data class CountryCase(
-    val location: Location,
-    val dataPoint: Cases
-)
-
-@Serializable
-data class Country(
-    val name: String,
-    val slug: String
-) {
-
-    constructor(name: String) : this(name, name.urlEncode())
-
-}
+val CountryCases.country: Country? get() = countryName?.let { Country(it) }
 
 operator fun Cases.plus(other: Cases): Cases =
     copy(
@@ -108,8 +76,3 @@ operator fun Cases.plus(other: Cases): Cases =
         recovered = recovered + other.recovered,
         active = active + other.active
     )
-
-private val nonAlphanumericRegex = Regex("[^A-Za-z0-9]")
-
-fun String.urlEncode(): String =
-    toLowerCase().replace(nonAlphanumericRegex, "-")

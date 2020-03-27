@@ -3,3 +3,8 @@
 **/build/**
 **/out/**
 /buildSrc/src/main/kotlin/modules.kt
+/local.properties
+*.iml
+captures
+yarn.lock
+/node_modules/.yarn-integrity
