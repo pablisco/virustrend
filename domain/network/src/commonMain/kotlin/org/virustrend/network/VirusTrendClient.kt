@@ -1,4 +1,4 @@
-package org.virustrend.client
+package org.virustrend.network
 
 import io.ktor.client.HttpClient
 import io.ktor.client.features.json.JsonFeature

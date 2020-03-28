@@ -1,4 +1,4 @@
-package sample
+package network
 
 import kotlin.test.Test
 

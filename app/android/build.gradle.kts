@@ -51,11 +51,14 @@ android {
 dependencies {
 
     implementation(project(":domain:network"))
+    implementation(project(":domain"))
     implementation(libraries.androidX.appcompat)
     implementation(libraries.androidX.core)
     implementation(libraries.androidX.constraintLayout)
     implementation(libraries.google.material)
     implementation(libraries.androidX.lifecycle)
+    implementation(libraries.androidX.viewModel)
+    implementation("androidx.fragment:fragment-ktx:1.2.3")
     implementation(libraries.kotlinX.coroutines.core)
     implementation(libraries.kotlinX.coroutines.android)
     implementation(libraries.sharp)

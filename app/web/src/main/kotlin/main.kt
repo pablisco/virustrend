@@ -1,7 +1,7 @@
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import org.virustrend.client.VirusTrendClient
 import org.virustrend.country
+import org.virustrend.network.VirusTrendClient
 import kotlin.browser.document
 
 fun main() {
