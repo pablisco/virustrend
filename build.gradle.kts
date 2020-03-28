@@ -5,11 +5,13 @@ buildscript {
         jcenter()
         maven("https://plugins.gradle.org/m2/")
         maven("https://dl.bintray.com/kotlin/kotlin-eap")
+        maven("https://kotlin.bintray.com/kotlinx")
     }
     dependencies {
         classpath(kotlin("gradle-plugin", version = Versions.kotlin) )
         classpath(kotlin("frontend-plugin", version = Versions.kotlinFrontendPlugin))
-        classpath("com.android.tools.build:gradle:3.5.3")
+        classpath(kotlin("serialization", version = Versions.kotlin))
+        classpath("com.android.tools.build:gradle:3.6.1")
     }
 }
 

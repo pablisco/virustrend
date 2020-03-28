@@ -42,17 +42,22 @@ android {
         exclude("META-INF/*.kotlin_module")
     }
 
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
 }
 
 dependencies {
 
-    implementation(project(":client"))
+    implementation(project(":domain:network"))
     implementation(libraries.androidX.appcompat)
     implementation(libraries.androidX.core)
     implementation(libraries.androidX.constraintLayout)
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.2.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5")
-    implementation("com.pixplicity.sharp:library:1.1.2")
+    implementation(libraries.google.material)
+    implementation(libraries.androidX.lifecycle)
+    implementation(libraries.kotlinX.coroutines.core)
+    implementation(libraries.kotlinX.coroutines.android)
+    implementation(libraries.sharp)
 
 }

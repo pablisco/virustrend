@@ -1,11 +1,11 @@
 plugins {
     kotlin("jvm")
-    kotlin("plugin.serialization") version Versions.kotlin
+    kotlin("plugin.serialization")
 }
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation(project(":models"))
+    implementation(project(":domain:models"))
     implementation(libraries.csv)
     implementation(libraries.kotlinX.serializable)
 }

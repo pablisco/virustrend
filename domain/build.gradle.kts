@@ -1,7 +1,7 @@
 plugins {
     id("com.android.library")
     kotlin("multiplatform")
-    kotlin("plugin.serialization") version Versions.kotlin
+    kotlin("plugin.serialization")
 }
 
 android {
@@ -37,7 +37,7 @@ kotlin {
                 implementation(kotlin("stdlib-common"))
                 implementation("io.ktor:ktor-client-core:1.3.1")
                 implementation("io.ktor:ktor-client-serialization:1.3.1")
-                api(project(":models"))
+                api(project(":domain:models"))
             }
         }
         commonTest {

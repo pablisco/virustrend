@@ -6,7 +6,7 @@ import android.graphics.RectF
 import com.pixplicity.sharp.OnSvgElementListener
 import com.pixplicity.sharp.Sharp
 
-fun Sharp.onSvgElement(block: (id: String?, paint: Paint?) -> Unit) {
+fun Sharp.whenSvgElementReady(block: (id: String?, paint: Paint?) -> Unit): Sharp = apply {
     setOnElementListener(object : OnSvgElementListener {
         override fun <T : Any?> onSvgElement(id: String?, it: T, eb: RectF?, c: Canvas, cb: RectF?, paint: Paint?): T =
             it.apply { block(id, paint) }

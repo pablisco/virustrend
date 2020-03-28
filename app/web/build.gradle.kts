@@ -8,7 +8,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-js"))
-    implementation(project(":client"))
+    implementation(project(":domain:network"))
     implementation(npm("text-encoding"))
     implementation(npm("abort-controller"))
     implementation(npm("utf-8-validate"))
