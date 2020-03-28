@@ -1,9 +1,9 @@
 {
     "countryName": "India",
     "cases": {
-        "confirmed": 887,
+        "confirmed": 902,
         "deaths": 20,
-        "recovered": 73,
-        "active": 794
+        "recovered": 83,
+        "active": 799
     }
 }
