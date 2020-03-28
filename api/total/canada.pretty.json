@@ -1,7 +1,7 @@
 {
     "countryName": "Canada",
     "cases": {
-        "confirmed": 4760,
+        "confirmed": 4785,
         "deaths": 56,
         "recovered": 345,
         "active": 0
