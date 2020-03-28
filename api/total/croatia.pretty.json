@@ -1,9 +1,9 @@
 {
     "countryName": "Croatia",
     "cases": {
-        "confirmed": 635,
-        "deaths": 4,
+        "confirmed": 657,
+        "deaths": 5,
         "recovered": 45,
-        "active": 586
+        "active": 607
     }
 }

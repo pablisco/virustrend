@@ -1,9 +1,9 @@
 {
     "countryName": "Chile",
     "cases": {
-        "confirmed": 1610,
-        "deaths": 5,
-        "recovered": 43,
-        "active": 1562
+        "confirmed": 1909,
+        "deaths": 6,
+        "recovered": 61,
+        "active": 1842
     }
 }
