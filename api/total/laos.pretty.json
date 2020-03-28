@@ -1,9 +1,9 @@
 {
     "countryName": "Laos",
     "cases": {
-        "confirmed": 6,
+        "confirmed": 8,
         "deaths": 0,
         "recovered": 0,
-        "active": 6
+        "active": 8
     }
 }

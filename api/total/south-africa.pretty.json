@@ -2,8 +2,8 @@
     "countryName": "South Africa",
     "cases": {
         "confirmed": 1170,
-        "deaths": 1,
+        "deaths": 2,
         "recovered": 31,
-        "active": 1138
+        "active": 1137
     }
 }

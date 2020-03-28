@@ -1,9 +1,9 @@
 {
     "countryName": "Sweden",
     "cases": {
-        "confirmed": 3069,
+        "confirmed": 3447,
         "deaths": 105,
         "recovered": 16,
-        "active": 2948
+        "active": 3326
     }
 }
