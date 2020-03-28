@@ -1,9 +1,9 @@
 {
     "countryName": "Serbia",
     "cases": {
-        "confirmed": 457,
+        "confirmed": 528,
         "deaths": 1,
         "recovered": 0,
-        "active": 456
+        "active": 527
     }
 }
