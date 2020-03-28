@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 652079,
-        "deaths": 30313,
-        "recovered": 137319,
-        "active": 365745
+        "confirmed": 657691,
+        "deaths": 30438,
+        "recovered": 139263,
+        "active": 366135
     },
     "countryCases": [
         {
@@ -27,9 +27,9 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 5448,
-                "deaths": 60,
-                "recovered": 345,
+                "confirmed": 5546,
+                "deaths": 61,
+                "recovered": 466,
                 "active": 0
             }
         },
@@ -72,10 +72,10 @@
         {
             "countryName": "Germany",
             "cases": {
-                "confirmed": 56202,
-                "deaths": 403,
-                "recovered": 6658,
-                "active": 49141
+                "confirmed": 57695,
+                "deaths": 430,
+                "recovered": 8481,
+                "active": 48784
             }
         },
         {
@@ -117,10 +117,10 @@
         {
             "countryName": "Norway",
             "cases": {
-                "confirmed": 3981,
-                "deaths": 22,
+                "confirmed": 4011,
+                "deaths": 23,
                 "recovered": 7,
-                "active": 3952
+                "active": 3981
             }
         },
         {
@@ -162,8 +162,8 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 116505,
-                "deaths": 1925,
+                "confirmed": 119748,
+                "deaths": 1991,
                 "recovered": 921,
                 "active": 0
             }
@@ -226,9 +226,9 @@
             "countryName": "Argentina",
             "cases": {
                 "confirmed": 690,
-                "deaths": 17,
+                "deaths": 18,
                 "recovered": 72,
-                "active": 601
+                "active": 600
             }
         },
         {
@@ -351,10 +351,10 @@
         {
             "countryName": "Brazil",
             "cases": {
-                "confirmed": 3477,
-                "deaths": 93,
+                "confirmed": 3904,
+                "deaths": 111,
                 "recovered": 6,
-                "active": 3378
+                "active": 3787
             }
         },
         {
@@ -477,10 +477,10 @@
         {
             "countryName": "Costa Rica",
             "cases": {
-                "confirmed": 263,
+                "confirmed": 295,
                 "deaths": 2,
                 "recovered": 3,
-                "active": 258
+                "active": 290
             }
         },
         {
@@ -828,10 +828,10 @@
         {
             "countryName": "Japan",
             "cases": {
-                "confirmed": 1499,
-                "deaths": 49,
+                "confirmed": 1693,
+                "deaths": 52,
                 "recovered": 404,
-                "active": 1046
+                "active": 1237
             }
         },
         {
@@ -1341,10 +1341,10 @@
         {
             "countryName": "Seychelles",
             "cases": {
-                "confirmed": 7,
+                "confirmed": 8,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 7
+                "active": 8
             }
         },
         {
@@ -1395,10 +1395,10 @@
         {
             "countryName": "Spain",
             "cases": {
-                "confirmed": 72248,
-                "deaths": 5812,
+                "confirmed": 72335,
+                "deaths": 5820,
                 "recovered": 12285,
-                "active": 54151
+                "active": 54230
             }
         },
         {
@@ -1512,10 +1512,10 @@
         {
             "countryName": "Uganda",
             "cases": {
-                "confirmed": 23,
+                "confirmed": 30,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 23
+                "active": 30
             }
         },
         {
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585425873561E12
+    "updateTimeUnix": 1.585429449223E12
 }

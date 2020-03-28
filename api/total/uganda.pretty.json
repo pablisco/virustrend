@@ -1,9 +1,9 @@
 {
     "countryName": "Uganda",
     "cases": {
-        "confirmed": 23,
+        "confirmed": 30,
         "deaths": 0,
         "recovered": 0,
-        "active": 23
+        "active": 30
     }
 }
