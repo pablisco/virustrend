@@ -1,17 +1,17 @@
 {
     "cases": {
-        "confirmed": 597620,
-        "deaths": 27371,
-        "recovered": 131722,
+        "confirmed": 598070,
+        "deaths": 27761,
+        "recovered": 131772,
         "active": 331944
     },
     "countryCases": [
         {
             "countryName": "Australia",
             "cases": {
-                "confirmed": 3143,
-                "deaths": 13,
-                "recovered": 194,
+                "confirmed": 3583,
+                "deaths": 403,
+                "recovered": 244,
                 "active": 2936
             }
         },
@@ -162,7 +162,7 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 104829,
+                "confirmed": 104839,
                 "deaths": 1711,
                 "recovered": 894,
                 "active": 0
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585375457166E12
+    "updateTimeUnix": 1.585379038455E12
 }
