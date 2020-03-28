@@ -11,6 +11,9 @@ dependencies {
     implementation(project(":client"))
     implementation(npm("text-encoding"))
     implementation(npm("abort-controller"))
+    implementation(npm("utf-8-validate"))
+    implementation(npm("fs"))
+    implementation(npm("bufferutil"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.3.5")
 

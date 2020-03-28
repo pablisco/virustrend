@@ -14,7 +14,7 @@ import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.withContext
 import org.virustrend.R
-import org.virustrend.android.utils.onSvgElementDrawn
+import org.virustrend.android.utils.onSvgElement
 import org.virustrend.client.VirusTrendClient
 import org.virustrend.country
 
@@ -32,13 +32,14 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
                 withContext(Main) {
                     output.text = "${totals.cases}"
                 }
-                val maxConfirmed = countryCases.map { it.cases.confirmed }.max() ?: 0
                 val svg = Sharp.loadResource(resources, R.raw.world)
-                svg.onSvgElementDrawn { id, paint ->
-                    countryCases.find { it.country?.code == id }?.also {
-                        val p = it.cases.confirmed.toFloat() / maxConfirmed.toFloat()
-                        paint?.color = p.asGradientRed()
-                    }
+                svg.onSvgElement { id, paint ->
+                    val p = countryCases
+                        .sortedBy { it.cases.confirmed }
+                        .indexOfFirst { it.country?.code == id }
+                        .takeIf { it > 0 }
+                        ?.let { it / countryCases.size.toFloat() }
+                    paint?.color = p?.asGradientRed() ?: Color.WHITE
                 }
                 svg.into(mapView)
             }
@@ -50,10 +51,12 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 private val argbEvaluator = ArgbEvaluator()
 
 @SuppressLint("NewApi")
+private val midRed: Int = Color.valueOf(1f, .5f, 0.5f).toArgb()
+
+//@SuppressLint("NewApi")
 @ColorInt
 private fun Float.asGradientRed(): Int {
-    val midRed: Int = Color.valueOf(1f, .5f, 0.5f).toArgb()
-    return argbEvaluator.evaluate(this, midRed, Color.RED) as Int
+    return argbEvaluator.evaluate(this, Color.WHITE, Color.RED) as Int
 }
 
 
