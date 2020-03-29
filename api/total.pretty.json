@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 665616,
-        "deaths": 30857,
-        "recovered": 141746,
-        "active": 368003
+        "confirmed": 666211,
+        "deaths": 30864,
+        "recovered": 141789,
+        "active": 368547
     },
     "countryCases": [
         {
@@ -18,10 +18,10 @@
         {
             "countryName": "Austria",
             "cases": {
-                "confirmed": 8271,
+                "confirmed": 8291,
                 "deaths": 68,
                 "recovered": 225,
-                "active": 7978
+                "active": 7998
             }
         },
         {
@@ -45,19 +45,19 @@
         {
             "countryName": "Denmark",
             "cases": {
-                "confirmed": 2366,
+                "confirmed": 2370,
                 "deaths": 65,
-                "recovered": 57,
-                "active": 2244
+                "recovered": 73,
+                "active": 2232
             }
         },
         {
             "countryName": "Finland",
             "cases": {
-                "confirmed": 1167,
+                "confirmed": 1218,
                 "deaths": 9,
                 "recovered": 10,
-                "active": 1148
+                "active": 1199
             }
         },
         {
@@ -126,10 +126,10 @@
         {
             "countryName": "Russia",
             "cases": {
-                "confirmed": 1264,
-                "deaths": 4,
-                "recovered": 49,
-                "active": 1211
+                "confirmed": 1534,
+                "deaths": 8,
+                "recovered": 64,
+                "active": 1462
             }
         },
         {
@@ -163,7 +163,7 @@
             "countryName": "US",
             "cases": {
                 "confirmed": 124686,
-                "deaths": 2192,
+                "deaths": 2191,
                 "recovered": 2612,
                 "active": 0
             }
@@ -182,8 +182,8 @@
             "cases": {
                 "confirmed": 197,
                 "deaths": 10,
-                "recovered": 31,
-                "active": 156
+                "recovered": 33,
+                "active": 154
             }
         },
         {
@@ -234,10 +234,10 @@
         {
             "countryName": "Armenia",
             "cases": {
-                "confirmed": 407,
+                "confirmed": 424,
                 "deaths": 3,
                 "recovered": 30,
-                "active": 374
+                "active": 391
             }
         },
         {
@@ -523,9 +523,9 @@
             "countryName": "Czechia",
             "cases": {
                 "confirmed": 2663,
-                "deaths": 11,
+                "deaths": 13,
                 "recovered": 11,
-                "active": 2641
+                "active": 2639
             }
         },
         {
@@ -668,8 +668,8 @@
             "cases": {
                 "confirmed": 90,
                 "deaths": 0,
-                "recovered": 14,
-                "active": 76
+                "recovered": 18,
+                "active": 72
             }
         },
         {
@@ -909,10 +909,10 @@
         {
             "countryName": "Latvia",
             "cases": {
-                "confirmed": 305,
+                "confirmed": 347,
                 "deaths": 0,
                 "recovered": 1,
-                "active": 304
+                "active": 346
             }
         },
         {
@@ -1089,10 +1089,10 @@
         {
             "countryName": "Morocco",
             "cases": {
-                "confirmed": 402,
-                "deaths": 25,
+                "confirmed": 437,
+                "deaths": 26,
                 "recovered": 12,
-                "active": 365
+                "active": 399
             }
         },
         {
@@ -1170,10 +1170,10 @@
         {
             "countryName": "Oman",
             "cases": {
-                "confirmed": 152,
+                "confirmed": 167,
                 "deaths": 0,
                 "recovered": 23,
-                "active": 129
+                "active": 144
             }
         },
         {
@@ -1233,10 +1233,10 @@
         {
             "countryName": "Poland",
             "cases": {
-                "confirmed": 1638,
-                "deaths": 18,
+                "confirmed": 1717,
+                "deaths": 19,
                 "recovered": 7,
-                "active": 1613
+                "active": 1691
             }
         },
         {
@@ -1406,8 +1406,8 @@
             "cases": {
                 "confirmed": 115,
                 "deaths": 1,
-                "recovered": 9,
-                "active": 105
+                "recovered": 10,
+                "active": 104
             }
         },
         {
@@ -1521,10 +1521,10 @@
         {
             "countryName": "Ukraine",
             "cases": {
-                "confirmed": 356,
+                "confirmed": 418,
                 "deaths": 9,
                 "recovered": 5,
-                "active": 342
+                "active": 404
             }
         },
         {
@@ -1532,8 +1532,8 @@
             "cases": {
                 "confirmed": 468,
                 "deaths": 2,
-                "recovered": 52,
-                "active": 414
+                "recovered": 55,
+                "active": 411
             }
         },
         {
@@ -1550,8 +1550,8 @@
             "cases": {
                 "confirmed": 133,
                 "deaths": 2,
-                "recovered": 5,
-                "active": 126
+                "recovered": 7,
+                "active": 124
             }
         },
         {
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585469067691E12
+    "updateTimeUnix": 1.5854726446E12
 }
