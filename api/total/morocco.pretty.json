@@ -1,9 +1,9 @@
 {
     "countryName": "Morocco",
     "cases": {
-        "confirmed": 463,
+        "confirmed": 479,
         "deaths": 26,
         "recovered": 13,
-        "active": 424
+        "active": 440
     }
 }
