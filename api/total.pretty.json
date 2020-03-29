@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 662073,
-        "deaths": 30780,
-        "recovered": 139426,
-        "active": 367372
+        "confirmed": 663828,
+        "deaths": 30822,
+        "recovered": 139451,
+        "active": 367490
     },
     "countryCases": [
         {
@@ -27,7 +27,7 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 5576,
+                "confirmed": 5655,
                 "deaths": 61,
                 "recovered": 466,
                 "active": 0
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 81999,
+                "confirmed": 82009,
                 "deaths": 3299,
-                "recovered": 75100,
-                "active": 3600
+                "recovered": 75101,
+                "active": 3609
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 122666,
-                "deaths": 2147,
-                "recovered": 1073,
+                "confirmed": 124217,
+                "deaths": 2185,
+                "recovered": 1095,
                 "active": 0
             }
         },
@@ -1188,10 +1188,10 @@
         {
             "countryName": "Panama",
             "cases": {
-                "confirmed": 786,
-                "deaths": 14,
-                "recovered": 2,
-                "active": 770
+                "confirmed": 901,
+                "deaths": 17,
+                "recovered": 4,
+                "active": 880
             }
         },
         {
@@ -1540,9 +1540,9 @@
             "countryName": "Uruguay",
             "cases": {
                 "confirmed": 304,
-                "deaths": 0,
+                "deaths": 1,
                 "recovered": 0,
-                "active": 304
+                "active": 303
             }
         },
         {
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585443840474E12
+    "updateTimeUnix": 1.585447459074E12
 }
