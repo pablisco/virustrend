@@ -1,7 +1,7 @@
 {
     "cases": {
-        "confirmed": 664608,
-        "deaths": 30846,
+        "confirmed": 664695,
+        "deaths": 30847,
         "recovered": 140156,
         "active": 367386
     },
@@ -162,8 +162,8 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 124377,
-                "deaths": 2190,
+                "confirmed": 124464,
+                "deaths": 2191,
                 "recovered": 1095,
                 "active": 0
             }
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585451046075E12
+    "updateTimeUnix": 1.585454644236E12
 }
