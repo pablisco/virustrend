@@ -1,9 +1,9 @@
 {
     "countryName": "Kazakhstan",
     "cases": {
-        "confirmed": 251,
+        "confirmed": 284,
         "deaths": 1,
-        "recovered": 18,
-        "active": 232
+        "recovered": 20,
+        "active": 263
     }
 }
