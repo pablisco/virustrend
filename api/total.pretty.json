@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 664924,
-        "deaths": 30848,
-        "recovered": 140222,
-        "active": 367347
+        "confirmed": 665164,
+        "deaths": 30852,
+        "recovered": 140225,
+        "active": 367580
     },
     "countryCases": [
         {
@@ -522,10 +522,10 @@
         {
             "countryName": "Czechia",
             "cases": {
-                "confirmed": 2631,
+                "confirmed": 2663,
                 "deaths": 11,
                 "recovered": 11,
-                "active": 2609
+                "active": 2641
             }
         },
         {
@@ -765,19 +765,19 @@
         {
             "countryName": "Hungary",
             "cases": {
-                "confirmed": 343,
-                "deaths": 11,
+                "confirmed": 408,
+                "deaths": 13,
                 "recovered": 34,
-                "active": 298
+                "active": 361
             }
         },
         {
             "countryName": "India",
             "cases": {
                 "confirmed": 987,
-                "deaths": 24,
-                "recovered": 84,
-                "active": 879
+                "deaths": 25,
+                "recovered": 87,
+                "active": 875
             }
         },
         {
@@ -1351,9 +1351,9 @@
             "countryName": "Singapore",
             "cases": {
                 "confirmed": 802,
-                "deaths": 2,
+                "deaths": 3,
                 "recovered": 198,
-                "active": 602
+                "active": 601
             }
         },
         {
@@ -1458,10 +1458,10 @@
         {
             "countryName": "Thailand",
             "cases": {
-                "confirmed": 1245,
+                "confirmed": 1388,
                 "deaths": 6,
                 "recovered": 97,
-                "active": 1142
+                "active": 1285
             }
         },
         {
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585461857998E12
+    "updateTimeUnix": 1.585465435136E12
 }
