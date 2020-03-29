@@ -1,9 +1,9 @@
 {
     "countryName": "US",
     "cases": {
-        "confirmed": 121478,
-        "deaths": 2026,
-        "recovered": 1072,
+        "confirmed": 122666,
+        "deaths": 2147,
+        "recovered": 1073,
         "active": 0
     }
 }
