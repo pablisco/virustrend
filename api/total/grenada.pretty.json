@@ -1,9 +1,9 @@
 {
     "countryName": "Grenada",
     "cases": {
-        "confirmed": 7,
+        "confirmed": 9,
         "deaths": 0,
         "recovered": 0,
-        "active": 7
+        "active": 9
     }
 }

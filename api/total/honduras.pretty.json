@@ -1,9 +1,9 @@
 {
     "countryName": "Honduras",
     "cases": {
-        "confirmed": 95,
+        "confirmed": 110,
         "deaths": 1,
         "recovered": 3,
-        "active": 91
+        "active": 106
     }
 }

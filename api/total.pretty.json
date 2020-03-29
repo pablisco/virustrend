@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 664695,
-        "deaths": 30847,
-        "recovered": 140156,
-        "active": 367386
+        "confirmed": 664924,
+        "deaths": 30848,
+        "recovered": 140222,
+        "active": 367347
     },
     "countryCases": [
         {
@@ -146,8 +146,8 @@
             "cases": {
                 "confirmed": 14076,
                 "deaths": 264,
-                "recovered": 1530,
-                "active": 12282
+                "recovered": 1595,
+                "active": 12217
             }
         },
         {
@@ -162,7 +162,7 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 124464,
+                "confirmed": 124665,
                 "deaths": 2191,
                 "recovered": 1095,
                 "active": 0
@@ -324,10 +324,10 @@
         {
             "countryName": "Bhutan",
             "cases": {
-                "confirmed": 3,
+                "confirmed": 4,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 3
+                "active": 4
             }
         },
         {
@@ -693,10 +693,10 @@
         {
             "countryName": "Grenada",
             "cases": {
-                "confirmed": 7,
+                "confirmed": 9,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 7
+                "active": 9
             }
         },
         {
@@ -738,10 +738,10 @@
         {
             "countryName": "Haiti",
             "cases": {
-                "confirmed": 8,
+                "confirmed": 15,
                 "deaths": 0,
-                "recovered": 0,
-                "active": 8
+                "recovered": 1,
+                "active": 14
             }
         },
         {
@@ -756,10 +756,10 @@
         {
             "countryName": "Honduras",
             "cases": {
-                "confirmed": 95,
+                "confirmed": 110,
                 "deaths": 1,
                 "recovered": 3,
-                "active": 91
+                "active": 106
             }
         },
         {
@@ -1062,8 +1062,8 @@
         {
             "countryName": null,
             "cases": {
-                "confirmed": 42,
-                "deaths": 0,
+                "confirmed": 43,
+                "deaths": 1,
                 "recovered": 1,
                 "active": 41
             }
@@ -1404,10 +1404,10 @@
         {
             "countryName": "Sri Lanka",
             "cases": {
-                "confirmed": 113,
+                "confirmed": 115,
                 "deaths": 1,
                 "recovered": 9,
-                "active": 103
+                "active": 105
             }
         },
         {
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585454644236E12
+    "updateTimeUnix": 1.585458253685E12
 }
