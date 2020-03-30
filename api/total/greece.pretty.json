@@ -1,9 +1,9 @@
 {
     "countryName": "Greece",
     "cases": {
-        "confirmed": 1156,
-        "deaths": 39,
+        "confirmed": 1212,
+        "deaths": 43,
         "recovered": 52,
-        "active": 1065
+        "active": 1117
     }
 }
