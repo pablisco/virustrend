@@ -1,9 +1,9 @@
 {
     "countryName": "Ecuador",
     "cases": {
-        "confirmed": 1890,
-        "deaths": 57,
+        "confirmed": 1924,
+        "deaths": 58,
         "recovered": 3,
-        "active": 1830
+        "active": 1863
     }
 }
