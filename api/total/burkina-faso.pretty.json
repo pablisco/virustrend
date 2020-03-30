@@ -1,9 +1,9 @@
 {
     "countryName": "Burkina Faso",
     "cases": {
-        "confirmed": 222,
+        "confirmed": 246,
         "deaths": 12,
-        "recovered": 23,
-        "active": 187
+        "recovered": 31,
+        "active": 203
     }
 }
