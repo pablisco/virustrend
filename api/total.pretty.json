@@ -1,18 +1,18 @@
 {
     "cases": {
-        "confirmed": 722435,
-        "deaths": 33997,
+        "confirmed": 723328,
+        "deaths": 34005,
         "recovered": 151991,
-        "active": 395517
+        "active": 395882
     },
     "countryCases": [
         {
             "countryName": "Australia",
             "cases": {
-                "confirmed": 3984,
-                "deaths": 16,
+                "confirmed": 4197,
+                "deaths": 17,
                 "recovered": 244,
-                "active": 3724
+                "active": 3936
             }
         },
         {
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82149,
+                "confirmed": 82152,
                 "deaths": 3308,
                 "recovered": 75904,
-                "active": 2937
+                "active": 2940
             }
         },
         {
@@ -162,8 +162,8 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 142502,
-                "deaths": 2506,
+                "confirmed": 143025,
+                "deaths": 2509,
                 "recovered": 4856,
                 "active": 0
             }
@@ -585,10 +585,10 @@
         {
             "countryName": "El Salvador",
             "cases": {
-                "confirmed": 24,
+                "confirmed": 30,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 24
+                "active": 30
             }
         },
         {
@@ -1044,10 +1044,10 @@
         {
             "countryName": "Mexico",
             "cases": {
-                "confirmed": 848,
-                "deaths": 16,
+                "confirmed": 993,
+                "deaths": 20,
                 "recovered": 35,
-                "active": 797
+                "active": 938
             }
         },
         {
@@ -1404,10 +1404,10 @@
         {
             "countryName": "Sri Lanka",
             "cases": {
-                "confirmed": 117,
+                "confirmed": 120,
                 "deaths": 1,
                 "recovered": 11,
-                "active": 105
+                "active": 108
             }
         },
         {
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585541061154E12
+    "updateTimeUnix": 1.585544645185E12
 }
