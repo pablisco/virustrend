@@ -1,9 +1,9 @@
 {
     "countryName": "Guatemala",
     "cases": {
-        "confirmed": 34,
+        "confirmed": 36,
         "deaths": 1,
         "recovered": 10,
-        "active": 23
+        "active": 25
     }
 }

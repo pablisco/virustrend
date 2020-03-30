@@ -1,9 +1,9 @@
 {
     "countryName": "Azerbaijan",
     "cases": {
-        "confirmed": 209,
+        "confirmed": 273,
         "deaths": 4,
-        "recovered": 15,
-        "active": 190
+        "recovered": 26,
+        "active": 243
     }
 }
