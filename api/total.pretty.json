@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 770653,
-        "deaths": 36946,
-        "recovered": 160130,
-        "active": 418350
+        "confirmed": 775306,
+        "deaths": 37083,
+        "recovered": 164435,
+        "active": 416365
     },
     "countryCases": [
         {
@@ -27,7 +27,7 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 7286,
+                "confirmed": 7310,
                 "deaths": 65,
                 "recovered": 466,
                 "active": 0
@@ -72,10 +72,10 @@
         {
             "countryName": "Germany",
             "cases": {
-                "confirmed": 63929,
-                "deaths": 560,
-                "recovered": 9211,
-                "active": 54158
+                "confirmed": 66125,
+                "deaths": 616,
+                "recovered": 13500,
+                "active": 52009
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 156931,
-                "deaths": 2880,
-                "recovered": 5579,
+                "confirmed": 159184,
+                "deaths": 2945,
+                "recovered": 5595,
                 "active": 0
             }
         },
@@ -783,10 +783,10 @@
         {
             "countryName": "India",
             "cases": {
-                "confirmed": 1071,
-                "deaths": 29,
+                "confirmed": 1251,
+                "deaths": 32,
                 "recovered": 100,
-                "active": 942
+                "active": 1119
             }
         },
         {
@@ -1270,9 +1270,9 @@
             "countryName": "Romania",
             "cases": {
                 "confirmed": 1952,
-                "deaths": 52,
+                "deaths": 65,
                 "recovered": 209,
-                "active": 1691
+                "active": 1678
             }
         },
         {
@@ -1609,5 +1609,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585598663687E12
+    "updateTimeUnix": 1.585602239907E12
 }
