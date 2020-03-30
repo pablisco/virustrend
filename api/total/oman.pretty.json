@@ -1,9 +1,9 @@
 {
     "countryName": "Oman",
     "cases": {
-        "confirmed": 167,
+        "confirmed": 179,
         "deaths": 0,
-        "recovered": 23,
-        "active": 144
+        "recovered": 29,
+        "active": 150
     }
 }
