@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 720117,
-        "deaths": 33925,
-        "recovered": 149082,
-        "active": 395606
+        "confirmed": 721584,
+        "deaths": 33958,
+        "recovered": 149122,
+        "active": 395773
     },
     "countryCases": [
         {
@@ -27,7 +27,7 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 6280,
+                "confirmed": 6320,
                 "deaths": 64,
                 "recovered": 466,
                 "active": 0
@@ -63,19 +63,19 @@
         {
             "countryName": "France",
             "cases": {
-                "confirmed": 40708,
+                "confirmed": 40723,
                 "deaths": 2611,
                 "recovered": 7226,
-                "active": 30871
+                "active": 30886
             }
         },
         {
             "countryName": "Germany",
             "cases": {
                 "confirmed": 62095,
-                "deaths": 533,
+                "deaths": 541,
                 "recovered": 9211,
-                "active": 52351
+                "active": 52343
             }
         },
         {
@@ -153,18 +153,18 @@
         {
             "countryName": "United Kingdom",
             "cases": {
-                "confirmed": 19780,
+                "confirmed": 19784,
                 "deaths": 1231,
                 "recovered": 151,
-                "active": 18398
+                "active": 18402
             }
         },
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 140886,
-                "deaths": 2467,
-                "recovered": 2665,
+                "confirmed": 142106,
+                "deaths": 2479,
+                "recovered": 2686,
                 "active": 0
             }
         },
@@ -225,10 +225,10 @@
         {
             "countryName": "Argentina",
             "cases": {
-                "confirmed": 745,
-                "deaths": 19,
-                "recovered": 72,
-                "active": 654
+                "confirmed": 820,
+                "deaths": 20,
+                "recovered": 91,
+                "active": 709
             }
         },
         {
@@ -252,10 +252,10 @@
         {
             "countryName": "Bahamas",
             "cases": {
-                "confirmed": 11,
+                "confirmed": 14,
                 "deaths": 0,
                 "recovered": 1,
-                "active": 10
+                "active": 13
             }
         },
         {
@@ -468,10 +468,10 @@
         {
             "countryName": "Congo (Kinshasa)",
             "cases": {
-                "confirmed": 65,
-                "deaths": 6,
+                "confirmed": 81,
+                "deaths": 8,
                 "recovered": 2,
-                "active": 57
+                "active": 71
             }
         },
         {
@@ -514,9 +514,9 @@
             "countryName": "Cyprus",
             "cases": {
                 "confirmed": 214,
-                "deaths": 5,
+                "deaths": 6,
                 "recovered": 15,
-                "active": 194
+                "active": 193
             }
         },
         {
@@ -685,9 +685,9 @@
             "countryName": "Greece",
             "cases": {
                 "confirmed": 1156,
-                "deaths": 38,
+                "deaths": 39,
                 "recovered": 52,
-                "active": 1066
+                "active": 1065
             }
         },
         {
@@ -1188,10 +1188,10 @@
         {
             "countryName": "Panama",
             "cases": {
-                "confirmed": 901,
-                "deaths": 17,
+                "confirmed": 989,
+                "deaths": 24,
                 "recovered": 4,
-                "active": 880
+                "active": 961
             }
         },
         {
@@ -1558,18 +1558,18 @@
             "countryName": "Venezuela",
             "cases": {
                 "confirmed": 119,
-                "deaths": 2,
+                "deaths": 3,
                 "recovered": 39,
-                "active": 78
+                "active": 77
             }
         },
         {
             "countryName": "Vietnam",
             "cases": {
-                "confirmed": 188,
+                "confirmed": 194,
                 "deaths": 0,
                 "recovered": 25,
-                "active": 163
+                "active": 169
             }
         },
         {
@@ -1600,5 +1600,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585526793798E12
+    "updateTimeUnix": 1.585530270636E12
 }

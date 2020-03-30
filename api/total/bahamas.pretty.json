@@ -1,9 +1,9 @@
 {
     "countryName": "Bahamas",
     "cases": {
-        "confirmed": 11,
+        "confirmed": 14,
         "deaths": 0,
         "recovered": 1,
-        "active": 10
+        "active": 13
     }
 }
