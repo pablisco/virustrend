@@ -1,9 +1,9 @@
 {
     "countryName": "Madagascar",
     "cases": {
-        "confirmed": 39,
+        "confirmed": 43,
         "deaths": 0,
         "recovered": 0,
-        "active": 39
+        "active": 43
     }
 }
