@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 785709,
-        "deaths": 37686,
-        "recovered": 165837,
-        "active": 420460
+        "confirmed": 785979,
+        "deaths": 37810,
+        "recovered": 165889,
+        "active": 420462
     },
     "countryCases": [
         {
@@ -38,8 +38,8 @@
             "cases": {
                 "confirmed": 82240,
                 "deaths": 3309,
-                "recovered": 76192,
-                "active": 2739
+                "recovered": 76194,
+                "active": 2737
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 164274,
-                "deaths": 3040,
-                "recovered": 5847,
+                "confirmed": 164539,
+                "deaths": 3164,
+                "recovered": 5896,
                 "active": 0
             }
         },
@@ -594,10 +594,10 @@
         {
             "countryName": "El Salvador",
             "cases": {
-                "confirmed": 30,
+                "confirmed": 32,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 30
+                "active": 32
             }
         },
         {
@@ -1388,8 +1388,8 @@
             "cases": {
                 "confirmed": 3,
                 "deaths": 0,
-                "recovered": 0,
-                "active": 3
+                "recovered": 1,
+                "active": 2
             }
         },
         {
@@ -1494,10 +1494,10 @@
         {
             "countryName": "Trinidad and Tobago",
             "cases": {
-                "confirmed": 83,
+                "confirmed": 85,
                 "deaths": 3,
                 "recovered": 1,
-                "active": 79
+                "active": 81
             }
         },
         {
@@ -1557,10 +1557,10 @@
         {
             "countryName": "Uzbekistan",
             "cases": {
-                "confirmed": 149,
+                "confirmed": 150,
                 "deaths": 2,
                 "recovered": 7,
-                "active": 140
+                "active": 141
             }
         },
         {
@@ -1609,5 +1609,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585623843323E12
+    "updateTimeUnix": 1.585627467434E12
 }
