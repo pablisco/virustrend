@@ -1,9 +1,9 @@
 {
     "countryName": "Portugal",
     "cases": {
-        "confirmed": 6408,
+        "confirmed": 7443,
         "deaths": 140,
         "recovered": 43,
-        "active": 6225
+        "active": 7260
     }
 }
