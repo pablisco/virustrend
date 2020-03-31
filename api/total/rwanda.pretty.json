@@ -1,9 +1,9 @@
 {
     "countryName": "Rwanda",
     "cases": {
-        "confirmed": 70,
+        "confirmed": 75,
         "deaths": 0,
         "recovered": 0,
-        "active": 70
+        "active": 75
     }
 }

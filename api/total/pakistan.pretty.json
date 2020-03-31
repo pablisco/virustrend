@@ -1,9 +1,9 @@
 {
     "countryName": "Pakistan",
     "cases": {
-        "confirmed": 1914,
+        "confirmed": 1938,
         "deaths": 26,
         "recovered": 76,
-        "active": 1812
+        "active": 1836
     }
 }
