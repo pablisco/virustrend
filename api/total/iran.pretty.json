@@ -1,9 +1,9 @@
 {
     "countryName": "Iran",
     "cases": {
-        "confirmed": 41495,
-        "deaths": 2757,
-        "recovered": 13911,
-        "active": 24827
+        "confirmed": 44605,
+        "deaths": 2898,
+        "recovered": 14656,
+        "active": 27051
     }
 }
