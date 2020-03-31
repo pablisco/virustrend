@@ -1,9 +1,9 @@
 {
     "countryName": "Cambodia",
     "cases": {
-        "confirmed": 107,
+        "confirmed": 109,
         "deaths": 0,
-        "recovered": 21,
+        "recovered": 23,
         "active": 86
     }
 }
