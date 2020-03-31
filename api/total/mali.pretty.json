@@ -1,9 +1,9 @@
 {
     "countryName": "Mali",
     "cases": {
-        "confirmed": 25,
+        "confirmed": 28,
         "deaths": 2,
         "recovered": 0,
-        "active": 23
+        "active": 26
     }
 }
