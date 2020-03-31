@@ -1,9 +1,9 @@
 {
     "countryName": "Lithuania",
     "cases": {
-        "confirmed": 491,
+        "confirmed": 533,
         "deaths": 7,
         "recovered": 7,
-        "active": 477
+        "active": 519
     }
 }
