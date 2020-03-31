@@ -1,9 +1,9 @@
 {
     "countryName": "Brazil",
     "cases": {
-        "confirmed": 4661,
-        "deaths": 165,
+        "confirmed": 4681,
+        "deaths": 167,
         "recovered": 127,
-        "active": 4369
+        "active": 4387
     }
 }

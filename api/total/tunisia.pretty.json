@@ -2,8 +2,8 @@
     "countryName": "Tunisia",
     "cases": {
         "confirmed": 362,
-        "deaths": 9,
+        "deaths": 10,
         "recovered": 3,
-        "active": 350
+        "active": 349
     }
 }
