@@ -1,9 +1,9 @@
 {
     "countryName": "Somalia",
     "cases": {
-        "confirmed": 3,
+        "confirmed": 5,
         "deaths": 0,
         "recovered": 1,
-        "active": 2
+        "active": 4
     }
 }
