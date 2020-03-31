@@ -1,18 +1,18 @@
 {
     "cases": {
-        "confirmed": 785979,
-        "deaths": 37810,
-        "recovered": 165889,
-        "active": 420462
+        "confirmed": 786228,
+        "deaths": 37820,
+        "recovered": 166041,
+        "active": 420491
     },
     "countryCases": [
         {
             "countryName": "Australia",
             "cases": {
-                "confirmed": 4361,
-                "deaths": 17,
-                "recovered": 257,
-                "active": 4087
+                "confirmed": 4516,
+                "deaths": 18,
+                "recovered": 358,
+                "active": 4140
             }
         },
         {
@@ -162,8 +162,8 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 164539,
-                "deaths": 3164,
+                "confirmed": 164603,
+                "deaths": 3170,
                 "recovered": 5896,
                 "active": 0
             }
@@ -333,10 +333,10 @@
         {
             "countryName": "Bolivia",
             "cases": {
-                "confirmed": 97,
-                "deaths": 4,
+                "confirmed": 107,
+                "deaths": 6,
                 "recovered": 0,
-                "active": 93
+                "active": 101
             }
         },
         {
@@ -397,9 +397,9 @@
             "countryName": null,
             "cases": {
                 "confirmed": 14,
-                "deaths": 0,
+                "deaths": 1,
                 "recovered": 0,
-                "active": 14
+                "active": 13
             }
         },
         {
@@ -578,8 +578,8 @@
             "cases": {
                 "confirmed": 1966,
                 "deaths": 62,
-                "recovered": 3,
-                "active": 1901
+                "recovered": 54,
+                "active": 1850
             }
         },
         {
@@ -855,10 +855,10 @@
         {
             "countryName": "Kazakhstan",
             "cases": {
-                "confirmed": 308,
+                "confirmed": 325,
                 "deaths": 1,
                 "recovered": 21,
-                "active": 286
+                "active": 303
             }
         },
         {
@@ -909,10 +909,10 @@
         {
             "countryName": "Laos",
             "cases": {
-                "confirmed": 8,
+                "confirmed": 9,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 8
+                "active": 9
             }
         },
         {
@@ -1350,10 +1350,10 @@
         {
             "countryName": "Seychelles",
             "cases": {
-                "confirmed": 8,
+                "confirmed": 10,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 8
+                "active": 10
             }
         },
         {
@@ -1609,5 +1609,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585627467434E12
+    "updateTimeUnix": 1.585631034007E12
 }

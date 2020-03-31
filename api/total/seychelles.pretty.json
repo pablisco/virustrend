@@ -1,9 +1,9 @@
 {
     "countryName": "Seychelles",
     "cases": {
-        "confirmed": 8,
+        "confirmed": 10,
         "deaths": 0,
         "recovered": 0,
-        "active": 8
+        "active": 10
     }
 }
