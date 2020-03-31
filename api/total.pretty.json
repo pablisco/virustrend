@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 784314,
-        "deaths": 37638,
-        "recovered": 165288,
-        "active": 420411
+        "confirmed": 784716,
+        "deaths": 37639,
+        "recovered": 165370,
+        "active": 420435
     },
     "countryCases": [
         {
@@ -28,7 +28,7 @@
             "countryName": "Canada",
             "cases": {
                 "confirmed": 7428,
-                "deaths": 88,
+                "deaths": 89,
                 "recovered": 1020,
                 "active": 0
             }
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82199,
+                "confirmed": 82223,
                 "deaths": 3308,
                 "recovered": 75924,
-                "active": 2967
+                "active": 2991
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 163429,
+                "confirmed": 163807,
                 "deaths": 3008,
-                "recovered": 5764,
+                "recovered": 5846,
                 "active": 0
             }
         },
@@ -1609,5 +1609,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585616668807E12
+    "updateTimeUnix": 1.585620255688E12
 }
