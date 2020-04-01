@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 905279,
-        "deaths": 45371,
-        "recovered": 190710,
-        "active": 475932
+        "confirmed": 911308,
+        "deaths": 45497,
+        "recovered": 191673,
+        "active": 475636
     },
     "countryCases": [
         {
@@ -18,17 +18,17 @@
         {
             "countryName": "Austria",
             "cases": {
-                "confirmed": 10585,
+                "confirmed": 10663,
                 "deaths": 146,
                 "recovered": 1436,
-                "active": 9003
+                "active": 9081
             }
         },
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 8591,
-                "deaths": 102,
+                "confirmed": 9466,
+                "deaths": 104,
                 "recovered": 1592,
                 "active": 0
             }
@@ -47,8 +47,8 @@
             "cases": {
                 "confirmed": 3275,
                 "deaths": 104,
-                "recovered": 78,
-                "active": 3093
+                "recovered": 971,
+                "active": 2200
             }
         },
         {
@@ -118,9 +118,9 @@
             "countryName": "Norway",
             "cases": {
                 "confirmed": 4828,
-                "deaths": 43,
+                "deaths": 44,
                 "recovered": 13,
-                "active": 4772
+                "active": 4771
             }
         },
         {
@@ -153,18 +153,18 @@
         {
             "countryName": "United Kingdom",
             "cases": {
-                "confirmed": 29842,
-                "deaths": 2356,
+                "confirmed": 29854,
+                "deaths": 2357,
                 "recovered": 179,
-                "active": 27307
+                "active": 27318
             }
         },
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 199092,
-                "deaths": 4361,
-                "recovered": 8362,
+                "confirmed": 203608,
+                "deaths": 4476,
+                "recovered": 8400,
                 "active": 0
             }
         },
@@ -261,10 +261,10 @@
         {
             "countryName": null,
             "cases": {
-                "confirmed": 567,
+                "confirmed": 569,
                 "deaths": 4,
                 "recovered": 337,
-                "active": 226
+                "active": 228
             }
         },
         {
@@ -379,18 +379,18 @@
             "countryName": "Bulgaria",
             "cases": {
                 "confirmed": 422,
-                "deaths": 9,
+                "deaths": 10,
                 "recovered": 20,
-                "active": 393
+                "active": 392
             }
         },
         {
             "countryName": "Burkina Faso",
             "cases": {
-                "confirmed": 261,
-                "deaths": 14,
-                "recovered": 32,
-                "active": 215
+                "confirmed": 282,
+                "deaths": 16,
+                "recovered": 46,
+                "active": 220
             }
         },
         {
@@ -792,10 +792,10 @@
         {
             "countryName": "India",
             "cases": {
-                "confirmed": 1637,
+                "confirmed": 1834,
                 "deaths": 45,
                 "recovered": 148,
-                "active": 1444
+                "active": 1641
             }
         },
         {
@@ -829,9 +829,9 @@
             "countryName": "Israel",
             "cases": {
                 "confirmed": 5591,
-                "deaths": 23,
+                "deaths": 25,
                 "recovered": 226,
-                "active": 5342
+                "active": 5340
             }
         },
         {
@@ -855,10 +855,10 @@
         {
             "countryName": "Jordan",
             "cases": {
-                "confirmed": 274,
+                "confirmed": 278,
                 "deaths": 5,
-                "recovered": 30,
-                "active": 239
+                "recovered": 36,
+                "active": 237
             }
         },
         {
@@ -1054,9 +1054,9 @@
             "countryName": "Mauritius",
             "cases": {
                 "confirmed": 158,
-                "deaths": 5,
+                "deaths": 6,
                 "recovered": 0,
-                "active": 153
+                "active": 152
             }
         },
         {
@@ -1107,10 +1107,10 @@
         {
             "countryName": "Morocco",
             "cases": {
-                "confirmed": 638,
+                "confirmed": 642,
                 "deaths": 37,
                 "recovered": 26,
-                "active": 575
+                "active": 579
             }
         },
         {
@@ -1197,10 +1197,10 @@
         {
             "countryName": "Pakistan",
             "cases": {
-                "confirmed": 2071,
-                "deaths": 26,
-                "recovered": 82,
-                "active": 1963
+                "confirmed": 2118,
+                "deaths": 27,
+                "recovered": 94,
+                "active": 1997
             }
         },
         {
@@ -1233,10 +1233,10 @@
         {
             "countryName": "Peru",
             "cases": {
-                "confirmed": 1065,
+                "confirmed": 1323,
                 "deaths": 30,
                 "recovered": 394,
-                "active": 641
+                "active": 899
             }
         },
         {
@@ -1287,10 +1287,10 @@
         {
             "countryName": "Rwanda",
             "cases": {
-                "confirmed": 75,
+                "confirmed": 82,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 75
+                "active": 82
             }
         },
         {
@@ -1575,10 +1575,10 @@
         {
             "countryName": "Uzbekistan",
             "cases": {
-                "confirmed": 173,
+                "confirmed": 181,
                 "deaths": 2,
                 "recovered": 12,
-                "active": 159
+                "active": 167
             }
         },
         {
@@ -1627,5 +1627,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585764218447E12
+    "updateTimeUnix": 1.585767846395E12
 }
