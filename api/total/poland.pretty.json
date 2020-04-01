@@ -1,9 +1,9 @@
 {
     "countryName": "Poland",
     "cases": {
-        "confirmed": 2420,
-        "deaths": 36,
+        "confirmed": 2554,
+        "deaths": 43,
         "recovered": 7,
-        "active": 2377
+        "active": 2504
     }
 }
