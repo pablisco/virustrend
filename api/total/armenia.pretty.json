@@ -2,8 +2,8 @@
     "countryName": "Armenia",
     "cases": {
         "confirmed": 571,
-        "deaths": 3,
+        "deaths": 4,
         "recovered": 31,
-        "active": 537
+        "active": 536
     }
 }
