@@ -1,9 +1,9 @@
 {
     "countryName": "Norway",
     "cases": {
-        "confirmed": 4705,
-        "deaths": 41,
+        "confirmed": 4798,
+        "deaths": 43,
         "recovered": 13,
-        "active": 4651
+        "active": 4742
     }
 }

@@ -1,9 +1,9 @@
 {
     "countryName": "Bosnia and Herzegovina",
     "cases": {
-        "confirmed": 451,
+        "confirmed": 455,
         "deaths": 13,
-        "recovered": 17,
-        "active": 421
+        "recovered": 19,
+        "active": 423
     }
 }
