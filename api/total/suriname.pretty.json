@@ -1,9 +1,9 @@
 {
     "countryName": "Suriname",
     "cases": {
-        "confirmed": 9,
+        "confirmed": 10,
         "deaths": 0,
         "recovered": 0,
-        "active": 9
+        "active": 10
     }
 }
