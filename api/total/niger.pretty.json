@@ -1,9 +1,9 @@
 {
     "countryName": "Niger",
     "cases": {
-        "confirmed": 27,
+        "confirmed": 34,
         "deaths": 3,
         "recovered": 0,
-        "active": 24
+        "active": 31
     }
 }

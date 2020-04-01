@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 857487,
-        "deaths": 42107,
-        "recovered": 178034,
-        "active": 453237
+        "confirmed": 857957,
+        "deaths": 42139,
+        "recovered": 178091,
+        "active": 453313
     },
     "countryCases": [
         {
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82279,
-                "deaths": 3309,
+                "confirmed": 82290,
+                "deaths": 3310,
                 "recovered": 76206,
-                "active": 2764
+                "active": 2774
             }
         },
         {
@@ -63,9 +63,9 @@
         {
             "countryName": "France",
             "cases": {
-                "confirmed": 52827,
+                "confirmed": 52836,
                 "deaths": 3532,
-                "recovered": 9513,
+                "recovered": 9522,
                 "active": 39782
             }
         },
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 188172,
-                "deaths": 3873,
-                "recovered": 7024,
+                "confirmed": 188547,
+                "deaths": 3899,
+                "recovered": 7068,
                 "active": 0
             }
         },
@@ -585,10 +585,10 @@
         {
             "countryName": "Ecuador",
             "cases": {
-                "confirmed": 2240,
-                "deaths": 75,
-                "recovered": 54,
-                "active": 2111
+                "confirmed": 2302,
+                "deaths": 79,
+                "recovered": 58,
+                "active": 2165
             }
         },
         {
@@ -612,10 +612,10 @@
         {
             "countryName": "Equatorial Guinea",
             "cases": {
-                "confirmed": 12,
+                "confirmed": 15,
                 "deaths": 0,
                 "recovered": 1,
-                "active": 11
+                "active": 14
             }
         },
         {
@@ -837,10 +837,10 @@
         {
             "countryName": "Jamaica",
             "cases": {
-                "confirmed": 36,
-                "deaths": 1,
+                "confirmed": 38,
+                "deaths": 2,
                 "recovered": 2,
-                "active": 33
+                "active": 34
             }
         },
         {
@@ -1161,10 +1161,10 @@
         {
             "countryName": "Niger",
             "cases": {
-                "confirmed": 27,
+                "confirmed": 34,
                 "deaths": 3,
                 "recovered": 0,
-                "active": 24
+                "active": 31
             }
         },
         {
@@ -1611,10 +1611,10 @@
         {
             "countryName": "Zambia",
             "cases": {
-                "confirmed": 35,
+                "confirmed": 36,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 35
+                "active": 36
             }
         },
         {
@@ -1627,5 +1627,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585703059444E12
+    "updateTimeUnix": 1.585706663459E12
 }
