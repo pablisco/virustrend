@@ -1,9 +1,9 @@
 {
     "countryName": "West Bank and Gaza",
     "cases": {
-        "confirmed": 119,
+        "confirmed": 134,
         "deaths": 1,
         "recovered": 18,
-        "active": 100
+        "active": 115
     }
 }
