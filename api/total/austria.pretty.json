@@ -1,9 +1,9 @@
 {
     "countryName": "Austria",
     "cases": {
-        "confirmed": 10192,
+        "confirmed": 10298,
         "deaths": 128,
         "recovered": 1095,
-        "active": 8969
+        "active": 9075
     }
 }
