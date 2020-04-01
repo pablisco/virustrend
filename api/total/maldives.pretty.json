@@ -1,9 +1,9 @@
 {
     "countryName": "Maldives",
     "cases": {
-        "confirmed": 18,
+        "confirmed": 19,
         "deaths": 0,
         "recovered": 13,
-        "active": 5
+        "active": 6
     }
 }

@@ -2,8 +2,8 @@
     "countryName": "Romania",
     "cases": {
         "confirmed": 2460,
-        "deaths": 85,
+        "deaths": 86,
         "recovered": 252,
-        "active": 2123
+        "active": 2122
     }
 }
