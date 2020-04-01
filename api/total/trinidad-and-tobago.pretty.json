@@ -1,9 +1,9 @@
 {
     "countryName": "Trinidad and Tobago",
     "cases": {
-        "confirmed": 89,
+        "confirmed": 90,
         "deaths": 5,
         "recovered": 1,
-        "active": 83
+        "active": 84
     }
 }
