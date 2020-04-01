@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 859556,
-        "deaths": 42332,
-        "recovered": 178300,
-        "active": 453702
+        "confirmed": 859796,
+        "deaths": 42341,
+        "recovered": 178301,
+        "active": 453827
     },
     "countryCases": [
         {
@@ -162,8 +162,8 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 189510,
-                "deaths": 4076,
+                "confirmed": 189618,
+                "deaths": 4079,
                 "recovered": 7109,
                 "active": 0
             }
@@ -252,10 +252,10 @@
         {
             "countryName": "Bahamas",
             "cases": {
-                "confirmed": 14,
+                "confirmed": 15,
                 "deaths": 0,
                 "recovered": 1,
-                "active": 13
+                "active": 14
             }
         },
         {
@@ -335,8 +335,8 @@
             "cases": {
                 "confirmed": 115,
                 "deaths": 7,
-                "recovered": 0,
-                "active": 108
+                "recovered": 1,
+                "active": 107
             }
         },
         {
@@ -360,10 +360,10 @@
         {
             "countryName": "Brazil",
             "cases": {
-                "confirmed": 5717,
-                "deaths": 201,
+                "confirmed": 5812,
+                "deaths": 202,
                 "recovered": 127,
-                "active": 5389
+                "active": 5483
             }
         },
         {
@@ -550,9 +550,9 @@
             "countryName": null,
             "cases": {
                 "confirmed": 712,
-                "deaths": 10,
+                "deaths": 11,
                 "recovered": 603,
-                "active": 99
+                "active": 98
             }
         },
         {
@@ -774,10 +774,10 @@
         {
             "countryName": "Honduras",
             "cases": {
-                "confirmed": 141,
-                "deaths": 7,
+                "confirmed": 172,
+                "deaths": 10,
                 "recovered": 3,
-                "active": 131
+                "active": 159
             }
         },
         {
@@ -864,10 +864,10 @@
         {
             "countryName": "Kazakhstan",
             "cases": {
-                "confirmed": 343,
+                "confirmed": 348,
                 "deaths": 2,
                 "recovered": 24,
-                "active": 317
+                "active": 322
             }
         },
         {
@@ -1513,9 +1513,9 @@
             "countryName": "Trinidad and Tobago",
             "cases": {
                 "confirmed": 87,
-                "deaths": 3,
+                "deaths": 4,
                 "recovered": 1,
-                "active": 83
+                "active": 82
             }
         },
         {
@@ -1627,5 +1627,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585713858383E12
+    "updateTimeUnix": 1.585717457633E12
 }
