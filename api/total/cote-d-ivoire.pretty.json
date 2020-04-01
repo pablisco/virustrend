@@ -1,9 +1,9 @@
 {
     "countryName": "Cote d'Ivoire",
     "cases": {
-        "confirmed": 168,
+        "confirmed": 179,
         "deaths": 1,
-        "recovered": 6,
-        "active": 161
+        "recovered": 7,
+        "active": 171
     }
 }
