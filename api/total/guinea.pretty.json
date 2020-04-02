@@ -1,9 +1,9 @@
 {
     "countryName": "Guinea",
     "cases": {
-        "confirmed": 30,
+        "confirmed": 52,
         "deaths": 0,
         "recovered": 0,
-        "active": 30
+        "active": 52
     }
 }
