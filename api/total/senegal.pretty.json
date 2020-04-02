@@ -1,9 +1,9 @@
 {
     "countryName": "Senegal",
     "cases": {
-        "confirmed": 190,
+        "confirmed": 195,
         "deaths": 1,
-        "recovered": 45,
-        "active": 144
+        "recovered": 55,
+        "active": 139
     }
 }
