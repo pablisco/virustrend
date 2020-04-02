@@ -1,9 +1,9 @@
 {
     "countryName": "Saint Kitts and Nevis",
     "cases": {
-        "confirmed": 8,
+        "confirmed": 9,
         "deaths": 0,
         "recovered": 0,
-        "active": 8
+        "active": 9
     }
 }
