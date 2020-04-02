@@ -1,18 +1,18 @@
 {
     "cases": {
-        "confirmed": 937567,
-        "deaths": 47256,
-        "recovered": 194311,
-        "active": 484996
+        "confirmed": 937783,
+        "deaths": 47261,
+        "recovered": 194330,
+        "active": 485187
     },
     "countryCases": [
         {
             "countryName": "Australia",
             "cases": {
-                "confirmed": 5046,
-                "deaths": 22,
-                "recovered": 501,
-                "active": 4523
+                "confirmed": 5108,
+                "deaths": 24,
+                "recovered": 520,
+                "active": 4564
             }
         },
         {
@@ -163,7 +163,7 @@
             "countryName": "US",
             "cases": {
                 "confirmed": 216721,
-                "deaths": 5138,
+                "deaths": 5137,
                 "recovered": 8672,
                 "active": 0
             }
@@ -792,10 +792,10 @@
         {
             "countryName": "India",
             "cases": {
-                "confirmed": 1998,
+                "confirmed": 2032,
                 "deaths": 58,
                 "recovered": 148,
-                "active": 1792
+                "active": 1826
             }
         },
         {
@@ -1197,10 +1197,10 @@
         {
             "countryName": "Pakistan",
             "cases": {
-                "confirmed": 2118,
-                "deaths": 27,
+                "confirmed": 2238,
+                "deaths": 31,
                 "recovered": 94,
-                "active": 1997
+                "active": 2113
             }
         },
         {
@@ -1627,5 +1627,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585803835305E12
+    "updateTimeUnix": 1.585807452233E12
 }
