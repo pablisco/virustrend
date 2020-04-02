@@ -1,9 +1,9 @@
 {
     "countryName": "Nigeria",
     "cases": {
-        "confirmed": 174,
+        "confirmed": 184,
         "deaths": 2,
-        "recovered": 9,
-        "active": 163
+        "recovered": 20,
+        "active": 162
     }
 }
