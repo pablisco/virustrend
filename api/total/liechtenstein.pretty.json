@@ -1,9 +1,9 @@
 {
     "countryName": "Liechtenstein",
     "cases": {
-        "confirmed": 68,
+        "confirmed": 72,
         "deaths": 0,
         "recovered": 0,
-        "active": 68
+        "active": 72
     }
 }
