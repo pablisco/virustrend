@@ -2,8 +2,8 @@
     "countryName": "Bolivia",
     "cases": {
         "confirmed": 123,
-        "deaths": 7,
+        "deaths": 8,
         "recovered": 1,
-        "active": 115
+        "active": 114
     }
 }
