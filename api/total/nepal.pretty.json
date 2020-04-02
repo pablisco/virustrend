@@ -1,9 +1,9 @@
 {
     "countryName": "Nepal",
     "cases": {
-        "confirmed": 5,
+        "confirmed": 6,
         "deaths": 0,
         "recovered": 1,
-        "active": 4
+        "active": 5
     }
 }
