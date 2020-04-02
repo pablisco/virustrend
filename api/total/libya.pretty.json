@@ -1,8 +1,8 @@
 {
     "countryName": "Libya",
     "cases": {
-        "confirmed": 10,
-        "deaths": 0,
+        "confirmed": 11,
+        "deaths": 1,
         "recovered": 0,
         "active": 10
     }

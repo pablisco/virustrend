@@ -1,9 +1,9 @@
 {
     "countryName": "Cameroon",
     "cases": {
-        "confirmed": 284,
+        "confirmed": 306,
         "deaths": 7,
         "recovered": 10,
-        "active": 267
+        "active": 289
     }
 }
