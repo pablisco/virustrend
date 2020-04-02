@@ -1,18 +1,18 @@
 {
     "cases": {
-        "confirmed": 937170,
-        "deaths": 47235,
-        "recovered": 193770,
-        "active": 485178
+        "confirmed": 937567,
+        "deaths": 47256,
+        "recovered": 194311,
+        "active": 484996
     },
     "countryCases": [
         {
             "countryName": "Australia",
             "cases": {
-                "confirmed": 4862,
-                "deaths": 20,
-                "recovered": 422,
-                "active": 4420
+                "confirmed": 5046,
+                "deaths": 22,
+                "recovered": 501,
+                "active": 4523
             }
         },
         {
@@ -29,7 +29,7 @@
             "cases": {
                 "confirmed": 9731,
                 "deaths": 112,
-                "recovered": 1435,
+                "recovered": 1526,
                 "active": 0
             }
         },
@@ -56,8 +56,8 @@
             "cases": {
                 "confirmed": 1446,
                 "deaths": 17,
-                "recovered": 10,
-                "active": 1419
+                "recovered": 300,
+                "active": 1129
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 216515,
-                "deaths": 5119,
-                "recovered": 8593,
+                "confirmed": 216721,
+                "deaths": 5138,
+                "recovered": 8672,
                 "active": 0
             }
         },
@@ -657,10 +657,10 @@
         {
             "countryName": "Fiji",
             "cases": {
-                "confirmed": 5,
+                "confirmed": 7,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 5
+                "active": 7
             }
         },
         {
@@ -909,10 +909,10 @@
         {
             "countryName": "Kyrgyzstan",
             "cases": {
-                "confirmed": 111,
+                "confirmed": 116,
                 "deaths": 0,
-                "recovered": 3,
-                "active": 108
+                "recovered": 5,
+                "active": 111
             }
         },
         {
@@ -1627,5 +1627,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585800268107E12
+    "updateTimeUnix": 1.585803835305E12
 }
