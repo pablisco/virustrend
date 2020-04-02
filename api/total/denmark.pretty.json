@@ -1,9 +1,9 @@
 {
     "countryName": "Denmark",
     "cases": {
-        "confirmed": 3290,
+        "confirmed": 3294,
         "deaths": 104,
-        "recovered": 971,
-        "active": 2215
+        "recovered": 977,
+        "active": 2213
     }
 }
