@@ -1,9 +1,9 @@
 {
     "countryName": "El Salvador",
     "cases": {
-        "confirmed": 33,
+        "confirmed": 41,
         "deaths": 2,
         "recovered": 0,
-        "active": 31
+        "active": 39
     }
 }
