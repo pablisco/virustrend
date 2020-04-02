@@ -1,9 +1,9 @@
 {
     "countryName": "Belgium",
     "cases": {
-        "confirmed": 13964,
-        "deaths": 828,
-        "recovered": 2132,
-        "active": 11004
+        "confirmed": 15348,
+        "deaths": 1011,
+        "recovered": 2495,
+        "active": 11842
     }
 }
