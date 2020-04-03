@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1013157,
-        "deaths": 52983,
-        "recovered": 210263,
-        "active": 511975
+        "confirmed": 1014673,
+        "deaths": 52973,
+        "recovered": 210335,
+        "active": 512261
     },
     "countryCases": [
         {
@@ -29,17 +29,17 @@
             "cases": {
                 "confirmed": 11284,
                 "deaths": 139,
-                "recovered": 1735,
+                "recovered": 1750,
                 "active": 0
             }
         },
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82432,
+                "confirmed": 82433,
                 "deaths": 3322,
                 "recovered": 76565,
-                "active": 2545
+                "active": 2546
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 243453,
-                "deaths": 5926,
-                "recovered": 9001,
+                "confirmed": 244678,
+                "deaths": 5911,
+                "recovered": 9058,
                 "active": 0
             }
         },
@@ -225,10 +225,10 @@
         {
             "countryName": "Argentina",
             "cases": {
-                "confirmed": 1133,
+                "confirmed": 1265,
                 "deaths": 36,
                 "recovered": 256,
-                "active": 841
+                "active": 973
             }
         },
         {
@@ -1215,10 +1215,10 @@
         {
             "countryName": "Panama",
             "cases": {
-                "confirmed": 1317,
-                "deaths": 32,
+                "confirmed": 1475,
+                "deaths": 37,
                 "recovered": 9,
-                "active": 1276
+                "active": 1429
             }
         },
         {
@@ -1636,5 +1636,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585872372566E12
+    "updateTimeUnix": 1.585875880729E12
 }
