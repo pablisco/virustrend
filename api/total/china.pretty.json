@@ -1,9 +1,9 @@
 {
     "countryName": "China",
     "cases": {
-        "confirmed": 82464,
+        "confirmed": 82465,
         "deaths": 3326,
         "recovered": 76741,
-        "active": 2397
+        "active": 2398
     }
 }

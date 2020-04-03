@@ -1,9 +1,9 @@
 {
     "countryName": "Indonesia",
     "cases": {
-        "confirmed": 1790,
-        "deaths": 170,
-        "recovered": 112,
-        "active": 1508
+        "confirmed": 1986,
+        "deaths": 181,
+        "recovered": 134,
+        "active": 1671
     }
 }
