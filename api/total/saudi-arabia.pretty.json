@@ -1,9 +1,9 @@
 {
     "countryName": "Saudi Arabia",
     "cases": {
-        "confirmed": 1885,
-        "deaths": 21,
-        "recovered": 328,
-        "active": 1536
+        "confirmed": 2039,
+        "deaths": 25,
+        "recovered": 351,
+        "active": 1663
     }
 }
