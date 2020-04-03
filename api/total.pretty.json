@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1015709,
-        "deaths": 53069,
-        "recovered": 211409,
-        "active": 511917
+        "confirmed": 1016128,
+        "deaths": 53146,
+        "recovered": 211615,
+        "active": 511854
     },
     "countryCases": [
         {
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82443,
-                "deaths": 3322,
-                "recovered": 76576,
-                "active": 2545
+                "confirmed": 82456,
+                "deaths": 3326,
+                "recovered": 76724,
+                "active": 2406
             }
         },
         {
@@ -117,10 +117,10 @@
         {
             "countryName": "Norway",
             "cases": {
-                "confirmed": 5147,
+                "confirmed": 5218,
                 "deaths": 50,
                 "recovered": 32,
-                "active": 5065
+                "active": 5136
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 245213,
-                "deaths": 5983,
-                "recovered": 9090,
+                "confirmed": 245540,
+                "deaths": 6053,
+                "recovered": 9148,
                 "active": 0
             }
         },
@@ -226,9 +226,9 @@
             "countryName": "Argentina",
             "cases": {
                 "confirmed": 1265,
-                "deaths": 36,
+                "deaths": 37,
                 "recovered": 256,
-                "active": 973
+                "active": 972
             }
         },
         {
@@ -441,10 +441,10 @@
         {
             "countryName": "Central African Republic",
             "cases": {
-                "confirmed": 3,
+                "confirmed": 8,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 3
+                "active": 8
             }
         },
         {
@@ -774,10 +774,10 @@
         {
             "countryName": "Honduras",
             "cases": {
-                "confirmed": 219,
-                "deaths": 14,
+                "confirmed": 222,
+                "deaths": 15,
                 "recovered": 3,
-                "active": 202
+                "active": 204
             }
         },
         {
@@ -1387,9 +1387,9 @@
             "countryName": "Singapore",
             "cases": {
                 "confirmed": 1049,
-                "deaths": 4,
+                "deaths": 5,
                 "recovered": 266,
-                "active": 779
+                "active": 778
             }
         },
         {
@@ -1636,5 +1636,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.58588666003E12
+    "updateTimeUnix": 1.585890247072E12
 }
