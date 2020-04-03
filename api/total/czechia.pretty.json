@@ -1,9 +1,9 @@
 {
     "countryName": "Czechia",
     "cases": {
-        "confirmed": 3858,
-        "deaths": 44,
-        "recovered": 67,
-        "active": 3747
+        "confirmed": 3869,
+        "deaths": 46,
+        "recovered": 71,
+        "active": 3752
     }
 }

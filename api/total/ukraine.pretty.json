@@ -1,9 +1,9 @@
 {
     "countryName": "Ukraine",
     "cases": {
-        "confirmed": 897,
-        "deaths": 22,
+        "confirmed": 942,
+        "deaths": 23,
         "recovered": 19,
-        "active": 856
+        "active": 900
     }
 }
