@@ -1,9 +1,9 @@
 {
     "countryName": "Georgia",
     "cases": {
-        "confirmed": 148,
+        "confirmed": 155,
         "deaths": 0,
         "recovered": 27,
-        "active": 121
+        "active": 128
     }
 }
