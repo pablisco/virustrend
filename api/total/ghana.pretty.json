@@ -1,9 +1,9 @@
 {
     "countryName": "Ghana",
     "cases": {
-        "confirmed": 204,
+        "confirmed": 205,
         "deaths": 5,
         "recovered": 31,
-        "active": 168
+        "active": 169
     }
 }

@@ -1,9 +1,9 @@
 {
     "countryName": "Afghanistan",
     "cases": {
-        "confirmed": 273,
+        "confirmed": 281,
         "deaths": 6,
         "recovered": 10,
-        "active": 257
+        "active": 265
     }
 }
