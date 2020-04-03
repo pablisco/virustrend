@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1014673,
-        "deaths": 52973,
-        "recovered": 210335,
-        "active": 512261
+        "confirmed": 1015403,
+        "deaths": 53030,
+        "recovered": 210579,
+        "active": 512368
     },
     "countryCases": [
         {
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82433,
+                "confirmed": 82437,
                 "deaths": 3322,
-                "recovered": 76565,
-                "active": 2546
+                "recovered": 76566,
+                "active": 2549
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 244678,
-                "deaths": 5911,
-                "recovered": 9058,
+                "confirmed": 245070,
+                "deaths": 5949,
+                "recovered": 9090,
                 "active": 0
             }
         },
@@ -333,10 +333,10 @@
         {
             "countryName": "Bolivia",
             "cases": {
-                "confirmed": 123,
-                "deaths": 8,
+                "confirmed": 132,
+                "deaths": 9,
                 "recovered": 1,
-                "active": 114
+                "active": 122
             }
         },
         {
@@ -756,10 +756,10 @@
         {
             "countryName": "Haiti",
             "cases": {
-                "confirmed": 16,
+                "confirmed": 18,
                 "deaths": 0,
                 "recovered": 1,
-                "active": 15
+                "active": 17
             }
         },
         {
@@ -882,10 +882,10 @@
         {
             "countryName": "Korea, South",
             "cases": {
-                "confirmed": 9976,
-                "deaths": 169,
-                "recovered": 5828,
-                "active": 3979
+                "confirmed": 10062,
+                "deaths": 174,
+                "recovered": 6021,
+                "active": 3867
             }
         },
         {
@@ -1071,10 +1071,10 @@
         {
             "countryName": "Mexico",
             "cases": {
-                "confirmed": 1378,
-                "deaths": 37,
+                "confirmed": 1510,
+                "deaths": 50,
                 "recovered": 35,
-                "active": 1306
+                "active": 1425
             }
         },
         {
@@ -1152,10 +1152,10 @@
         {
             "countryName": "New Zealand",
             "cases": {
-                "confirmed": 797,
+                "confirmed": 868,
                 "deaths": 1,
-                "recovered": 92,
-                "active": 704
+                "recovered": 103,
+                "active": 764
             }
         },
         {
@@ -1233,10 +1233,10 @@
         {
             "countryName": "Paraguay",
             "cases": {
-                "confirmed": 77,
+                "confirmed": 92,
                 "deaths": 3,
-                "recovered": 2,
-                "active": 72
+                "recovered": 3,
+                "active": 86
             }
         },
         {
@@ -1575,10 +1575,10 @@
         {
             "countryName": "Uruguay",
             "cases": {
-                "confirmed": 350,
+                "confirmed": 369,
                 "deaths": 4,
-                "recovered": 62,
-                "active": 284
+                "recovered": 68,
+                "active": 297
             }
         },
         {
@@ -1636,5 +1636,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585875880729E12
+    "updateTimeUnix": 1.585879471838E12
 }
