@@ -2,8 +2,8 @@
     "countryName": "Latvia",
     "cases": {
         "confirmed": 493,
-        "deaths": 0,
+        "deaths": 1,
         "recovered": 31,
-        "active": 462
+        "active": 461
     }
 }

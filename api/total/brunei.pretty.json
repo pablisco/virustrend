@@ -1,9 +1,9 @@
 {
     "countryName": "Brunei",
     "cases": {
-        "confirmed": 133,
+        "confirmed": 134,
         "deaths": 1,
-        "recovered": 56,
-        "active": 76
+        "recovered": 65,
+        "active": 68
     }
 }
