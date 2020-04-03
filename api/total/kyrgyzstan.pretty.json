@@ -1,9 +1,9 @@
 {
     "countryName": "Kyrgyzstan",
     "cases": {
-        "confirmed": 125,
+        "confirmed": 130,
         "deaths": 1,
         "recovered": 5,
-        "active": 119
+        "active": 124
     }
 }
