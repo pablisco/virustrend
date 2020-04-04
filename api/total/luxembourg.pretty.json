@@ -1,9 +1,9 @@
 {
     "countryName": "Luxembourg",
     "cases": {
-        "confirmed": 2612,
+        "confirmed": 2729,
         "deaths": 31,
         "recovered": 500,
-        "active": 2081
+        "active": 2198
     }
 }
