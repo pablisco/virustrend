@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1118921,
-        "deaths": 58937,
-        "recovered": 226769,
-        "active": 561777
+        "confirmed": 1119109,
+        "deaths": 58955,
+        "recovered": 226873,
+        "active": 561843
     },
     "countryCases": [
         {
@@ -18,10 +18,10 @@
         {
             "countryName": "Austria",
             "cases": {
-                "confirmed": 11524,
+                "confirmed": 11544,
                 "deaths": 168,
                 "recovered": 2022,
-                "active": 9334
+                "active": 9354
             }
         },
         {
@@ -83,8 +83,8 @@
             "cases": {
                 "confirmed": 1364,
                 "deaths": 4,
-                "recovered": 309,
-                "active": 1051
+                "recovered": 336,
+                "active": 1024
             }
         },
         {
@@ -144,10 +144,10 @@
         {
             "countryName": "Switzerland",
             "cases": {
-                "confirmed": 19606,
-                "deaths": 591,
+                "confirmed": 19702,
+                "deaths": 604,
                 "recovered": 4846,
-                "active": 14169
+                "active": 14252
             }
         },
         {
@@ -234,10 +234,10 @@
         {
             "countryName": "Armenia",
             "cases": {
-                "confirmed": 736,
+                "confirmed": 770,
                 "deaths": 7,
                 "recovered": 43,
-                "active": 686
+                "active": 720
             }
         },
         {
@@ -261,19 +261,19 @@
         {
             "countryName": null,
             "cases": {
-                "confirmed": 672,
+                "confirmed": 673,
                 "deaths": 4,
-                "recovered": 382,
-                "active": 286
+                "recovered": 388,
+                "active": 281
             }
         },
         {
             "countryName": "Bangladesh",
             "cases": {
-                "confirmed": 61,
-                "deaths": 6,
-                "recovered": 26,
-                "active": 29
+                "confirmed": 70,
+                "deaths": 8,
+                "recovered": 30,
+                "active": 32
             }
         },
         {
@@ -540,10 +540,10 @@
         {
             "countryName": "Czechia",
             "cases": {
-                "confirmed": 4190,
-                "deaths": 53,
-                "recovered": 72,
-                "active": 4065
+                "confirmed": 4194,
+                "deaths": 56,
+                "recovered": 74,
+                "active": 4064
             }
         },
         {
@@ -684,10 +684,10 @@
         {
             "countryName": "Georgia",
             "cases": {
-                "confirmed": 155,
+                "confirmed": 156,
                 "deaths": 0,
                 "recovered": 28,
-                "active": 127
+                "active": 128
             }
         },
         {
@@ -1107,10 +1107,10 @@
         {
             "countryName": "Montenegro",
             "cases": {
-                "confirmed": 174,
+                "confirmed": 197,
                 "deaths": 2,
                 "recovered": 1,
-                "active": 171
+                "active": 194
             }
         },
         {
@@ -1262,8 +1262,8 @@
             "cases": {
                 "confirmed": 3383,
                 "deaths": 71,
-                "recovered": 56,
-                "active": 3256
+                "recovered": 116,
+                "active": 3196
             }
         },
         {
@@ -1604,8 +1604,8 @@
             "cases": {
                 "confirmed": 239,
                 "deaths": 0,
-                "recovered": 85,
-                "active": 154
+                "recovered": 90,
+                "active": 149
             }
         },
         {
@@ -1636,5 +1636,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585983861224E12
+    "updateTimeUnix": 1.585987484407E12
 }
