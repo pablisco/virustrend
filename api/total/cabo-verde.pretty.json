@@ -1,9 +1,9 @@
 {
     "countryName": "Cabo Verde",
     "cases": {
-        "confirmed": 6,
+        "confirmed": 7,
         "deaths": 1,
         "recovered": 0,
-        "active": 5
+        "active": 6
     }
 }
