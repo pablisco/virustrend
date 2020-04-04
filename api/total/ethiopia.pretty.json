@@ -1,9 +1,9 @@
 {
     "countryName": "Ethiopia",
     "cases": {
-        "confirmed": 35,
+        "confirmed": 38,
         "deaths": 0,
         "recovered": 3,
-        "active": 32
+        "active": 35
     }
 }
