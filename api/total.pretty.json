@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1099389,
-        "deaths": 58901,
-        "recovered": 226603,
-        "active": 542871
+        "confirmed": 1100283,
+        "deaths": 58929,
+        "recovered": 226669,
+        "active": 543704
     },
     "countryCases": [
         {
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82518,
+                "confirmed": 82526,
                 "deaths": 3330,
-                "recovered": 76923,
-                "active": 2265
+                "recovered": 76934,
+                "active": 2262
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 277953,
-                "deaths": 7152,
-                "recovered": 9823,
+                "confirmed": 277965,
+                "deaths": 7157,
+                "recovered": 9863,
                 "active": 0
             }
         },
@@ -360,10 +360,10 @@
         {
             "countryName": "Brazil",
             "cases": {
-                "confirmed": 9194,
-                "deaths": 363,
+                "confirmed": 9216,
+                "deaths": 365,
                 "recovered": 127,
-                "active": 8704
+                "active": 8724
             }
         },
         {
@@ -425,8 +425,8 @@
             "cases": {
                 "confirmed": 114,
                 "deaths": 0,
-                "recovered": 35,
-                "active": 79
+                "recovered": 50,
+                "active": 64
             }
         },
         {
@@ -657,10 +657,10 @@
         {
             "countryName": "Fiji",
             "cases": {
-                "confirmed": 7,
+                "confirmed": 12,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 7
+                "active": 12
             }
         },
         {
@@ -792,10 +792,10 @@
         {
             "countryName": "India",
             "cases": {
-                "confirmed": 2567,
-                "deaths": 72,
+                "confirmed": 3082,
+                "deaths": 86,
                 "recovered": 192,
-                "active": 2303
+                "active": 2804
             }
         },
         {
@@ -846,10 +846,10 @@
         {
             "countryName": "Japan",
             "cases": {
-                "confirmed": 2617,
-                "deaths": 63,
+                "confirmed": 2935,
+                "deaths": 69,
                 "recovered": 514,
-                "active": 2040
+                "active": 2352
             }
         },
         {
@@ -909,10 +909,10 @@
         {
             "countryName": "Kyrgyzstan",
             "cases": {
-                "confirmed": 130,
+                "confirmed": 144,
                 "deaths": 1,
                 "recovered": 6,
-                "active": 123
+                "active": 137
             }
         },
         {
@@ -1387,9 +1387,9 @@
             "countryName": "Singapore",
             "cases": {
                 "confirmed": 1114,
-                "deaths": 5,
+                "deaths": 6,
                 "recovered": 282,
-                "active": 827
+                "active": 826
             }
         },
         {
@@ -1636,5 +1636,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.585976647611E12
+    "updateTimeUnix": 1.585980249978E12
 }

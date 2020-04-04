@@ -1,9 +1,9 @@
 {
     "countryName": "Fiji",
     "cases": {
-        "confirmed": 7,
+        "confirmed": 12,
         "deaths": 0,
         "recovered": 0,
-        "active": 7
+        "active": 12
     }
 }
