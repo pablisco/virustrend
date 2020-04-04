@@ -2,8 +2,8 @@
     "countryName": "Albania",
     "cases": {
         "confirmed": 333,
-        "deaths": 18,
+        "deaths": 19,
         "recovered": 99,
-        "active": 216
+        "active": 215
     }
 }

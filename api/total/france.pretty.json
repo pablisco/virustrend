@@ -1,9 +1,9 @@
 {
     "countryName": "France",
     "cases": {
-        "confirmed": 90843,
+        "confirmed": 90842,
         "deaths": 7574,
         "recovered": 15572,
-        "active": 67697
+        "active": 67696
     }
 }
