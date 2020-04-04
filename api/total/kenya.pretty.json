@@ -1,9 +1,9 @@
 {
     "countryName": "Kenya",
     "cases": {
-        "confirmed": 122,
+        "confirmed": 126,
         "deaths": 4,
         "recovered": 4,
-        "active": 114
+        "active": 118
     }
 }
