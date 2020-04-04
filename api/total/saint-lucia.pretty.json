@@ -1,9 +1,9 @@
 {
     "countryName": "Saint Lucia",
     "cases": {
-        "confirmed": 13,
+        "confirmed": 14,
         "deaths": 0,
         "recovered": 1,
-        "active": 12
+        "active": 13
     }
 }
