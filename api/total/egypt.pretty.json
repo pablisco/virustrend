@@ -1,9 +1,9 @@
 {
     "countryName": "Egypt",
     "cases": {
-        "confirmed": 985,
-        "deaths": 66,
-        "recovered": 216,
-        "active": 703
+        "confirmed": 1070,
+        "deaths": 71,
+        "recovered": 241,
+        "active": 758
     }
 }
