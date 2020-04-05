@@ -1,9 +1,9 @@
 {
     "countryName": "Syria",
     "cases": {
-        "confirmed": 16,
+        "confirmed": 19,
         "deaths": 2,
         "recovered": 2,
-        "active": 12
+        "active": 15
     }
 }
