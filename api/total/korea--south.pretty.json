@@ -1,9 +1,9 @@
 {
     "countryName": "Korea, South",
     "cases": {
-        "confirmed": 10156,
-        "deaths": 177,
-        "recovered": 6325,
-        "active": 3654
+        "confirmed": 10237,
+        "deaths": 183,
+        "recovered": 6463,
+        "active": 3591
     }
 }
