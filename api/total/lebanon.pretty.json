@@ -1,9 +1,9 @@
 {
     "countryName": "Lebanon",
     "cases": {
-        "confirmed": 520,
-        "deaths": 17,
+        "confirmed": 527,
+        "deaths": 18,
         "recovered": 54,
-        "active": 449
+        "active": 455
     }
 }

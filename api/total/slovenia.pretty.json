@@ -1,9 +1,9 @@
 {
     "countryName": "Slovenia",
     "cases": {
-        "confirmed": 977,
-        "deaths": 22,
+        "confirmed": 997,
+        "deaths": 28,
         "recovered": 79,
-        "active": 876
+        "active": 890
     }
 }
