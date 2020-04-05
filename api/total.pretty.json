@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1197405,
-        "deaths": 64606,
-        "recovered": 246152,
-        "active": 590673
+        "confirmed": 1201591,
+        "deaths": 64703,
+        "recovered": 246198,
+        "active": 591386
     },
     "countryCases": [
         {
@@ -27,9 +27,9 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 12978,
-                "deaths": 218,
-                "recovered": 2577,
+                "confirmed": 13987,
+                "deaths": 234,
+                "recovered": 2580,
                 "active": 0
             }
         },
@@ -153,18 +153,18 @@
         {
             "countryName": "United Kingdom",
             "cases": {
-                "confirmed": 42477,
+                "confirmed": 42479,
                 "deaths": 4320,
                 "recovered": 215,
-                "active": 37942
+                "active": 37944
             }
         },
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 308850,
-                "deaths": 8407,
-                "recovered": 14652,
+                "confirmed": 311301,
+                "deaths": 8476,
+                "recovered": 14694,
                 "active": 0
             }
         },
@@ -532,9 +532,9 @@
             "countryName": "Cyprus",
             "cases": {
                 "confirmed": 426,
-                "deaths": 11,
+                "deaths": 9,
                 "recovered": 33,
-                "active": 382
+                "active": 384
             }
         },
         {
@@ -576,10 +576,10 @@
         {
             "countryName": "Dominican Republic",
             "cases": {
-                "confirmed": 1488,
-                "deaths": 68,
-                "recovered": 16,
-                "active": 1404
+                "confirmed": 1578,
+                "deaths": 77,
+                "recovered": 17,
+                "active": 1484
             }
         },
         {
@@ -792,10 +792,10 @@
         {
             "countryName": "India",
             "cases": {
-                "confirmed": 3082,
+                "confirmed": 3588,
                 "deaths": 86,
                 "recovered": 229,
-                "active": 2767
+                "active": 3273
             }
         },
         {
@@ -1215,10 +1215,10 @@
         {
             "countryName": "Panama",
             "cases": {
-                "confirmed": 1673,
-                "deaths": 41,
+                "confirmed": 1801,
+                "deaths": 46,
                 "recovered": 13,
-                "active": 1619
+                "active": 1742
             }
         },
         {
@@ -1636,5 +1636,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586045127391E12
+    "updateTimeUnix": 1.586048943203E12
 }
