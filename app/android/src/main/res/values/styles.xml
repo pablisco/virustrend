@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GlobalCasesView">
+
+        <item name="android:rowCount">4</item>
+        <item name="android:columnCount">1</item>
+
+    </style>
+
+</resources>

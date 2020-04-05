@@ -35,8 +35,8 @@ kotlin {
         commonMain {
             dependencies {
                 implementation(kotlin("stdlib-common"))
-                implementation("io.ktor:ktor-client-core:1.3.1")
-                implementation("io.ktor:ktor-client-serialization:1.3.1")
+                implementation(libraries.ktorClient.core)
+                implementation(libraries.ktorClient.serialization)
                 api(project(":domain:models"))
             }
         }
@@ -49,9 +49,9 @@ kotlin {
         named("jvmMain") {
             dependencies {
                 implementation(kotlin("stdlib-jdk8"))
-                implementation("io.ktor:ktor-client-core:1.3.1")
-                implementation("io.ktor:ktor-client-serialization-jvm:1.3.1")
-                implementation("io.ktor:ktor-client-okhttp:1.3.1")
+                implementation(libraries.ktorClient.core)
+                implementation(libraries.ktorClient.serializationJvm)
+                implementation(libraries.ktorClient.okhttp)
             }
         }
         named("jvmTest") {
@@ -63,9 +63,9 @@ kotlin {
         named("androidMain") {
             dependencies {
                 implementation(kotlin("stdlib-jdk8"))
-                implementation("io.ktor:ktor-client-android:1.3.1")
-                implementation("io.ktor:ktor-client-serialization-jvm:1.3.1")
-                implementation("io.ktor:ktor-client-okhttp:1.3.1")
+                implementation(libraries.ktorClient.android)
+                implementation(libraries.ktorClient.serializationJvm)
+                implementation(libraries.ktorClient.okhttp)
             }
         }
         named("androidTest") {
@@ -76,8 +76,10 @@ kotlin {
         named("jsMain") {
             dependencies {
                 implementation(kotlin ("stdlib-js"))
-                implementation("io.ktor:ktor-client-js:1.3.1")
-                implementation("io.ktor:ktor-client-serialization-js:1.3.1")
+                implementation(libraries.ktorClient.js)
+                implementation(libraries.ktorClient.serializationJs)
+//                implementation("io.ktor:ktor-client-js:1.3.1")
+//                implementation("io.ktor:ktor-client-serialization-js:1.3.1")
             }
         }
         named("jsTest") {

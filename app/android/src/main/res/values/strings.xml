@@ -5,4 +5,7 @@
     <string name="hint_deaths">Deaths</string>
     <string name="hint_recovered">Recovered</string>
     <string name="hint_active">Active</string>
+
+    <string name="global_cases_orientation">vertical</string>
+
 </resources>

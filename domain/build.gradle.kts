@@ -35,9 +35,9 @@ kotlin {
         commonMain {
             dependencies {
                 implementation(kotlin("stdlib-common"))
-                implementation("io.ktor:ktor-client-core:1.3.1")
-                implementation("io.ktor:ktor-client-serialization:1.3.1")
+                implementation(libraries.kotlinX.coroutines.common)
                 api(project(":domain:models"))
+                api(project(":domain:network"))
             }
         }
         commonTest {
@@ -49,9 +49,7 @@ kotlin {
         named("jvmMain") {
             dependencies {
                 implementation(kotlin("stdlib-jdk8"))
-                implementation("io.ktor:ktor-client-core:1.3.1")
-                implementation("io.ktor:ktor-client-serialization-jvm:1.3.1")
-                implementation("io.ktor:ktor-client-okhttp:1.3.1")
+                implementation(libraries.kotlinX.coroutines.core)
             }
         }
         named("jvmTest") {
@@ -63,9 +61,8 @@ kotlin {
         named("androidMain") {
             dependencies {
                 implementation(kotlin("stdlib-jdk8"))
-                implementation("io.ktor:ktor-client-android:1.3.1")
-                implementation("io.ktor:ktor-client-serialization-jvm:1.3.1")
-                implementation("io.ktor:ktor-client-okhttp:1.3.1")
+                implementation(libraries.kotlinX.coroutines.core)
+                implementation(libraries.kotlinX.coroutines.android)
             }
         }
         named("androidTest") {
@@ -76,8 +73,8 @@ kotlin {
         named("jsMain") {
             dependencies {
                 implementation(kotlin ("stdlib-js"))
-                implementation("io.ktor:ktor-client-js:1.3.1")
-                implementation("io.ktor:ktor-client-serialization-js:1.3.1")
+                implementation(libraries.kotlinX.coroutines.core)
+                implementation(libraries.kotlinX.coroutines.js)
             }
         }
         named("jsTest") {

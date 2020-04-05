@@ -10,19 +10,16 @@ import kotlinx.coroutines.flow.onStart
 import org.virustrend.Country
 import org.virustrend.CountryCases
 import org.virustrend.GlobalTotal
-import org.virustrend.domain.ContentRepository.Query.GetAllWorldData
+import org.virustrend.domain.ContentQuery.GetAllWorldData
+import org.virustrend.domain.VirusTrendEvent.ChangeCountry
 import org.virustrend.domain.VirusTrendEvent.Start
 import org.virustrend.domain.VirusTrendState.*
 
 @FlowPreview
 @ExperimentalCoroutinesApi
-class VirusTrendStateMachine(
-    private val repository: ContentRepository = ContentRepository
-) {
+class VirusTrendStateMachine {
 
-    var currentState: VirusTrendState = Initial
-        private set
-
+    private var currentState: VirusTrendState = Loading()
     private val stateChannel: Channel<VirusTrendState> = Channel(Channel.CONFLATED)
 
     val states: Flow<VirusTrendState>
@@ -32,15 +29,20 @@ class VirusTrendStateMachine(
             .onStart { emit(currentState) }
 
     suspend fun notify(event: VirusTrendEvent) = with(stateChannel) {
-        when {
-            currentState is Initial && event is Start -> {
-                send(Loading())
+        when (event) {
+            is Start -> {
+                send(Loading(currentState.content))
                 try {
-                    val content = repository.query(GetAllWorldData)
+                    val content = Content.query(GetAllWorldData)
                     send(Idle(content))
                 } catch (e: Exception) {
                     send(Failed(e, currentState.content))
                 }
+            }
+            is ChangeCountry -> {
+                send(currentState.copy {
+                    content?.copy(selectedCountry = event.country)
+                })
             }
         }
     }
@@ -49,32 +51,39 @@ class VirusTrendStateMachine(
 
 sealed class VirusTrendEvent {
     object Start : VirusTrendEvent()
+    data class ChangeCountry(val country: SelectableCountry) : VirusTrendEvent()
 }
 
 sealed class VirusTrendState {
 
     abstract val content: Content?
 
-    object Initial : VirusTrendState() {
-        override val content: Content? = null
-    }
-
     data class Loading(override val content: Content? = null) : VirusTrendState()
     data class Idle(override val content: Content?) : VirusTrendState()
     data class Failed(val error: Exception, override val content: Content?) : VirusTrendState()
 
-
-    fun withContent(content: Content?): VirusTrendState = when (this) {
-        is Initial -> Initial
-        is Loading -> copy(content = content)
-        is Idle -> copy(content = content)
-        is Failed -> copy(content = content)
+    fun copy(block: VirusTrendState.() -> Content?): VirusTrendState = when (this) {
+        is Loading -> copy(content = block())
+        is Idle -> copy(content = block())
+        is Failed -> copy(content = block())
     }
 
 }
 
 data class Content(
-    val countries: List<Country>,
+    val selectedCountry: SelectableCountry,
+    val countries: List<SelectableCountry>,
     val casesByCountry: List<CountryCases>,
     val total: GlobalTotal
-)
+) {
+
+    companion object
+
+}
+
+sealed class SelectableCountry {
+
+    object None : SelectableCountry()
+    data class Some(val country: Country) : SelectableCountry()
+
+}

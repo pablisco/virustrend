@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackOutput.Target.COMMONJS
+
 plugins {
     kotlin("js")
 }
@@ -8,14 +10,26 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-js"))
-    implementation(project(":domain:network"))
+    implementation(project(":domain"))
     implementation(npm("text-encoding"))
     implementation(npm("abort-controller"))
     implementation(npm("utf-8-validate"))
     implementation(npm("fs"))
     implementation(npm("bufferutil"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.3.5")
+
+    implementation("org.jetbrains:kotlin-react:16.13.0-pre.94-kotlin-1.3.70")
+    implementation("org.jetbrains:kotlin-react-dom:16.13.0-pre.94-kotlin-1.3.70")
+    implementation(npm("react", "16.13.0"))
+    implementation(npm("react-dom", "16.13.0"))
+
+    implementation("org.jetbrains:kotlin-styled:1.0.0-pre.94-kotlin-1.3.70")
+    implementation(npm("styled-components"))
+    implementation(npm("inline-style-prefixer"))
+
+//    implementation(npm("material-components-web", "5.1.0"))
+    implementation(libraries.kotlinX.coroutines.core)
+    implementation(libraries.kotlinX.coroutines.js)
+    implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.7.1")
 
     testImplementation("org.jetbrains.kotlin:kotlin-test-js")
 }
@@ -28,6 +42,13 @@ kotlin {
             dceTask {
                 keep("ktor-ktor-io.\$\$importsForInline\$\$.ktor-ktor-io.io.ktor.utils.io")
             }
+            webpackTask {
+                output.libraryTarget = COMMONJS
+            }
+            distribution {
+                directory = rootProject.buildDir.resolve("pages")
+            }
         }
+        useCommonJs()
     }
 }

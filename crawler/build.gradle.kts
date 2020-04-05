@@ -7,7 +7,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(project(":domain:models"))
     implementation(libraries.csv)
-    implementation(libraries.kotlinX.serializable)
+    implementation(libraries.kotlinX.serializable.jvm)
 }
 
 tasks.create<JavaExec>("crawlConvidRepo") {
