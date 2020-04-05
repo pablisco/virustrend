@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1202236,
-        "deaths": 64753,
-        "recovered": 246457,
-        "active": 591571
+        "confirmed": 1202827,
+        "deaths": 64771,
+        "recovered": 246886,
+        "active": 591390
     },
     "countryCases": [
         {
@@ -27,7 +27,7 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 13999,
+                "confirmed": 14011,
                 "deaths": 234,
                 "recovered": 2580,
                 "active": 0
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82558,
-                "deaths": 3330,
-                "recovered": 76946,
-                "active": 2282
+                "confirmed": 82574,
+                "deaths": 3333,
+                "recovered": 77160,
+                "active": 2081
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 311544,
-                "deaths": 8488,
-                "recovered": 14786,
+                "confirmed": 312076,
+                "deaths": 8496,
+                "recovered": 14997,
                 "active": 0
             }
         },
@@ -333,10 +333,10 @@
         {
             "countryName": "Bolivia",
             "cases": {
-                "confirmed": 139,
+                "confirmed": 157,
                 "deaths": 10,
-                "recovered": 1,
-                "active": 128
+                "recovered": 2,
+                "active": 145
             }
         },
         {
@@ -756,10 +756,10 @@
         {
             "countryName": "Haiti",
             "cases": {
-                "confirmed": 20,
+                "confirmed": 21,
                 "deaths": 0,
                 "recovered": 1,
-                "active": 19
+                "active": 20
             }
         },
         {
@@ -774,10 +774,10 @@
         {
             "countryName": "Honduras",
             "cases": {
-                "confirmed": 264,
-                "deaths": 15,
-                "recovered": 3,
-                "active": 246
+                "confirmed": 268,
+                "deaths": 22,
+                "recovered": 6,
+                "active": 240
             }
         },
         {
@@ -1233,10 +1233,10 @@
         {
             "countryName": "Paraguay",
             "cases": {
-                "confirmed": 96,
+                "confirmed": 104,
                 "deaths": 3,
                 "recovered": 12,
-                "active": 81
+                "active": 89
             }
         },
         {
@@ -1636,5 +1636,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586055838441E12
+    "updateTimeUnix": 1.586059461128E12
 }
