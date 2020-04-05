@@ -1,9 +1,9 @@
 {
     "countryName": "Turkey",
     "cases": {
-        "confirmed": 23934,
-        "deaths": 501,
-        "recovered": 786,
-        "active": 22647
+        "confirmed": 27069,
+        "deaths": 574,
+        "recovered": 1042,
+        "active": 25453
     }
 }
