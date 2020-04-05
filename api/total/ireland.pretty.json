@@ -1,9 +1,9 @@
 {
     "countryName": "Ireland",
     "cases": {
-        "confirmed": 4604,
-        "deaths": 137,
+        "confirmed": 4994,
+        "deaths": 158,
         "recovered": 25,
-        "active": 4442
+        "active": 4811
     }
 }
