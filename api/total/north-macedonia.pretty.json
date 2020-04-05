@@ -1,9 +1,9 @@
 {
     "countryName": "North Macedonia",
     "cases": {
-        "confirmed": 483,
-        "deaths": 17,
-        "recovered": 20,
-        "active": 446
+        "confirmed": 555,
+        "deaths": 18,
+        "recovered": 23,
+        "active": 514
     }
 }
