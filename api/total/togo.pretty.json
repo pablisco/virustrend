@@ -1,9 +1,9 @@
 {
     "countryName": "Togo",
     "cases": {
-        "confirmed": 41,
+        "confirmed": 44,
         "deaths": 3,
-        "recovered": 17,
+        "recovered": 20,
         "active": 21
     }
 }
