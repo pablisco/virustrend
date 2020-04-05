@@ -3,7 +3,7 @@
     "cases": {
         "confirmed": 298,
         "deaths": 2,
-        "recovered": 25,
-        "active": 271
+        "recovered": 30,
+        "active": 266
     }
 }
