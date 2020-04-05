@@ -1,9 +1,9 @@
 {
     "countryName": "Japan",
     "cases": {
-        "confirmed": 2935,
-        "deaths": 69,
+        "confirmed": 3139,
+        "deaths": 77,
         "recovered": 514,
-        "active": 2352
+        "active": 2548
     }
 }
