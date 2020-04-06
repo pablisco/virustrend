@@ -1,9 +1,9 @@
 {
     "countryName": "Zimbabwe",
     "cases": {
-        "confirmed": 9,
+        "confirmed": 10,
         "deaths": 1,
         "recovered": 0,
-        "active": 8
+        "active": 9
     }
 }
