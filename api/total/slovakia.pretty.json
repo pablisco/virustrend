@@ -2,8 +2,8 @@
     "countryName": "Slovakia",
     "cases": {
         "confirmed": 534,
-        "deaths": 1,
+        "deaths": 2,
         "recovered": 8,
-        "active": 525
+        "active": 524
     }
 }

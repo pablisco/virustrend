@@ -1,9 +1,9 @@
 {
     "countryName": "Singapore",
     "cases": {
-        "confirmed": 1309,
+        "confirmed": 1375,
         "deaths": 6,
-        "recovered": 320,
-        "active": 983
+        "recovered": 344,
+        "active": 1025
     }
 }

@@ -1,9 +1,9 @@
 {
     "countryName": "Iraq",
     "cases": {
-        "confirmed": 961,
-        "deaths": 61,
-        "recovered": 279,
-        "active": 621
+        "confirmed": 1031,
+        "deaths": 64,
+        "recovered": 344,
+        "active": 623
     }
 }
