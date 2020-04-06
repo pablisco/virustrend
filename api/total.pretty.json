@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1274956,
-        "deaths": 69487,
-        "recovered": 260604,
-        "active": 621913
+        "confirmed": 1275542,
+        "deaths": 69498,
+        "recovered": 262985,
+        "active": 620069
     },
     "countryCases": [
         {
@@ -27,9 +27,9 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 15871,
+                "confirmed": 15940,
                 "deaths": 281,
-                "recovered": 3054,
+                "recovered": 3081,
                 "active": 0
             }
         },
@@ -117,10 +117,10 @@
         {
             "countryName": "Norway",
             "cases": {
-                "confirmed": 5687,
+                "confirmed": 5759,
                 "deaths": 71,
                 "recovered": 32,
-                "active": 5584
+                "active": 5656
             }
         },
         {
@@ -162,19 +162,19 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 337635,
+                "confirmed": 337637,
                 "deaths": 9647,
-                "recovered": 17572,
+                "recovered": 17578,
                 "active": 0
             }
         },
         {
             "countryName": "Afghanistan",
             "cases": {
-                "confirmed": 349,
+                "confirmed": 367,
                 "deaths": 7,
-                "recovered": 15,
-                "active": 327
+                "recovered": 17,
+                "active": 343
             }
         },
         {
@@ -307,9 +307,9 @@
             "countryName": "Belize",
             "cases": {
                 "confirmed": 5,
-                "deaths": 0,
+                "deaths": 1,
                 "recovered": 0,
-                "active": 5
+                "active": 4
             }
         },
         {
@@ -603,10 +603,10 @@
         {
             "countryName": "El Salvador",
             "cases": {
-                "confirmed": 62,
+                "confirmed": 69,
                 "deaths": 3,
                 "recovered": 2,
-                "active": 57
+                "active": 64
             }
         },
         {
@@ -792,10 +792,10 @@
         {
             "countryName": "India",
             "cases": {
-                "confirmed": 4288,
-                "deaths": 117,
+                "confirmed": 4298,
+                "deaths": 118,
                 "recovered": 328,
-                "active": 3843
+                "active": 3852
             }
         },
         {
@@ -812,8 +812,8 @@
             "cases": {
                 "confirmed": 58226,
                 "deaths": 3603,
-                "recovered": 19736,
-                "active": 34887
+                "recovered": 22011,
+                "active": 32612
             }
         },
         {
@@ -909,10 +909,10 @@
         {
             "countryName": "Kyrgyzstan",
             "cases": {
-                "confirmed": 147,
-                "deaths": 1,
-                "recovered": 9,
-                "active": 137
+                "confirmed": 216,
+                "deaths": 4,
+                "recovered": 33,
+                "active": 179
             }
         },
         {
@@ -1206,10 +1206,10 @@
         {
             "countryName": "Pakistan",
             "cases": {
-                "confirmed": 3157,
-                "deaths": 47,
-                "recovered": 211,
-                "active": 2899
+                "confirmed": 3277,
+                "deaths": 50,
+                "recovered": 257,
+                "active": 2970
             }
         },
         {
@@ -1251,10 +1251,10 @@
         {
             "countryName": "Philippines",
             "cases": {
-                "confirmed": 3246,
+                "confirmed": 3414,
                 "deaths": 152,
                 "recovered": 64,
-                "active": 3030
+                "active": 3198
             }
         },
         {
@@ -1503,10 +1503,10 @@
         {
             "countryName": "Thailand",
             "cases": {
-                "confirmed": 2169,
-                "deaths": 23,
+                "confirmed": 2220,
+                "deaths": 26,
                 "recovered": 793,
-                "active": 1353
+                "active": 1401
             }
         },
         {
@@ -1613,8 +1613,8 @@
             "cases": {
                 "confirmed": 241,
                 "deaths": 0,
-                "recovered": 90,
-                "active": 151
+                "recovered": 91,
+                "active": 150
             }
         },
         {
@@ -1654,5 +1654,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586149427764E12
+    "updateTimeUnix": 1.586153029097E12
 }
