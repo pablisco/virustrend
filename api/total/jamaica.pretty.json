@@ -1,9 +1,9 @@
 {
     "countryName": "Jamaica",
     "cases": {
-        "confirmed": 55,
+        "confirmed": 58,
         "deaths": 3,
-        "recovered": 7,
-        "active": 45
+        "recovered": 8,
+        "active": 47
     }
 }

@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1270069,
-        "deaths": 69309,
-        "recovered": 259810,
-        "active": 620091
+        "confirmed": 1272115,
+        "deaths": 69374,
+        "recovered": 260012,
+        "active": 620239
     },
     "countryCases": [
         {
@@ -27,9 +27,9 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 15422,
+                "confirmed": 15756,
                 "deaths": 259,
-                "recovered": 3000,
+                "recovered": 3012,
                 "active": 0
             }
         },
@@ -63,19 +63,19 @@
         {
             "countryName": "France",
             "cases": {
-                "confirmed": 93759,
+                "confirmed": 93773,
                 "deaths": 8093,
-                "recovered": 16342,
-                "active": 69324
+                "recovered": 16349,
+                "active": 69331
             }
         },
         {
             "countryName": "Germany",
             "cases": {
-                "confirmed": 100024,
-                "deaths": 1576,
+                "confirmed": 100123,
+                "deaths": 1584,
                 "recovered": 28700,
-                "active": 69748
+                "active": 69839
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 335524,
-                "deaths": 9562,
-                "recovered": 17266,
+                "confirmed": 337072,
+                "deaths": 9619,
+                "recovered": 17448,
                 "active": 0
             }
         },
@@ -207,10 +207,10 @@
         {
             "countryName": "Angola",
             "cases": {
-                "confirmed": 10,
+                "confirmed": 14,
                 "deaths": 2,
                 "recovered": 2,
-                "active": 6
+                "active": 10
             }
         },
         {
@@ -540,10 +540,10 @@
         {
             "countryName": "Czechia",
             "cases": {
-                "confirmed": 4543,
+                "confirmed": 4587,
                 "deaths": 67,
                 "recovered": 96,
-                "active": 4380
+                "active": 4424
             }
         },
         {
@@ -837,10 +837,10 @@
         {
             "countryName": "Jamaica",
             "cases": {
-                "confirmed": 55,
+                "confirmed": 58,
                 "deaths": 3,
-                "recovered": 7,
-                "active": 45
+                "recovered": 8,
+                "active": 47
             }
         },
         {
@@ -1654,5 +1654,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586127941147E12
+    "updateTimeUnix": 1.586131542044E12
 }
