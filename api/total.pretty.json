@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1273794,
-        "deaths": 69419,
-        "recovered": 260193,
-        "active": 621497
+        "confirmed": 1273990,
+        "deaths": 69444,
+        "recovered": 260247,
+        "active": 621548
     },
     "countryCases": [
         {
@@ -27,9 +27,9 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 15764,
-                "deaths": 259,
-                "recovered": 3012,
+                "confirmed": 15871,
+                "deaths": 281,
+                "recovered": 3054,
                 "active": 0
             }
         },
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 337274,
-                "deaths": 9633,
-                "recovered": 17449,
+                "confirmed": 337310,
+                "deaths": 9634,
+                "recovered": 17461,
                 "active": 0
             }
         },
@@ -333,10 +333,10 @@
         {
             "countryName": "Bolivia",
             "cases": {
-                "confirmed": 157,
-                "deaths": 10,
+                "confirmed": 183,
+                "deaths": 11,
                 "recovered": 2,
-                "active": 145
+                "active": 170
             }
         },
         {
@@ -360,10 +360,10 @@
         {
             "countryName": "Brazil",
             "cases": {
-                "confirmed": 11254,
-                "deaths": 486,
+                "confirmed": 11281,
+                "deaths": 487,
                 "recovered": 127,
-                "active": 10641
+                "active": 10667
             }
         },
         {
@@ -1654,5 +1654,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586135045459E12
+    "updateTimeUnix": 1.586138642134E12
 }
