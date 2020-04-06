@@ -1,9 +1,9 @@
 {
     "countryName": "Liberia",
     "cases": {
-        "confirmed": 13,
+        "confirmed": 14,
         "deaths": 3,
         "recovered": 3,
-        "active": 7
+        "active": 8
     }
 }

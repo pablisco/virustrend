@@ -1,9 +1,9 @@
 {
     "countryName": "Angola",
     "cases": {
-        "confirmed": 14,
+        "confirmed": 16,
         "deaths": 2,
         "recovered": 2,
-        "active": 10
+        "active": 12
     }
 }
