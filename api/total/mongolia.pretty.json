@@ -1,9 +1,9 @@
 {
     "countryName": "Mongolia",
     "cases": {
-        "confirmed": 14,
+        "confirmed": 15,
         "deaths": 0,
         "recovered": 2,
-        "active": 12
+        "active": 13
     }
 }

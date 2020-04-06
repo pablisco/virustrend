@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1274923,
-        "deaths": 69479,
-        "recovered": 260484,
-        "active": 621977
+        "confirmed": 1274956,
+        "deaths": 69487,
+        "recovered": 260604,
+        "active": 621913
     },
     "countryCases": [
         {
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82626,
-                "deaths": 3333,
-                "recovered": 77216,
-                "active": 2077
+                "confirmed": 82641,
+                "deaths": 3335,
+                "recovered": 77294,
+                "active": 2012
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 337620,
-                "deaths": 9643,
-                "recovered": 17530,
+                "confirmed": 337635,
+                "deaths": 9647,
+                "recovered": 17572,
                 "active": 0
             }
         },
@@ -657,10 +657,10 @@
         {
             "countryName": "Fiji",
             "cases": {
-                "confirmed": 12,
+                "confirmed": 14,
                 "deaths": 0,
                 "recovered": 0,
-                "active": 12
+                "active": 14
             }
         },
         {
@@ -1098,10 +1098,10 @@
         {
             "countryName": "Mongolia",
             "cases": {
-                "confirmed": 14,
+                "confirmed": 15,
                 "deaths": 0,
                 "recovered": 2,
-                "active": 12
+                "active": 13
             }
         },
         {
@@ -1234,9 +1234,9 @@
             "countryName": "Paraguay",
             "cases": {
                 "confirmed": 113,
-                "deaths": 3,
+                "deaths": 5,
                 "recovered": 12,
-                "active": 98
+                "active": 96
             }
         },
         {
@@ -1654,5 +1654,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586142228994E12
+    "updateTimeUnix": 1.586145861533E12
 }
