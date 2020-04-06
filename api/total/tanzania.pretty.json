@@ -1,9 +1,9 @@
 {
     "countryName": "Tanzania",
     "cases": {
-        "confirmed": 22,
+        "confirmed": 24,
         "deaths": 1,
         "recovered": 3,
-        "active": 18
+        "active": 20
     }
 }
