@@ -1,9 +1,9 @@
 {
     "countryName": "Bangladesh",
     "cases": {
-        "confirmed": 117,
+        "confirmed": 123,
         "deaths": 13,
         "recovered": 33,
-        "active": 71
+        "active": 77
     }
 }
