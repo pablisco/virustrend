@@ -1,9 +1,9 @@
 {
     "countryName": "Kuwait",
     "cases": {
-        "confirmed": 556,
+        "confirmed": 665,
         "deaths": 1,
         "recovered": 103,
-        "active": 452
+        "active": 561
     }
 }
