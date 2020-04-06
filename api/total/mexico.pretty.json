@@ -1,9 +1,9 @@
 {
     "countryName": "Mexico",
     "cases": {
-        "confirmed": 1890,
-        "deaths": 79,
+        "confirmed": 2143,
+        "deaths": 94,
         "recovered": 633,
-        "active": 1178
+        "active": 1416
     }
 }
