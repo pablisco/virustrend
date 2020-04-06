@@ -2,8 +2,8 @@
     "countryName": "Benin",
     "cases": {
         "confirmed": 22,
-        "deaths": 0,
+        "deaths": 1,
         "recovered": 5,
-        "active": 17
+        "active": 16
     }
 }

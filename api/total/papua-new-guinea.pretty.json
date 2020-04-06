@@ -1,9 +1,9 @@
 {
     "countryName": "Papua New Guinea",
     "cases": {
-        "confirmed": 1,
+        "confirmed": 2,
         "deaths": 0,
         "recovered": 0,
-        "active": 1
+        "active": 2
     }
 }
