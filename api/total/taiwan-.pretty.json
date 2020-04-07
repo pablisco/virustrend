@@ -1,9 +1,9 @@
 {
     "countryName": "Taiwan*",
     "cases": {
-        "confirmed": 373,
+        "confirmed": 376,
         "deaths": 5,
         "recovered": 57,
-        "active": 311
+        "active": 314
     }
 }
