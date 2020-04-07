@@ -2,8 +2,8 @@
     "countryName": "Switzerland",
     "cases": {
         "confirmed": 22242,
-        "deaths": 787,
+        "deaths": 811,
         "recovered": 8056,
-        "active": 13399
+        "active": 13375
     }
 }
