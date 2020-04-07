@@ -1,9 +1,9 @@
 {
     "countryName": "Thailand",
     "cases": {
-        "confirmed": 2220,
-        "deaths": 26,
-        "recovered": 793,
-        "active": 1401
+        "confirmed": 2258,
+        "deaths": 27,
+        "recovered": 824,
+        "active": 1407
     }
 }
