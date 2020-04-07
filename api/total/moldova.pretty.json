@@ -2,8 +2,8 @@
     "countryName": "Moldova",
     "cases": {
         "confirmed": 965,
-        "deaths": 19,
-        "recovered": 37,
-        "active": 909
+        "deaths": 21,
+        "recovered": 40,
+        "active": 904
     }
 }
