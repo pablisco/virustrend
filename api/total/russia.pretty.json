@@ -1,9 +1,9 @@
 {
     "countryName": "Russia",
     "cases": {
-        "confirmed": 6343,
-        "deaths": 47,
-        "recovered": 406,
-        "active": 5890
+        "confirmed": 7497,
+        "deaths": 58,
+        "recovered": 494,
+        "active": 6945
     }
 }
