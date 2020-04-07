@@ -2,8 +2,8 @@
     "countryName": "Barbados",
     "cases": {
         "confirmed": 60,
-        "deaths": 2,
+        "deaths": 3,
         "recovered": 6,
-        "active": 52
+        "active": 51
     }
 }
