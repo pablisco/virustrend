@@ -1,9 +1,9 @@
 {
     "countryName": "Andorra",
     "cases": {
-        "confirmed": 525,
-        "deaths": 21,
-        "recovered": 31,
-        "active": 473
+        "confirmed": 545,
+        "deaths": 22,
+        "recovered": 39,
+        "active": 484
     }
 }
