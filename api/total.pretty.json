@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1347676,
-        "deaths": 74744,
-        "recovered": 277331,
-        "active": 645541
+        "confirmed": 1347803,
+        "deaths": 74807,
+        "recovered": 277402,
+        "active": 645480
     },
     "countryCases": [
         {
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82687,
+                "confirmed": 82697,
                 "deaths": 3335,
-                "recovered": 77322,
-                "active": 2030
+                "recovered": 77393,
+                "active": 1969
             }
         },
         {
@@ -162,8 +162,8 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 368079,
-                "deaths": 10923,
+                "confirmed": 368196,
+                "deaths": 10986,
                 "recovered": 19828,
                 "active": 0
             }
@@ -1663,5 +1663,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586228653844E12
+    "updateTimeUnix": 1.586232236953E12
 }
