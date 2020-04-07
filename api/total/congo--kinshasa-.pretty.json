@@ -1,9 +1,9 @@
 {
     "countryName": "Congo (Kinshasa)",
     "cases": {
-        "confirmed": 161,
+        "confirmed": 180,
         "deaths": 18,
-        "recovered": 5,
-        "active": 138
+        "recovered": 9,
+        "active": 153
     }
 }
