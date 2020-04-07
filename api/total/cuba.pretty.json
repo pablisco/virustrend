@@ -1,9 +1,9 @@
 {
     "countryName": "Cuba",
     "cases": {
-        "confirmed": 350,
+        "confirmed": 363,
         "deaths": 9,
         "recovered": 18,
-        "active": 323
+        "active": 336
     }
 }

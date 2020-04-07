@@ -1,18 +1,18 @@
 {
     "cases": {
-        "confirmed": 1347892,
-        "deaths": 74808,
+        "confirmed": 1348184,
+        "deaths": 74816,
         "recovered": 284802,
-        "active": 638124
+        "active": 638276
     },
     "countryCases": [
         {
             "countryName": "Australia",
             "cases": {
-                "confirmed": 5797,
-                "deaths": 40,
+                "confirmed": 5846,
+                "deaths": 43,
                 "recovered": 1080,
-                "active": 4677
+                "active": 4723
             }
         },
         {
@@ -162,8 +162,8 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 368241,
-                "deaths": 10986,
+                "confirmed": 368376,
+                "deaths": 10989,
                 "recovered": 19828,
                 "active": 0
             }
@@ -522,10 +522,10 @@
         {
             "countryName": "Cuba",
             "cases": {
-                "confirmed": 350,
+                "confirmed": 363,
                 "deaths": 9,
                 "recovered": 18,
-                "active": 323
+                "active": 336
             }
         },
         {
@@ -1206,10 +1206,10 @@
         {
             "countryName": "Pakistan",
             "cases": {
-                "confirmed": 3766,
-                "deaths": 53,
+                "confirmed": 3861,
+                "deaths": 54,
                 "recovered": 259,
-                "active": 3454
+                "active": 3548
             }
         },
         {
@@ -1459,9 +1459,9 @@
             "countryName": "Sri Lanka",
             "cases": {
                 "confirmed": 178,
-                "deaths": 5,
+                "deaths": 6,
                 "recovered": 38,
-                "active": 135
+                "active": 134
             }
         },
         {
@@ -1663,5 +1663,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586235835842E12
+    "updateTimeUnix": 1.586239426872E12
 }
