@@ -1,9 +1,9 @@
 {
     "countryName": "Panama",
     "cases": {
-        "confirmed": 2100,
-        "deaths": 55,
-        "recovered": 14,
-        "active": 2031
+        "confirmed": 2249,
+        "deaths": 59,
+        "recovered": 16,
+        "active": 2174
     }
 }

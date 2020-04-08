@@ -1,9 +1,9 @@
 {
     "countryName": "New Zealand",
     "cases": {
-        "confirmed": 1160,
+        "confirmed": 1210,
         "deaths": 1,
-        "recovered": 241,
-        "active": 918
+        "recovered": 282,
+        "active": 927
     }
 }
