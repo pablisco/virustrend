@@ -1,9 +1,9 @@
 {
     "countryName": "Mauritius",
     "cases": {
-        "confirmed": 268,
+        "confirmed": 273,
         "deaths": 7,
-        "recovered": 8,
-        "active": 253
+        "recovered": 19,
+        "active": 247
     }
 }

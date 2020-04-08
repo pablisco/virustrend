@@ -2,8 +2,8 @@
     "countryName": "Argentina",
     "cases": {
         "confirmed": 1715,
-        "deaths": 60,
+        "deaths": 62,
         "recovered": 338,
-        "active": 1317
+        "active": 1315
     }
 }
