@@ -1,9 +1,9 @@
 {
     "countryName": "Eritrea",
     "cases": {
-        "confirmed": 31,
+        "confirmed": 33,
         "deaths": 0,
         "recovered": 0,
-        "active": 31
+        "active": 33
     }
 }

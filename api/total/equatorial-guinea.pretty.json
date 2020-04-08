@@ -1,9 +1,9 @@
 {
     "countryName": "Equatorial Guinea",
     "cases": {
-        "confirmed": 16,
+        "confirmed": 18,
         "deaths": 0,
         "recovered": 3,
-        "active": 13
+        "active": 15
     }
 }
