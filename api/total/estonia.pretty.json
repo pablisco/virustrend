@@ -1,9 +1,9 @@
 {
     "countryName": "Estonia",
     "cases": {
-        "confirmed": 1149,
-        "deaths": 21,
-        "recovered": 69,
-        "active": 1059
+        "confirmed": 1185,
+        "deaths": 24,
+        "recovered": 72,
+        "active": 1089
     }
 }
