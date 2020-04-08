@@ -1,9 +1,9 @@
 {
     "countryName": "Costa Rica",
     "cases": {
-        "confirmed": 483,
+        "confirmed": 502,
         "deaths": 2,
-        "recovered": 24,
-        "active": 457
+        "recovered": 29,
+        "active": 471
     }
 }
