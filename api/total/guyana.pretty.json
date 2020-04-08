@@ -1,9 +1,9 @@
 {
     "countryName": "Guyana",
     "cases": {
-        "confirmed": 33,
+        "confirmed": 37,
         "deaths": 6,
         "recovered": 8,
-        "active": 19
+        "active": 23
     }
 }
