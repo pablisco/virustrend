@@ -1,9 +1,9 @@
 {
     "countryName": "Netherlands",
     "cases": {
-        "confirmed": 19709,
-        "deaths": 2108,
+        "confirmed": 20678,
+        "deaths": 2255,
         "recovered": 272,
-        "active": 17329
+        "active": 18151
     }
 }
