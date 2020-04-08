@@ -2,8 +2,8 @@
     "countryName": "Malta",
     "cases": {
         "confirmed": 299,
-        "deaths": 0,
+        "deaths": 1,
         "recovered": 5,
-        "active": 294
+        "active": 293
     }
 }
