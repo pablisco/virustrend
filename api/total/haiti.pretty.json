@@ -1,9 +1,9 @@
 {
     "countryName": "Haiti",
     "cases": {
-        "confirmed": 25,
+        "confirmed": 27,
         "deaths": 1,
         "recovered": 0,
-        "active": 24
+        "active": 26
     }
 }
