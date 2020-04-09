@@ -1,9 +1,9 @@
 {
     "countryName": "United Arab Emirates",
     "cases": {
-        "confirmed": 2659,
-        "deaths": 12,
-        "recovered": 239,
-        "active": 2408
+        "confirmed": 2990,
+        "deaths": 14,
+        "recovered": 268,
+        "active": 2708
     }
 }
