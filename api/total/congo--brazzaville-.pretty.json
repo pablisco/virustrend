@@ -1,9 +1,9 @@
 {
     "countryName": "Congo (Brazzaville)",
     "cases": {
-        "confirmed": 45,
+        "confirmed": 60,
         "deaths": 5,
-        "recovered": 2,
-        "active": 38
+        "recovered": 5,
+        "active": 50
     }
 }
