@@ -1,9 +1,9 @@
 {
     "countryName": "Chad",
     "cases": {
-        "confirmed": 10,
+        "confirmed": 11,
         "deaths": 0,
         "recovered": 2,
-        "active": 8
+        "active": 9
     }
 }

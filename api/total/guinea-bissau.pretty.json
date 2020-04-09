@@ -1,9 +1,9 @@
 {
     "countryName": "Guinea-Bissau",
     "cases": {
-        "confirmed": 33,
+        "confirmed": 36,
         "deaths": 0,
         "recovered": 0,
-        "active": 33
+        "active": 36
     }
 }

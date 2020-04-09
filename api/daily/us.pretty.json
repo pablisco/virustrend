@@ -862,13 +862,13 @@
         {
             "dayUnix": 132383516,
             "cases": {
-                "confirmed": 121478,
+                "confirmed": 121465,
                 "deaths": 2026,
                 "recovered": 0,
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 19821,
+                "deltaConfirmed": 19808,
                 "deltaRecovered": 0.0
             }
         },
@@ -881,20 +881,20 @@
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 19431,
+                "deltaConfirmed": 19444,
                 "deltaRecovered": 0.0
             }
         },
         {
             "dayUnix": 132383518,
             "cases": {
-                "confirmed": 161837,
+                "confirmed": 161831,
                 "deaths": 2978,
                 "recovered": 0,
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 20928,
+                "deltaConfirmed": 20922,
                 "deltaRecovered": 0.0
             }
         },
@@ -907,7 +907,7 @@
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 26335,
+                "deltaConfirmed": 26341,
                 "deltaRecovered": 0.0
             }
         },
@@ -927,13 +927,13 @@
         {
             "dayUnix": 132383746,
             "cases": {
-                "confirmed": 243616,
+                "confirmed": 243762,
                 "deaths": 5926,
                 "recovered": 0,
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 30244,
+                "deltaConfirmed": 30390,
                 "deltaRecovered": 0.0
             }
         },
@@ -946,20 +946,20 @@
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 31970,
+                "deltaConfirmed": 31824,
                 "deltaRecovered": 0.0
             }
         },
         {
             "dayUnix": 132383748,
             "cases": {
-                "confirmed": 308850,
+                "confirmed": 308853,
                 "deaths": 8407,
                 "recovered": 0,
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 33264,
+                "deltaConfirmed": 33267,
                 "deltaRecovered": 0.0
             }
         },
@@ -972,7 +972,7 @@
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 28222,
+                "deltaConfirmed": 28219,
                 "deltaRecovered": 0.0
             }
         },
