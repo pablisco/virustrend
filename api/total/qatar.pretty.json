@@ -1,9 +1,9 @@
 {
     "countryName": "Qatar",
     "cases": {
-        "confirmed": 2210,
+        "confirmed": 2376,
         "deaths": 6,
-        "recovered": 178,
-        "active": 2026
+        "recovered": 206,
+        "active": 2164
     }
 }
