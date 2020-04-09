@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1513358,
-        "deaths": 88415,
-        "recovered": 329329,
-        "active": 689438
+        "confirmed": 1514866,
+        "deaths": 88444,
+        "recovered": 329492,
+        "active": 689479
     },
     "countryCases": [
         {
@@ -63,10 +63,10 @@
         {
             "countryName": "France",
             "cases": {
-                "confirmed": 113965,
+                "confirmed": 113982,
                 "deaths": 10887,
                 "recovered": 21461,
-                "active": 81617
+                "active": 81634
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 430376,
-                "deaths": 14739,
-                "recovered": 23707,
+                "confirmed": 431838,
+                "deaths": 14768,
+                "recovered": 23865,
                 "active": 0
             }
         },
@@ -1332,10 +1332,10 @@
         {
             "countryName": null,
             "cases": {
-                "confirmed": 279,
+                "confirmed": 308,
                 "deaths": 34,
-                "recovered": 40,
-                "active": 205
+                "recovered": 45,
+                "active": 229
             }
         },
         {
@@ -1663,5 +1663,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586394215294E12
+    "updateTimeUnix": 1.586397840644E12
 }
