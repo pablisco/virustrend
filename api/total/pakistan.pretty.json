@@ -1,9 +1,9 @@
 {
     "countryName": "Pakistan",
     "cases": {
-        "confirmed": 4322,
+        "confirmed": 4414,
         "deaths": 63,
         "recovered": 572,
-        "active": 3687
+        "active": 3779
     }
 }
