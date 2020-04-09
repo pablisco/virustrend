@@ -1,9 +1,9 @@
 {
     "countryName": "Mauritania",
     "cases": {
-        "confirmed": 6,
+        "confirmed": 7,
         "deaths": 1,
         "recovered": 2,
-        "active": 3
+        "active": 4
     }
 }
