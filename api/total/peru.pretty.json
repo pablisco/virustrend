@@ -1,9 +1,9 @@
 {
     "countryName": "Peru",
     "cases": {
-        "confirmed": 5256,
-        "deaths": 138,
-        "recovered": 1438,
-        "active": 3680
+        "confirmed": 5897,
+        "deaths": 169,
+        "recovered": 1569,
+        "active": 4159
     }
 }

@@ -1,9 +1,9 @@
 {
     "countryName": "Mozambique",
     "cases": {
-        "confirmed": 17,
+        "confirmed": 20,
         "deaths": 0,
-        "recovered": 1,
-        "active": 16
+        "recovered": 2,
+        "active": 18
     }
 }
