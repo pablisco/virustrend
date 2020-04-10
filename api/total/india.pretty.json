@@ -2,8 +2,8 @@
     "countryName": "India",
     "cases": {
         "confirmed": 6725,
-        "deaths": 226,
-        "recovered": 620,
-        "active": 5879
+        "deaths": 227,
+        "recovered": 635,
+        "active": 5863
     }
 }

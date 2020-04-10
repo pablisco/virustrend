@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1600427,
-        "deaths": 95699,
-        "recovered": 354464,
-        "active": 712378
+        "confirmed": 1601018,
+        "deaths": 95718,
+        "recovered": 354972,
+        "active": 712244
     },
     "countryCases": [
         {
@@ -27,19 +27,19 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 20682,
-                "deaths": 508,
-                "recovered": 5255,
+                "confirmed": 20747,
+                "deaths": 509,
+                "recovered": 5260,
                 "active": 0
             }
         },
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82885,
+                "confirmed": 82919,
                 "deaths": 3339,
-                "recovered": 77679,
-                "active": 1867
+                "recovered": 77696,
+                "active": 1884
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 465329,
-                "deaths": 16672,
-                "recovered": 25690,
+                "confirmed": 465750,
+                "deaths": 16684,
+                "recovered": 25960,
                 "active": 0
             }
         },
@@ -793,9 +793,9 @@
             "countryName": "India",
             "cases": {
                 "confirmed": 6725,
-                "deaths": 226,
-                "recovered": 620,
-                "active": 5879
+                "deaths": 227,
+                "recovered": 635,
+                "active": 5863
             }
         },
         {
@@ -839,8 +839,8 @@
             "cases": {
                 "confirmed": 63,
                 "deaths": 4,
-                "recovered": 12,
-                "active": 47
+                "recovered": 13,
+                "active": 46
             }
         },
         {
@@ -882,10 +882,10 @@
         {
             "countryName": "Korea, South",
             "cases": {
-                "confirmed": 10423,
-                "deaths": 204,
-                "recovered": 6973,
-                "active": 3246
+                "confirmed": 10450,
+                "deaths": 208,
+                "recovered": 7117,
+                "active": 3125
             }
         },
         {
@@ -1152,10 +1152,10 @@
         {
             "countryName": "New Zealand",
             "cases": {
-                "confirmed": 1239,
-                "deaths": 1,
-                "recovered": 317,
-                "active": 921
+                "confirmed": 1283,
+                "deaths": 2,
+                "recovered": 373,
+                "active": 908
             }
         },
         {
@@ -1663,5 +1663,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586484258077E12
+    "updateTimeUnix": 1.586487847414E12
 }
