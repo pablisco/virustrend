@@ -1,9 +1,9 @@
 {
     "countryName": "Timor-Leste",
     "cases": {
-        "confirmed": 1,
+        "confirmed": 2,
         "deaths": 0,
-        "recovered": 0,
+        "recovered": 1,
         "active": 1
     }
 }
