@@ -1,9 +1,9 @@
 {
     "countryName": "Zambia",
     "cases": {
-        "confirmed": 39,
+        "confirmed": 40,
         "deaths": 2,
-        "recovered": 24,
+        "recovered": 25,
         "active": 13
     }
 }
