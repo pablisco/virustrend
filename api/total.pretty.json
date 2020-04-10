@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1681964,
-        "deaths": 102026,
-        "recovered": 374509,
-        "active": 745000
+        "confirmed": 1684833,
+        "deaths": 102136,
+        "recovered": 375499,
+        "active": 746096
     },
     "countryCases": [
         {
@@ -27,9 +27,9 @@
         {
             "countryName": "Canada",
             "cases": {
-                "confirmed": 21243,
-                "deaths": 532,
-                "recovered": 5580,
+                "confirmed": 22059,
+                "deaths": 557,
+                "recovered": 5626,
                 "active": 0
             }
         },
@@ -72,10 +72,10 @@
         {
             "countryName": "Germany",
             "cases": {
-                "confirmed": 120157,
-                "deaths": 2688,
+                "confirmed": 121045,
+                "deaths": 2728,
                 "recovered": 53913,
-                "active": 63556
+                "active": 64404
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 491358,
-                "deaths": 18316,
-                "recovered": 27744,
+                "confirmed": 492240,
+                "deaths": 18350,
+                "recovered": 28664,
                 "active": 0
             }
         },
@@ -468,10 +468,10 @@
         {
             "countryName": "Colombia",
             "cases": {
-                "confirmed": 2223,
-                "deaths": 69,
-                "recovered": 174,
-                "active": 1980
+                "confirmed": 2473,
+                "deaths": 80,
+                "recovered": 197,
+                "active": 2196
             }
         },
         {
@@ -1170,10 +1170,10 @@
         {
             "countryName": "Niger",
             "cases": {
-                "confirmed": 410,
+                "confirmed": 438,
                 "deaths": 11,
-                "recovered": 40,
-                "active": 359
+                "recovered": 41,
+                "active": 386
             }
         },
         {
@@ -1296,10 +1296,10 @@
         {
             "countryName": "Rwanda",
             "cases": {
-                "confirmed": 113,
+                "confirmed": 118,
                 "deaths": 0,
                 "recovered": 7,
-                "active": 106
+                "active": 111
             }
         },
         {
@@ -1672,5 +1672,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586552645128E12
+    "updateTimeUnix": 1.586556262711E12
 }
