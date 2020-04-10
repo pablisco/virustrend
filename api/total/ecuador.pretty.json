@@ -1,9 +1,9 @@
 {
     "countryName": "Ecuador",
     "cases": {
-        "confirmed": 4965,
-        "deaths": 272,
-        "recovered": 339,
-        "active": 4354
+        "confirmed": 7161,
+        "deaths": 297,
+        "recovered": 368,
+        "active": 6496
     }
 }
