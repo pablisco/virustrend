@@ -1,9 +1,9 @@
 {
     "countryName": "Vietnam",
     "cases": {
-        "confirmed": 255,
+        "confirmed": 257,
         "deaths": 0,
         "recovered": 144,
-        "active": 111
+        "active": 113
     }
 }
