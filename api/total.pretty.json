@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1611981,
-        "deaths": 96783,
-        "recovered": 361235,
-        "active": 715928
+        "confirmed": 1612646,
+        "deaths": 96787,
+        "recovered": 361377,
+        "active": 716447
     },
     "countryCases": [
         {
@@ -18,10 +18,10 @@
         {
             "countryName": "Austria",
             "cases": {
-                "confirmed": 13377,
+                "confirmed": 13398,
                 "deaths": 319,
                 "recovered": 6064,
-                "active": 6994
+                "active": 7015
             }
         },
         {
@@ -36,10 +36,10 @@
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82924,
+                "confirmed": 82940,
                 "deaths": 3340,
-                "recovered": 77758,
-                "active": 1826
+                "recovered": 77787,
+                "active": 1813
             }
         },
         {
@@ -54,10 +54,10 @@
         {
             "countryName": "Finland",
             "cases": {
-                "confirmed": 2605,
+                "confirmed": 2769,
                 "deaths": 42,
                 "recovered": 300,
-                "active": 2263
+                "active": 2427
             }
         },
         {
@@ -648,10 +648,10 @@
         {
             "countryName": "Ethiopia",
             "cases": {
-                "confirmed": 56,
+                "confirmed": 65,
                 "deaths": 2,
                 "recovered": 4,
-                "active": 50
+                "active": 59
             }
         },
         {
@@ -937,9 +937,9 @@
             "countryName": "Lebanon",
             "cases": {
                 "confirmed": 609,
-                "deaths": 19,
+                "deaths": 20,
                 "recovered": 67,
-                "active": 523
+                "active": 522
             }
         },
         {
@@ -1044,10 +1044,10 @@
         {
             "countryName": "Malta",
             "cases": {
-                "confirmed": 337,
+                "confirmed": 350,
                 "deaths": 2,
                 "recovered": 16,
-                "active": 319
+                "active": 332
             }
         },
         {
@@ -1278,19 +1278,19 @@
         {
             "countryName": "Qatar",
             "cases": {
-                "confirmed": 2376,
+                "confirmed": 2512,
                 "deaths": 6,
-                "recovered": 206,
-                "active": 2164
+                "recovered": 227,
+                "active": 2279
             }
         },
         {
             "countryName": "Romania",
             "cases": {
-                "confirmed": 5202,
+                "confirmed": 5467,
                 "deaths": 257,
-                "recovered": 647,
-                "active": 4298
+                "recovered": 729,
+                "active": 4481
             }
         },
         {
@@ -1413,10 +1413,10 @@
         {
             "countryName": "Slovenia",
             "cases": {
-                "confirmed": 1124,
-                "deaths": 43,
-                "recovered": 128,
-                "active": 953
+                "confirmed": 1160,
+                "deaths": 45,
+                "recovered": 137,
+                "active": 978
             }
         },
         {
@@ -1494,10 +1494,10 @@
         {
             "countryName": "Taiwan*",
             "cases": {
-                "confirmed": 380,
-                "deaths": 5,
+                "confirmed": 382,
+                "deaths": 6,
                 "recovered": 80,
-                "active": 295
+                "active": 296
             }
         },
         {
@@ -1530,10 +1530,10 @@
         {
             "countryName": "Togo",
             "cases": {
-                "confirmed": 73,
+                "confirmed": 76,
                 "deaths": 3,
-                "recovered": 24,
-                "active": 46
+                "recovered": 25,
+                "active": 48
             }
         },
         {
@@ -1672,5 +1672,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586516651895E12
+    "updateTimeUnix": 1.586520258087E12
 }
