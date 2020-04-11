@@ -2,8 +2,8 @@
     "countryName": "Iceland",
     "cases": {
         "confirmed": 1689,
-        "deaths": 7,
+        "deaths": 8,
         "recovered": 841,
-        "active": 841
+        "active": 840
     }
 }
