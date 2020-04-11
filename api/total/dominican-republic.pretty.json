@@ -1,9 +1,9 @@
 {
     "countryName": "Dominican Republic",
     "cases": {
-        "confirmed": 2620,
-        "deaths": 126,
-        "recovered": 98,
-        "active": 2396
+        "confirmed": 2759,
+        "deaths": 135,
+        "recovered": 108,
+        "active": 2516
     }
 }
