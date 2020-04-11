@@ -1,9 +1,9 @@
 {
     "countryName": "Sudan",
     "cases": {
-        "confirmed": 15,
+        "confirmed": 17,
         "deaths": 2,
         "recovered": 2,
-        "active": 11
+        "active": 13
     }
 }
