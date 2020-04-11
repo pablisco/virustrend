@@ -1,9 +1,9 @@
 {
     "countryName": "Algeria",
     "cases": {
-        "confirmed": 1761,
-        "deaths": 256,
-        "recovered": 405,
-        "active": 1100
+        "confirmed": 1825,
+        "deaths": 275,
+        "recovered": 460,
+        "active": 1090
     }
 }
