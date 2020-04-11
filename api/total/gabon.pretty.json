@@ -1,9 +1,9 @@
 {
     "countryName": "Gabon",
     "cases": {
-        "confirmed": 44,
+        "confirmed": 46,
         "deaths": 1,
         "recovered": 1,
-        "active": 42
+        "active": 44
     }
 }
