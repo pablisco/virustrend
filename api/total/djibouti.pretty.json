@@ -1,9 +1,9 @@
 {
     "countryName": "Djibouti",
     "cases": {
-        "confirmed": 150,
-        "deaths": 1,
+        "confirmed": 187,
+        "deaths": 2,
         "recovered": 36,
-        "active": 113
+        "active": 149
     }
 }

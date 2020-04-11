@@ -1,9 +1,9 @@
 {
     "countryName": "Uzbekistan",
     "cases": {
-        "confirmed": 694,
+        "confirmed": 729,
         "deaths": 3,
         "recovered": 42,
-        "active": 649
+        "active": 684
     }
 }

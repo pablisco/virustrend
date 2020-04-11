@@ -1,9 +1,9 @@
 {
     "countryName": "Nicaragua",
     "cases": {
-        "confirmed": 7,
+        "confirmed": 8,
         "deaths": 1,
         "recovered": 0,
-        "active": 6
+        "active": 7
     }
 }

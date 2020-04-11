@@ -2,8 +2,8 @@
     "countryName": "Finland",
     "cases": {
         "confirmed": 2905,
-        "deaths": 48,
+        "deaths": 49,
         "recovered": 300,
-        "active": 2557
+        "active": 2556
     }
 }
