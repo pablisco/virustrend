@@ -1,9 +1,9 @@
 {
     "countryName": "Belarus",
     "cases": {
-        "confirmed": 1981,
-        "deaths": 19,
-        "recovered": 169,
-        "active": 1793
+        "confirmed": 2226,
+        "deaths": 23,
+        "recovered": 172,
+        "active": 2031
     }
 }
