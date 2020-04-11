@@ -1,9 +1,9 @@
 {
     "countryName": "Cyprus",
     "cases": {
-        "confirmed": 595,
+        "confirmed": 616,
         "deaths": 10,
         "recovered": 58,
-        "active": 527
+        "active": 548
     }
 }
