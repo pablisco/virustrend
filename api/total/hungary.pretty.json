@@ -1,9 +1,9 @@
 {
     "countryName": "Hungary",
     "cases": {
-        "confirmed": 1190,
+        "confirmed": 1310,
         "deaths": 77,
-        "recovered": 112,
-        "active": 1001
+        "recovered": 115,
+        "active": 1118
     }
 }
