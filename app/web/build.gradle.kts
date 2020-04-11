@@ -22,11 +22,11 @@ dependencies {
     implementation(npm("react", "16.13.0"))
     implementation(npm("react-dom", "16.13.0"))
 
-    implementation("org.jetbrains:kotlin-styled:1.0.0-pre.94-kotlin-1.3.70")
+    implementation(libraries.kotlinX.javascript.styled)
     implementation(npm("styled-components"))
     implementation(npm("inline-style-prefixer"))
+//    implementation(npm("material-components-web-react"))
 
-//    implementation(npm("material-components-web", "5.1.0"))
     implementation(libraries.kotlinX.coroutines.core)
     implementation(libraries.kotlinX.coroutines.js)
     implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.7.1")
@@ -36,9 +36,9 @@ dependencies {
 
 kotlin {
     target {
+        @Suppress("EXPERIMENTAL_API_USAGE")
         browser {
             // https://kotlinlang.org/docs/reference/javascript-dce.html#known-issue-dce-and-ktor
-            @Suppress("EXPERIMENTAL_API_USAGE")
             dceTask {
                 keep("ktor-ktor-io.\$\$importsForInline\$\$.ktor-ktor-io.io.ktor.utils.io")
             }
@@ -50,5 +50,9 @@ kotlin {
             }
         }
         useCommonJs()
+    }
+
+    sourceSets {
+        main.resources.srcDir("../sharedAssets")
     }
 }

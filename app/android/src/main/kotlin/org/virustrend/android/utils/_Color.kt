@@ -1,6 +1,5 @@
 package org.virustrend.android.utils
 
-import androidx.annotation.ColorInt
 import androidx.core.graphics.alpha
 import androidx.core.graphics.blue
 import androidx.core.graphics.green
@@ -8,7 +7,6 @@ import androidx.core.graphics.red
 import kotlin.math.pow
 import kotlin.math.roundToInt
 
-@ColorInt
 fun Float.toColorBetween(start: Int, end: Int): Int =
     colorOf(
         alpha = componentBetween(start, end) { alpha.toRelative() }.toAbsolute(),
@@ -17,7 +15,6 @@ fun Float.toColorBetween(start: Int, end: Int): Int =
         blue = componentBetween(start, end) { blue.toRelative().toLinear() }.toRGB().toAbsolute()
     )
 
-@ColorInt
 fun colorOf(alpha: Int, red: Int, green: Int, blue: Int): Int =
     (alpha shl 24) or (red shl 16) or (green shl 8) or blue
 

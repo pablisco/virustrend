@@ -35,6 +35,7 @@ android {
 
     sourceSets {
         main.java.srcDirs("src/main/kotlin")
+        main.assets.srcDir("../sharedAssets")
         test.java.srcDirs("src/test/kotlin")
     }
 

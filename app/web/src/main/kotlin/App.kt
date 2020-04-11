@@ -4,7 +4,8 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import kotlinx.css.*
-import kotlinx.css.LinearDimension.Companion.fillAvailable
+import kotlinx.html.js.onLoadFunction
+import org.virustrend.country
 import org.virustrend.domain.SelectableCountry
 import org.virustrend.domain.VirusTrendEvent
 import org.virustrend.domain.VirusTrendState
@@ -64,7 +65,33 @@ private fun RBuilder.countrySelect(country: List<SelectableCountry>) =
 @ExperimentalCoroutinesApi
 class App(props: AppProperties) : RComponent<AppProperties, AppState>(props) {
 
+//    private fun List<CountryCases>.renderStyles() {
+//        StyledComponents.injectGlobal {
+//            svg {
+//                mapNotNull { it.country?.code }.forEach {
+//                    child("#$it") {
+//                        color = Color.green
+//                    }
+//                }
+//            }
+//        }
+//    }
+
     override fun RBuilder.render() {
+//        StyledComponents.injectGlobal {
+//            body {
+//
+//            }
+//            state.virusTrendState.content?.casesByCountry
+//                ?.mapNotNull { it.country?.code }
+//                ?.forEach {
+//                    rule("#$it") {
+//
+//                        color = Color.green
+//                    }
+//                }
+//        }
+//        state.virusTrendState.content?.casesByCountry?.renderStyles()
         styledHeader {
             css {
                 flex(flexGrow = 0.0, flexBasis = FlexBasis.fill)
@@ -77,7 +104,31 @@ class App(props: AppProperties) : RComponent<AppProperties, AppState>(props) {
         styledDiv {
             css {
                 flex(flexGrow = 1.0, flexBasis = FlexBasis.fill)
+                display = Display.flex
                 backgroundColor = Color.aquamarine
+                alignItems = Align.center
+            }
+            styledObject_ {
+                attrs {
+                    data = "world.svg"
+                    type = "image/svg+xml"
+                    width = "100%"
+                    height = "100%"
+                    onLoadFunction = {
+                        state.virusTrendState.content?.casesByCountry?.forEach {
+                            it.country?.code?.also { code ->
+                                console.log(code)
+//                                document.getElementById(code)?.
+                            }
+                        }
+                    }
+                }
+
+                css {
+//                    flex(flexGrow = 1.0, flexBasis = FlexBasis.fill)
+//                    width = LinearDimension("100%")
+//                    objectFit = ObjectFit.fill
+                }
             }
         }
         styledFooter {
@@ -85,8 +136,33 @@ class App(props: AppProperties) : RComponent<AppProperties, AppState>(props) {
                 flex(flexGrow = 0.0, flexBasis = FlexBasis.fill)
                 backgroundColor = Color.blueViolet
                 minHeight = 60.px
+
+                display = Display.flex
+                justifyContent = JustifyContent.spaceEvenly
+                flexDirection = FlexDirection.column
+                media("only screen and (min-width: 600px)") {
+                    flexDirection = FlexDirection.row
+                }
             }
+            state.virusTrendState.content?.total
+                ?.cases?.also { (confirmed, deaths, recovered, active) ->
+                    infoBox("Confirmed", "$confirmed")
+                    infoBox("Deaths", "$deaths")
+                    infoBox("Recovered", "$recovered")
+                    infoBox("Active", "$active")
+                }
         }
+    }
+
+    private fun RBuilder.infoBox(
+        hint: String,
+        message: String
+    ) = styledDiv {
+
+        css {
+            flexGrow = 1.0
+        }
+        +message
     }
 
     override fun AppState.init(props: AppProperties) {
@@ -112,13 +188,15 @@ private val appTag: Element =
 
 private fun applyGlobalStyles() {
     StyledComponents.injectGlobal {
-        tag("app") {
+        app {
             display = Display.flex
+            position = Position.relative
             flexDirection = FlexDirection.column
             justifyContent = JustifyContent.spaceBetween
             alignItems = Align.stretch
             alignContent = Align.stretch
-            height = fillAvailable
+            height = 100.vh
+            width = 100.vw
         }
         body {
             margin(0.px)
@@ -127,5 +205,7 @@ private fun applyGlobalStyles() {
     }
 }
 
-private fun CSSBuilder.tag(tag: String, block: RuleSet): Rule =
-    TagSelector(tag)(block)
+private fun tag(tag: String): TagSelector = TagSelector(tag)
+
+private val app: TagSelector get() = tag("app")
+private val path: TagSelector get() = tag("path")

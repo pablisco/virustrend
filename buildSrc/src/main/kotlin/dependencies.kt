@@ -1,20 +1,12 @@
-import org.gradle.api.Project
+@file:Suppress("ClassName") // lowercase usage for dsl
 
-@Suppress("unused") // Used for scoping
-val Project.libraries get() = Libraries
-
-object Libraries {
-
-    val androidX = AndroidX
-    val kotlinX = KotlinX
-    val google = Google
-    val ktorClient = KtorClient
+object libraries {
 
     const val csv = "com.github.doyaaaaaken:kotlin-csv-jvm:0.7.3"
     const val sharp = "com.pixplicity.sharp:library:1.1.2"
     const val klock = "com.soywiz.korlibs.klock:klock:1.10.0"
 
-    object AndroidX {
+    object androidX {
         const val appcompat = "androidx.appcompat:appcompat:1.1.0"
         const val core = "androidx.core:core-ktx:1.2.0"
         const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.0.0-beta4"
@@ -22,39 +14,45 @@ object Libraries {
         const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
     }
 
-    object Google {
+    object google {
         const val material = "com.google.android.material:material:1.1.0"
     }
 
-    object KotlinX {
-        val serializable = Serializable
-        val coroutines = Coroutines
+    object kotlinX {
 
-        object Coroutines {
-            const val common = "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.5"
-            const val core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5"
-            const val android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5"
-            const val js = "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.3.5"
+        object javascript {
+            private const val version = "1.0.0-pre.94-kotlin-1.3.70"
+            const val css = "org.jetbrains:kotlin-css-js:$version"
+            const val styled = "org.jetbrains:kotlin-styled:$version"
         }
 
-        object Serializable {
-            const val jvm = "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0"
-            const val common = "org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.20.0"
-            const val js = "org.jetbrains.kotlinx:kotlinx-serialization-runtime-js:0.20.0"
+        object coroutines {
+            private const val version = "1.3.5"
+            const val common = "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:$version"
+            const val core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version"
+            const val android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version"
+            const val js = "org.jetbrains.kotlinx:kotlinx-coroutines-core-js:$version"
+        }
+
+        object serializable {
+            private const val version = "0.20.0"
+            const val jvm = "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$version"
+            const val common = "org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:$version"
+            const val js = "org.jetbrains.kotlinx:kotlinx-serialization-runtime-js:$version"
         }
 
     }
 
-    private const val ktorVersion = "1.3.2"
 
-    object KtorClient {
-        const val core = "io.ktor:ktor-client-core:$ktorVersion"
-        const val android = "io.ktor:ktor-client-android:$ktorVersion"
-        const val js = "io.ktor:ktor-client-js:$ktorVersion"
-        const val serialization = "io.ktor:ktor-client-serialization:$ktorVersion"
-        const val serializationJvm = "io.ktor:ktor-client-serialization-jvm:$ktorVersion"
-        const val serializationJs = "io.ktor:ktor-client-serialization-js:$ktorVersion"
-        const val okhttp = "io.ktor:ktor-client-okhttp:$ktorVersion"
+    object ktorClient {
+        private const val version = "1.3.2"
+        const val core = "io.ktor:ktor-client-core:$version"
+        const val android = "io.ktor:ktor-client-android:$version"
+        const val js = "io.ktor:ktor-client-js:$version"
+        const val serialization = "io.ktor:ktor-client-serialization:$version"
+        const val serializationJvm = "io.ktor:ktor-client-serialization-jvm:$version"
+        const val serializationJs = "io.ktor:ktor-client-serialization-js:$version"
+        const val okhttp = "io.ktor:ktor-client-okhttp:$version"
 
     }
 

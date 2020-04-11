@@ -36,8 +36,8 @@ kotlin {
             dependencies {
                 implementation(kotlin("stdlib-common"))
                 implementation(libraries.kotlinX.coroutines.common)
+                implementation(project(":domain:network"))
                 api(project(":domain:models"))
-                api(project(":domain:network"))
             }
         }
         commonTest {

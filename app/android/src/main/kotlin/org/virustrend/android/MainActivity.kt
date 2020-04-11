@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
     private suspend fun List<CountryCases>.render(
         selectedCountry: SelectableCountry
     ) = withContext(Main) {
-        Sharp.loadResource(resources, R.raw.world)
+        Sharp.loadAsset(assets, "world.svg")
             .whenSvgElementReady { id, paint ->
                 paint?.color = sortedBy { it.cases.confirmed }
                     .indexOfFirst { it.country?.code == id }
