@@ -1,18 +1,18 @@
 {
     "cases": {
-        "confirmed": 1698416,
-        "deaths": 102764,
-        "recovered": 376677,
-        "active": 749838
+        "confirmed": 1698626,
+        "deaths": 102774,
+        "recovered": 376734,
+        "active": 749902
     },
     "countryCases": [
         {
             "countryName": "Australia",
             "cases": {
-                "confirmed": 6215,
-                "deaths": 54,
+                "confirmed": 6283,
+                "deaths": 56,
                 "recovered": 1793,
-                "active": 4368
+                "active": 4434
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 501419,
-                "deaths": 18769,
-                "recovered": 29078,
+                "confirmed": 501560,
+                "deaths": 18777,
+                "recovered": 29132,
                 "active": 0
             }
         },
@@ -423,10 +423,10 @@
         {
             "countryName": "Cambodia",
             "cases": {
-                "confirmed": 119,
+                "confirmed": 120,
                 "deaths": 0,
-                "recovered": 72,
-                "active": 47
+                "recovered": 75,
+                "active": 45
             }
         },
         {
@@ -1672,5 +1672,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586581430679E12
+    "updateTimeUnix": 1.586585053903E12
 }
