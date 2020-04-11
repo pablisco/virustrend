@@ -1,9 +1,9 @@
 {
     "countryName": "Philippines",
     "cases": {
-        "confirmed": 4195,
-        "deaths": 221,
-        "recovered": 140,
-        "active": 3834
+        "confirmed": 4428,
+        "deaths": 247,
+        "recovered": 157,
+        "active": 4024
     }
 }
