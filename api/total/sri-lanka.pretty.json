@@ -1,9 +1,9 @@
 {
     "countryName": "Sri Lanka",
     "cases": {
-        "confirmed": 190,
+        "confirmed": 197,
         "deaths": 7,
         "recovered": 54,
-        "active": 129
+        "active": 136
     }
 }
