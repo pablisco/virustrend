@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1694954,
-        "deaths": 102607,
-        "recovered": 376102,
-        "active": 748691
+        "confirmed": 1696139,
+        "deaths": 102669,
+        "recovered": 376200,
+        "active": 748715
     },
     "countryCases": [
         {
@@ -28,18 +28,18 @@
             "countryName": "Canada",
             "cases": {
                 "confirmed": 22148,
-                "deaths": 564,
-                "recovered": 5855,
+                "deaths": 570,
+                "recovered": 5892,
                 "active": 0
             }
         },
         {
             "countryName": "China",
             "cases": {
-                "confirmed": 82941,
+                "confirmed": 82971,
                 "deaths": 3340,
-                "recovered": 77791,
-                "active": 1810
+                "recovered": 77802,
+                "active": 1829
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 499252,
-                "deaths": 18637,
-                "recovered": 28790,
+                "confirmed": 500399,
+                "deaths": 18693,
+                "recovered": 28837,
                 "active": 0
             }
         },
@@ -486,10 +486,10 @@
         {
             "countryName": "Congo (Kinshasa)",
             "cases": {
-                "confirmed": 215,
+                "confirmed": 223,
                 "deaths": 20,
-                "recovered": 13,
-                "active": 182
+                "recovered": 16,
+                "active": 187
             }
         },
         {
@@ -1672,5 +1672,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586567027232E12
+    "updateTimeUnix": 1.586570659785E12
 }
