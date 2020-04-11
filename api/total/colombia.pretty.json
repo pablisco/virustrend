@@ -1,9 +1,9 @@
 {
     "countryName": "Colombia",
     "cases": {
-        "confirmed": 2473,
-        "deaths": 80,
-        "recovered": 197,
-        "active": 2196
+        "confirmed": 2709,
+        "deaths": 100,
+        "recovered": 214,
+        "active": 2395
     }
 }
