@@ -1,9 +1,9 @@
 {
     "countryName": "Malaysia",
     "cases": {
-        "confirmed": 4530,
-        "deaths": 73,
-        "recovered": 1995,
-        "active": 2462
+        "confirmed": 4683,
+        "deaths": 76,
+        "recovered": 2108,
+        "active": 2499
     }
 }
