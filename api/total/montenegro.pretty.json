@@ -1,9 +1,9 @@
 {
     "countryName": "Montenegro",
     "cases": {
-        "confirmed": 263,
+        "confirmed": 267,
         "deaths": 2,
         "recovered": 5,
-        "active": 256
+        "active": 260
     }
 }
