@@ -1,9 +1,9 @@
 {
     "countryName": "Belize",
     "cases": {
-        "confirmed": 13,
+        "confirmed": 14,
         "deaths": 2,
         "recovered": 0,
-        "active": 11
+        "active": 12
     }
 }
