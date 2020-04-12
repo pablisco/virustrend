@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1776157,
-        "deaths": 108804,
-        "recovered": 402903,
-        "active": 771288
+        "confirmed": 1777517,
+        "deaths": 108862,
+        "recovered": 404236,
+        "active": 771125
     },
     "countryCases": [
         {
@@ -153,18 +153,18 @@
         {
             "countryName": "United Kingdom",
             "cases": {
-                "confirmed": 79883,
+                "confirmed": 79885,
                 "deaths": 9892,
-                "recovered": 622,
-                "active": 69369
+                "recovered": 625,
+                "active": 69368
             }
         },
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 529740,
-                "deaths": 20602,
-                "recovered": 31988,
+                "confirmed": 529887,
+                "deaths": 20604,
+                "recovered": 32001,
                 "active": 0
             }
         },
@@ -333,10 +333,10 @@
         {
             "countryName": "Bolivia",
             "cases": {
-                "confirmed": 275,
-                "deaths": 20,
+                "confirmed": 300,
+                "deaths": 24,
                 "recovered": 2,
-                "active": 253
+                "active": 274
             }
         },
         {
@@ -720,10 +720,10 @@
         {
             "countryName": "Guatemala",
             "cases": {
-                "confirmed": 137,
+                "confirmed": 153,
                 "deaths": 3,
                 "recovered": 19,
-                "active": 115
+                "active": 131
             }
         },
         {
@@ -846,10 +846,10 @@
         {
             "countryName": "Japan",
             "cases": {
-                "confirmed": 6005,
-                "deaths": 99,
+                "confirmed": 6748,
+                "deaths": 108,
                 "recovered": 762,
-                "active": 5144
+                "active": 5878
             }
         },
         {
@@ -882,10 +882,10 @@
         {
             "countryName": "Korea, South",
             "cases": {
-                "confirmed": 10480,
-                "deaths": 211,
-                "recovered": 7243,
-                "active": 3026
+                "confirmed": 10512,
+                "deaths": 214,
+                "recovered": 7368,
+                "active": 2930
             }
         },
         {
@@ -1071,10 +1071,10 @@
         {
             "countryName": "Mexico",
             "cases": {
-                "confirmed": 3844,
-                "deaths": 233,
-                "recovered": 633,
-                "active": 2978
+                "confirmed": 4219,
+                "deaths": 273,
+                "recovered": 1772,
+                "active": 2174
             }
         },
         {
@@ -1152,10 +1152,10 @@
         {
             "countryName": "New Zealand",
             "cases": {
-                "confirmed": 1312,
+                "confirmed": 1330,
                 "deaths": 4,
-                "recovered": 422,
-                "active": 886
+                "recovered": 471,
+                "active": 855
             }
         },
         {
@@ -1233,10 +1233,10 @@
         {
             "countryName": "Paraguay",
             "cases": {
-                "confirmed": 133,
+                "confirmed": 134,
                 "deaths": 6,
-                "recovered": 18,
-                "active": 109
+                "recovered": 22,
+                "active": 106
             }
         },
         {
@@ -1458,10 +1458,10 @@
         {
             "countryName": "Sri Lanka",
             "cases": {
-                "confirmed": 198,
+                "confirmed": 199,
                 "deaths": 7,
                 "recovered": 54,
-                "active": 137
+                "active": 138
             }
         },
         {
@@ -1672,5 +1672,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586657043279E12
+    "updateTimeUnix": 1.586660646993E12
 }

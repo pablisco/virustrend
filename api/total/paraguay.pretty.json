@@ -1,9 +1,9 @@
 {
     "countryName": "Paraguay",
     "cases": {
-        "confirmed": 133,
+        "confirmed": 134,
         "deaths": 6,
-        "recovered": 18,
-        "active": 109
+        "recovered": 22,
+        "active": 106
     }
 }
