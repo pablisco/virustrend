@@ -1,9 +1,9 @@
 {
     "countryName": "Israel",
     "cases": {
-        "confirmed": 10878,
+        "confirmed": 11145,
         "deaths": 103,
-        "recovered": 1388,
-        "active": 9387
+        "recovered": 1627,
+        "active": 9415
     }
 }

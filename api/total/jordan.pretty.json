@@ -1,9 +1,9 @@
 {
     "countryName": "Jordan",
     "cases": {
-        "confirmed": 381,
+        "confirmed": 389,
         "deaths": 7,
-        "recovered": 177,
-        "active": 197
+        "recovered": 201,
+        "active": 181
     }
 }
