@@ -10,7 +10,7 @@
                 "active": 0
             },
             "delta": {
-                "deltaConfirmed": 1,
+                "deltaConfirmed": 0,
                 "deltaRecovered": 0.0
             }
         },

@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1777666,
+        "confirmed": 1777707,
         "deaths": 108867,
-        "recovered": 404372,
-        "active": 771163
+        "recovered": 404377,
+        "active": 1264463
     },
     "countryCases": [
         {
@@ -30,7 +30,7 @@
                 "confirmed": 23316,
                 "deaths": 654,
                 "recovered": 6650,
-                "active": 0
+                "active": 16012
             }
         },
         {
@@ -164,8 +164,8 @@
             "cases": {
                 "confirmed": 529951,
                 "deaths": 20608,
-                "recovered": 32091,
-                "active": 0
+                "recovered": 32095,
+                "active": 477248
             }
         },
         {
@@ -909,10 +909,10 @@
         {
             "countryName": "Kyrgyzstan",
             "cases": {
-                "confirmed": 339,
+                "confirmed": 377,
                 "deaths": 5,
                 "recovered": 44,
-                "active": 290
+                "active": 328
             }
         },
         {
@@ -1143,10 +1143,10 @@
         {
             "countryName": "Nepal",
             "cases": {
-                "confirmed": 9,
+                "confirmed": 12,
                 "deaths": 0,
                 "recovered": 1,
-                "active": 8
+                "active": 11
             }
         },
         {
@@ -1424,8 +1424,8 @@
             "cases": {
                 "confirmed": 21,
                 "deaths": 1,
-                "recovered": 1,
-                "active": 19
+                "recovered": 2,
+                "active": 18
             }
         },
         {
@@ -1672,5 +1672,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586664237499E12
+    "updateTimeUnix": 1.586667828182E12
 }
