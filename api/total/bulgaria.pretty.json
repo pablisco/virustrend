@@ -1,9 +1,9 @@
 {
     "countryName": "Bulgaria",
     "cases": {
-        "confirmed": 669,
+        "confirmed": 675,
         "deaths": 29,
         "recovered": 68,
-        "active": 572
+        "active": 578
     }
 }
