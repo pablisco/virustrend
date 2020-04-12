@@ -1,9 +1,9 @@
 {
     "cases": {
-        "confirmed": 1773358,
-        "deaths": 108702,
-        "recovered": 402270,
-        "active": 771132
+        "confirmed": 1776157,
+        "deaths": 108804,
+        "recovered": 402903,
+        "active": 771288
     },
     "countryCases": [
         {
@@ -29,7 +29,7 @@
             "cases": {
                 "confirmed": 23316,
                 "deaths": 654,
-                "recovered": 6589,
+                "recovered": 6650,
                 "active": 0
             }
         },
@@ -63,10 +63,10 @@
         {
             "countryName": "France",
             "cases": {
-                "confirmed": 130727,
+                "confirmed": 130730,
                 "deaths": 13851,
-                "recovered": 26663,
-                "active": 90213
+                "recovered": 26671,
+                "active": 90208
             }
         },
         {
@@ -162,9 +162,9 @@
         {
             "countryName": "US",
             "cases": {
-                "confirmed": 527111,
-                "deaths": 20506,
-                "recovered": 31424,
+                "confirmed": 529740,
+                "deaths": 20602,
+                "recovered": 31988,
                 "active": 0
             }
         },
@@ -225,10 +225,10 @@
         {
             "countryName": "Argentina",
             "cases": {
-                "confirmed": 1975,
-                "deaths": 83,
+                "confirmed": 2142,
+                "deaths": 89,
                 "recovered": 440,
-                "active": 1452
+                "active": 1613
             }
         },
         {
@@ -1672,5 +1672,5 @@
             }
         }
     ],
-    "updateTimeUnix": 1.586653436408E12
+    "updateTimeUnix": 1.586657043279E12
 }
