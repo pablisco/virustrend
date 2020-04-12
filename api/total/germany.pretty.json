@@ -1,9 +1,9 @@
 {
     "countryName": "Germany",
     "cases": {
-        "confirmed": 126656,
-        "deaths": 2908,
+        "confirmed": 127007,
+        "deaths": 2961,
         "recovered": 60300,
-        "active": 63448
+        "active": 63746
     }
 }

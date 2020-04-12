@@ -1,9 +1,9 @@
 {
     "countryName": "United Kingdom",
     "cases": {
-        "confirmed": 85175,
+        "confirmed": 85199,
         "deaths": 10629,
         "recovered": 625,
-        "active": 73921
+        "active": 73945
     }
 }
