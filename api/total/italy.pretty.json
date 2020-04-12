@@ -1,9 +1,9 @@
 {
     "countryName": "Italy",
     "cases": {
-        "confirmed": 152271,
-        "deaths": 19468,
-        "recovered": 32534,
-        "active": 100269
+        "confirmed": 156363,
+        "deaths": 19899,
+        "recovered": 34211,
+        "active": 102253
     }
 }
