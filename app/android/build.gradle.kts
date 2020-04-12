@@ -47,19 +47,23 @@ android {
         jvmTarget = "1.8"
     }
 
+    lintOptions {
+        isAbortOnError = false
+    }
+
 }
 
 dependencies {
 
     implementation(project(":domain:network"))
-    implementation(project(":domain"))
+    implementation(project(":domain:statemachine"))
     implementation(libraries.androidX.appcompat)
     implementation(libraries.androidX.core)
     implementation(libraries.androidX.constraintLayout)
     implementation(libraries.google.material)
     implementation(libraries.androidX.lifecycle)
     implementation(libraries.androidX.viewModel)
-    implementation("androidx.fragment:fragment-ktx:1.2.3")
+    implementation("androidx.fragment:fragment-ktx:1.2.4")
     implementation(libraries.kotlinX.coroutines.core)
     implementation(libraries.kotlinX.coroutines.android)
     implementation(libraries.sharp)

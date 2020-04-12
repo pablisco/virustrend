@@ -24,8 +24,14 @@ android {
     }
 }
 
+dependencies {
+    api(project(":domain:models"))
+    implementation(kotlin("stdlib-jdk8"))
+    implementation(libraries.kotlinX.coroutines.core)
+    implementation(libraries.kotlinX.coroutines.android)
+}
+
 kotlin {
-    jvm()
     android()
     js {
         browser()
@@ -40,36 +46,24 @@ kotlin {
                 api(project(":domain:models"))
             }
         }
-        commonTest {
-            dependencies {
-                implementation(kotlin("test-common"))
-                implementation(kotlin("test-annotations-common"))
-            }
-        }
-        named("jvmMain") {
-            dependencies {
-                implementation(kotlin("stdlib-jdk8"))
-                implementation(libraries.kotlinX.coroutines.core)
-            }
-        }
-        named("jvmTest") {
-            dependencies {
-                implementation(kotlin("test"))
-                implementation(kotlin("test-junit"))
-            }
-        }
-        named("androidMain") {
-            dependencies {
-                implementation(kotlin("stdlib-jdk8"))
-                implementation(libraries.kotlinX.coroutines.core)
-                implementation(libraries.kotlinX.coroutines.android)
-            }
-        }
-        named("androidTest") {
-            dependencies {
-                implementation(kotlin("test-junit"))
-            }
-        }
+//        commonTest {
+//            dependencies {
+//                implementation(kotlin("test-common"))
+//                implementation(kotlin("test-annotations-common"))
+//            }
+//        }
+//        named("androidMain") {
+//            dependencies {
+//                implementation(kotlin("stdlib-jdk8"))
+//                implementation(libraries.kotlinX.coroutines.core)
+//                implementation(libraries.kotlinX.coroutines.android)
+//            }
+//        }
+//        named("androidTest") {
+//            dependencies {
+//                implementation(kotlin("test-junit"))
+//            }
+//        }
         named("jsMain") {
             dependencies {
                 implementation(kotlin ("stdlib-js"))
@@ -77,10 +71,10 @@ kotlin {
                 implementation(libraries.kotlinX.coroutines.js)
             }
         }
-        named("jsTest") {
-            dependencies {
-                implementation(kotlin("test-js"))
-            }
-        }
+//        named("jsTest") {
+//            dependencies {
+//                implementation(kotlin("test-js"))
+//            }
+//        }
     }
 }

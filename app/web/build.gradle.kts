@@ -10,7 +10,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-js"))
-    implementation(project(":domain"))
+    implementation(project(":domain:statemachine"))
     implementation(npm("text-encoding"))
     implementation(npm("abort-controller"))
     implementation(npm("utf-8-validate"))

@@ -25,7 +25,7 @@ android {
 }
 
 kotlin {
-    jvm()
+//    jvm()
     android()
     js {
         browser()
@@ -46,20 +46,20 @@ kotlin {
                 implementation(kotlin("test-annotations-common"))
             }
         }
-        named("jvmMain") {
-            dependencies {
-                implementation(kotlin("stdlib-jdk8"))
-                implementation(libraries.ktorClient.core)
-                implementation(libraries.ktorClient.serializationJvm)
-                implementation(libraries.ktorClient.okhttp)
-            }
-        }
-        named("jvmTest") {
-            dependencies {
-                implementation(kotlin("test"))
-                implementation(kotlin("test-junit"))
-            }
-        }
+//        named("jvmMain") {
+//            dependencies {
+//                implementation(kotlin("stdlib-jdk8"))
+//                implementation(libraries.ktorClient.core)
+//                implementation(libraries.ktorClient.serializationJvm)
+//                implementation(libraries.ktorClient.okhttp)
+//            }
+//        }
+//        named("jvmTest") {
+//            dependencies {
+//                implementation(kotlin("test"))
+//                implementation(kotlin("test-junit"))
+//            }
+//        }
         named("androidMain") {
             dependencies {
                 implementation(kotlin("stdlib-jdk8"))
@@ -78,8 +78,6 @@ kotlin {
                 implementation(kotlin ("stdlib-js"))
                 implementation(libraries.ktorClient.js)
                 implementation(libraries.ktorClient.serializationJs)
-//                implementation("io.ktor:ktor-client-js:1.3.1")
-//                implementation("io.ktor:ktor-client-serialization-js:1.3.1")
             }
         }
         named("jsTest") {

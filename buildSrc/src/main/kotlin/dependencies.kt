@@ -4,7 +4,7 @@ object libraries {
 
     const val csv = "com.github.doyaaaaaken:kotlin-csv-jvm:0.7.3"
     const val sharp = "com.pixplicity.sharp:library:1.1.2"
-    const val klock = "com.soywiz.korlibs.klock:klock:1.10.0"
+    const val klock = "com.soywiz.korlibs.klock:klock:1.10.3"
 
     object androidX {
         const val appcompat = "androidx.appcompat:appcompat:1.1.0"
