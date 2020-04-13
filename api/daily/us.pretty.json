@@ -1055,6 +1055,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 555313,
+                "deaths": 22020,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 28917,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -2104,6 +2117,19 @@
             },
             "delta": {
                 "deltaConfirmed": 270,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 3563,
+                "deaths": 93,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 346,
                 "deltaRecovered": 0.0
             }
         },
@@ -3161,6 +3187,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 272,
+                "deaths": 8,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 15,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -4202,6 +4241,19 @@
         },
         {
             "dayUnix": 132383755,
+            "cases": {
+                "confirmed": 0,
+                "deaths": 0,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 0,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
             "cases": {
                 "confirmed": 0,
                 "deaths": 0,
@@ -5267,6 +5319,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 3542,
+                "deaths": 115,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 149,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -6316,6 +6381,19 @@
             },
             "delta": {
                 "deltaConfirmed": 57,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1280,
+                "deaths": 27,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 52,
                 "deltaRecovered": 0.0
             }
         },
@@ -7373,6 +7451,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 22795,
+                "deaths": 641,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 1089,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -8422,6 +8513,19 @@
             },
             "delta": {
                 "deltaConfirmed": 311,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 7307,
+                "deaths": 289,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 794,
                 "deltaRecovered": 0.0
             }
         },
@@ -9479,6 +9583,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 12035,
+                "deaths": 554,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 525,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -10532,6 +10649,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1625,
+                "deaths": 35,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 146,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -11573,6 +11703,19 @@
         },
         {
             "dayUnix": 132383755,
+            "cases": {
+                "confirmed": 49,
+                "deaths": 0,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 0,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
             "cases": {
                 "confirmed": 49,
                 "deaths": 0,
@@ -12638,6 +12781,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1875,
+                "deaths": 50,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 97,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -13687,6 +13843,19 @@
             },
             "delta": {
                 "deltaConfirmed": 963,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 19895,
+                "deaths": 461,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 1401,
                 "deltaRecovered": 0.0
             }
         },
@@ -14744,6 +14913,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 12452,
+                "deaths": 433,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 293,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -15788,6 +15970,19 @@
             "cases": {
                 "confirmed": 103,
                 "deaths": 3,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 0,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 103,
+                "deaths": 0,
                 "recovered": 0,
                 "active": 0
             },
@@ -16850,6 +17045,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 133,
+                "deaths": 5,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 0,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -17899,6 +18107,19 @@
             },
             "delta": {
                 "deltaConfirmed": 23,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 499,
+                "deaths": 9,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 34,
                 "deltaRecovered": 0.0
             }
         },
@@ -18956,6 +19177,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1407,
+                "deaths": 27,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 11,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -20005,6 +20239,19 @@
             },
             "delta": {
                 "deltaConfirmed": 1293,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 20852,
+                "deaths": 720,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 1672,
                 "deltaRecovered": 0.0
             }
         },
@@ -21062,6 +21309,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 7928,
+                "deaths": 343,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 493,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -22111,6 +22371,19 @@
             },
             "delta": {
                 "deltaConfirmed": 122,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1587,
+                "deaths": 41,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 77,
                 "deltaRecovered": 0.0
             }
         },
@@ -23168,6 +23441,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1344,
+                "deaths": 56,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 69,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -24217,6 +24503,19 @@
             },
             "delta": {
                 "deltaConfirmed": 0,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1963,
+                "deaths": 97,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 270,
                 "deltaRecovered": 0.0
             }
         },
@@ -25274,6 +25573,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 20595,
+                "deaths": 840,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 581,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -26323,6 +26635,19 @@
             },
             "delta": {
                 "deltaConfirmed": 30,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 633,
+                "deaths": 19,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 17,
                 "deltaRecovered": 0.0
             }
         },
@@ -27380,6 +27705,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 8225,
+                "deaths": 236,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 531,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -28429,6 +28767,19 @@
             },
             "delta": {
                 "deltaConfirmed": 1886,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 25475,
+                "deaths": 756,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 2615,
                 "deltaRecovered": 0.0
             }
         },
@@ -29486,6 +29837,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 24244,
+                "deaths": 1479,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 639,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -30535,6 +30899,19 @@
             },
             "delta": {
                 "deltaConfirmed": 91,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1621,
+                "deaths": 70,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 194,
                 "deltaRecovered": 0.0
             }
         },
@@ -31592,6 +31969,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 2781,
+                "deaths": 96,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 139,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -32641,6 +33031,19 @@
             },
             "delta": {
                 "deltaConfirmed": 211,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 4269,
+                "deaths": 118,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 161,
                 "deltaRecovered": 0.0
             }
         },
@@ -33698,6 +34101,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 387,
+                "deaths": 6,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 10,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -34747,6 +35163,19 @@
             },
             "delta": {
                 "deltaConfirmed": 64,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 791,
+                "deaths": 17,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 92,
                 "deltaRecovered": 0.0
             }
         },
@@ -35804,6 +36233,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 2836,
+                "deaths": 112,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 134,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -36853,6 +37295,19 @@
             },
             "delta": {
                 "deltaConfirmed": 66,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 929,
+                "deaths": 23,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 44,
                 "deltaRecovered": 0.0
             }
         },
@@ -37910,6 +38365,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 61850,
+                "deaths": 2350,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 3699,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -38959,6 +39427,19 @@
             },
             "delta": {
                 "deltaConfirmed": 10,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1245,
+                "deaths": 26,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 154,
                 "deltaRecovered": 0.0
             }
         },
@@ -40016,6 +40497,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 189033,
+                "deaths": 9385,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 8007,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -41065,6 +41559,19 @@
             },
             "delta": {
                 "deltaConfirmed": 389,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 4570,
+                "deaths": 89,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 216,
                 "deltaRecovered": 0.0
             }
         },
@@ -42122,6 +42629,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 308,
+                "deaths": 7,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 15,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -43163,6 +43683,19 @@
         },
         {
             "dayUnix": 132383755,
+            "cases": {
+                "confirmed": 6,
+                "deaths": 1,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 0,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
             "cases": {
                 "confirmed": 6,
                 "deaths": 1,
@@ -44228,6 +44761,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 6604,
+                "deaths": 253,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 354,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -45277,6 +45823,19 @@
             },
             "delta": {
                 "deltaConfirmed": 74,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1970,
+                "deaths": 96,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 102,
                 "deltaRecovered": 0.0
             }
         },
@@ -46334,6 +46893,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 1527,
+                "deaths": 52,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 156,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -47383,6 +47955,19 @@
             },
             "delta": {
                 "deltaConfirmed": 1668,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 22938,
+                "deaths": 557,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 1219,
                 "deltaRecovered": 0.0
             }
         },
@@ -48440,6 +49025,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 897,
+                "deaths": 44,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 109,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -49489,6 +50087,19 @@
             },
             "delta": {
                 "deltaConfirmed": 622,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 2665,
+                "deaths": 63,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 316,
                 "deltaRecovered": 0.0
             }
         },
@@ -50546,6 +51157,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 3320,
+                "deaths": 82,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 109,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -51595,6 +52219,19 @@
             },
             "delta": {
                 "deltaConfirmed": 90,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 730,
+                "deaths": 6,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 104,
                 "deltaRecovered": 0.0
             }
         },
@@ -52652,6 +53289,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 5508,
+                "deaths": 106,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 376,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -53701,6 +54351,19 @@
             },
             "delta": {
                 "deltaConfirmed": 918,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 13677,
+                "deaths": 283,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 654,
                 "deltaRecovered": 0.0
             }
         },
@@ -54758,6 +55421,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 2299,
+                "deaths": 13,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 92,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -55807,6 +56483,19 @@
             },
             "delta": {
                 "deltaConfirmed": 32,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 727,
+                "deaths": 27,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 16,
                 "deltaRecovered": 0.0
             }
         },
@@ -56864,6 +57553,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 51,
+                "deaths": 1,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 0,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -57913,6 +58615,19 @@
             },
             "delta": {
                 "deltaConfirmed": 568,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 5274,
+                "deaths": 141,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 197,
                 "deltaRecovered": 0.0
             }
         },
@@ -58970,6 +59685,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 10609,
+                "deaths": 506,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 175,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -60019,6 +60747,19 @@
             },
             "delta": {
                 "deltaConfirmed": 3,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 593,
+                "deaths": 6,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 16,
                 "deltaRecovered": 0.0
             }
         },
@@ -61076,6 +61817,19 @@
             }
         },
         {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 3341,
+                "deaths": 144,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 128,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
             "dayUnix": 132382998,
             "cases": {
                 "confirmed": 0,
@@ -62125,6 +62879,19 @@
             },
             "delta": {
                 "deltaConfirmed": 22,
+                "deltaRecovered": 0.0
+            }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 270,
+                "deaths": 0,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 9,
                 "deltaRecovered": 0.0
             }
         }

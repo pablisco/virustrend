@@ -1,9 +1,9 @@
 {
     "countryName": "Uruguay",
     "cases": {
-        "confirmed": 480,
+        "confirmed": 512,
         "deaths": 7,
         "recovered": 231,
-        "active": 242
+        "active": 274
     }
 }

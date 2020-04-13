@@ -1053,6 +1053,19 @@
                 "deltaConfirmed": 376,
                 "deltaRecovered": 0.0
             }
+        },
+        {
+            "dayUnix": 132383756,
+            "cases": {
+                "confirmed": 4123,
+                "deaths": 22,
+                "recovered": 0,
+                "active": 0
+            },
+            "delta": {
+                "deltaConfirmed": 387,
+                "deltaRecovered": 0.0
+            }
         }
     ]
 }
