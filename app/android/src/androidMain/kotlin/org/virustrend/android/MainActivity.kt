@@ -32,7 +32,6 @@ import org.virustrend.domain.SelectableCountry.Some
 import org.virustrend.domain.VirusTrendEvent.ChangeCountry
 import org.virustrend.domain.VirusTrendEvent.Start
 import org.virustrend.domain.VirusTrendState.*
-import java.text.NumberFormat
 
 @FlowPreview
 @ExperimentalCoroutinesApi
@@ -42,7 +41,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     private val loadingViews: List<View> by lazy { listOf(loadingView) }
     private val idleViews: List<View> by lazy {
-        listOf(countrySelection, mapView, globalCasesViews)
+        listOf(countrySelection, mapView, globalCasesView)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -83,10 +82,10 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     private suspend fun Content.render() = withContext(Main) {
         total.cases.let { (confirmed, deaths, recovered, active) ->
-            confirmedView.setText(confirmed.formatted())
-            deathsView.setText(deaths.formatted())
-            recoveredView.setText(recovered.formatted())
-            activeView.setText(active.formatted())
+            confirmedView.count = confirmed
+            deathsView.count = deaths
+            recoveredView.count = recovered
+            activeView.count = active
         }
     }
 
@@ -134,8 +133,6 @@ private val AdapterView<*>.selection: Flow<Int>
         }
     }
 
-private fun Int.formatted(): String = NumberFormat.getNumberInstance().format(this)
-
 @FlowPreview
 @ExperimentalCoroutinesApi
 class MainViewModel(
@@ -153,3 +150,5 @@ class MainViewModel(
     }
 
 }
+
+

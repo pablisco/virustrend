@@ -28,21 +28,23 @@ class VirusTrendStateMachine {
             .onEach { currentState = it }
             .onStart { emit(currentState) }
 
-    suspend fun notify(event: VirusTrendEvent) = with(stateChannel) {
-        when (event) {
-            is Start -> {
-                send(Loading(currentState.content))
-                try {
-                    val content = Content.query(GetAllWorldData)
-                    send(Idle(content))
-                } catch (e: Exception) {
-                    send(Failed(e, currentState.content))
+    suspend fun notify(event: VirusTrendEvent) {
+        with(stateChannel) {
+            when (event) {
+                is Start -> {
+                    send(Loading(currentState.content))
+                    try {
+                        val content = Content.query(GetAllWorldData)
+                        send(Idle(content))
+                    } catch (e: Exception) {
+                        send(Failed(e, currentState.content))
+                    }
                 }
-            }
-            is ChangeCountry -> {
-                send(currentState.copy {
-                    content?.copy(selectedCountry = event.country)
-                })
+                is ChangeCountry -> {
+                    send(currentState.copy {
+                        content?.copy(selectedCountry = event.country)
+                    })
+                }
             }
         }
     }

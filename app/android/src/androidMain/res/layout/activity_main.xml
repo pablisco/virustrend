@@ -36,106 +36,184 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/countrySelection" />
 
-    <androidx.constraintlayout.helper.widget.Flow
+<!--    <androidx.constraintlayout.helper.widget.Flow-->
+<!--            android:id="@+id/globalCasesView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="8dp"-->
+<!--            app:constraint_referenced_ids="confirmedLayout,deathsLayout,recoveredLayout,activeLayout"-->
+<!--            app:flow_horizontalGap="8dp"-->
+<!--            app:flow_maxElementsWrap="@integer/global_cases_columns"-->
+<!--            app:flow_verticalGap="8dp"-->
+<!--            app:flow_verticalStyle="packed"-->
+<!--            app:flow_wrapMode="aligned"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/mapView" />-->
+
+<!--    <androidx.constraintlayout.widget.Group-->
+<!--            android:id="@+id/globalCasesViews"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:constraint_referenced_ids="confirmedLayout,deathsLayout,recoveredLayout,activeLayout" />-->
+
+    <LinearLayout
             android:id="@+id/globalCasesView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8dp"
-            app:constraint_referenced_ids="confirmedLayout,deathsLayout,recoveredLayout,activeLayout"
-            app:flow_horizontalGap="8dp"
-            app:flow_maxElementsWrap="@integer/global_cases_columns"
-            app:flow_verticalGap="8dp"
-            app:flow_verticalStyle="packed"
-            app:flow_wrapMode="aligned"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:padding="16dp"
+            android:divider="@drawable/div16"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/mapView" />
-
-    <androidx.constraintlayout.widget.Group
-            android:id="@+id/globalCasesViews"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:constraint_referenced_ids="confirmedLayout,deathsLayout,recoveredLayout,activeLayout" />
-
-
-
-    <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/confirmedLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_confirmed"
-            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mapView"
             app:layout_constraintBottom_toBottomOf="parent">
 
-        <EditText
+        <org.virustrend.android.views.CounterBox
                 android:id="@+id/confirmedView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:enabled="false"
-                android:inputType="none"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                app:autoSizeTextType="uniform" />
+                app:hint="@string/hint_confirmed"
+                android:theme="@style/Theme.AppCompat.Light"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
 
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/deathsLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_deaths"
-            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">
-
-        <EditText
+        <org.virustrend.android.views.CounterBox
                 android:id="@+id/deathsView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:enabled="false"
-                android:inputType="none"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                app:autoSizeTextType="uniform" />
+                app:hint="@string/hint_deaths"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:theme="@style/Theme.AppCompat.Light"
+                android:layout_height="wrap_content" />
 
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/recoveredLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_recovered"
-            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">
-
-        <EditText
+        <org.virustrend.android.views.CounterBox
                 android:id="@+id/recoveredView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:enabled="false"
-                android:inputType="none"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                app:autoSizeTextType="uniform" />
+                app:hint="@string/hint_recovered"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:theme="@style/Theme.AppCompat.Light"
+                android:layout_height="wrap_content" />
 
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/activeLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:hint="@string/hint_active"
-            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">
-
-        <EditText
+        <org.virustrend.android.views.CounterBox
                 android:id="@+id/activeView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:enabled="false"
-                android:inputType="none"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                app:autoSizeTextType="uniform" />
+                app:hint="@string/hint_confirmed"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:theme="@style/Theme.AppCompat.Light"
+                android:layout_height="wrap_content" />
 
-    </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/confirmedLayout"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--            android:theme="@style/Theme.AppCompat.Light"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent">-->
+
+<!--        <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/hint_confirmed"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="none"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />-->
+
+<!--        <TextView-->
+<!--                android:id="@+id/deathsView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="none"-->
+<!--                android:text="@string/hint_deaths"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />-->
+<!--        <TextView-->
+<!--                android:id="@+id/confirmedView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="none"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />-->
+<!--        <TextView-->
+<!--                android:id="@+id/confirmedView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="none"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--            android:id="@+id/confirmedLayout"-->
+    <!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:hint="@string/hint_confirmed"-->
+    <!--            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent">-->
+
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/deathsLayout"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="@string/hint_deaths"-->
+<!--            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">-->
+
+<!--        <EditText-->
+<!--                android:id="@+id/deathsView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="none"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display1"-->
+<!--                app:autoSizeTextType="uniform" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/recoveredLayout"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="@string/hint_recovered"-->
+<!--            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">-->
+
+<!--        <EditText-->
+<!--                android:id="@+id/recoveredView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="none"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display1"-->
+<!--                app:autoSizeTextType="uniform" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/activeLayout"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:hint="@string/hint_active"-->
+<!--            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">-->
+
+<!--        <EditText-->
+<!--                android:id="@+id/activeView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="none"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display1"-->
+<!--                app:autoSizeTextType="uniform" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
