@@ -14,8 +14,8 @@ androidApp(id = "org.virustrend.android") {
 
 dependencies {
 
-    implementation(project(":domain:statemachine"))
-    implementation(project(":app:utils:color"))
+    implementation(local.domain.statemachine)
+    implementation(local.app.utils.color)
     implementation(libraries.androidX.appcompat)
     implementation(libraries.androidX.core)
     implementation(libraries.androidX.constraintLayout)
