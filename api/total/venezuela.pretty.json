@@ -1,9 +1,9 @@
 {
     "countryName": "Venezuela",
     "cases": {
-        "confirmed": 175,
+        "confirmed": 181,
         "deaths": 9,
         "recovered": 93,
-        "active": 73
+        "active": 79
     }
 }
