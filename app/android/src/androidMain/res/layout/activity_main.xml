@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mainRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        tools:context="org.virustrend.android.MainActivity">
+
+    <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/loadingView"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+            android:id="@+id/countrySelection"
+            android:layout_width="300dp"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:contentDescription="@string/description_map_graph"
+            app:layout_constraintBottom_toTopOf="@id/globalCasesView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/countrySelection" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/globalCasesView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:constraint_referenced_ids="confirmedLayout,deathsLayout,recoveredLayout,activeLayout"
+            app:flow_horizontalGap="8dp"
+            app:flow_maxElementsWrap="@integer/global_cases_columns"
+            app:flow_verticalGap="8dp"
+            app:flow_verticalStyle="packed"
+            app:flow_wrapMode="aligned"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mapView" />
+
+    <androidx.constraintlayout.widget.Group
+            android:id="@+id/globalCasesViews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="confirmedLayout,deathsLayout,recoveredLayout,activeLayout" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirmedLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_confirmed"
+            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <EditText
+                android:id="@+id/confirmedView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="none"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:autoSizeTextType="uniform" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/deathsLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_deaths"
+            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">
+
+        <EditText
+                android:id="@+id/deathsView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="none"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:autoSizeTextType="uniform" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/recoveredLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_recovered"
+            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">
+
+        <EditText
+                android:id="@+id/recoveredView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="none"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:autoSizeTextType="uniform" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/activeLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:hint="@string/hint_active"
+            app:hintTextAppearance="@style/TextAppearance.AppCompat.Large">
+
+        <EditText
+                android:id="@+id/activeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="none"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:autoSizeTextType="uniform" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

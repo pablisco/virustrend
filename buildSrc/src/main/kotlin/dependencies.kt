@@ -12,6 +12,7 @@ object libraries {
         const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.0.0-beta4"
         const val lifecycle = "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
         const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+        const val fragment = "androidx.fragment:fragment-ktx:1.2.4"
     }
 
     object google {

@@ -8,7 +8,7 @@ buildscript {
         maven("https://kotlin.bintray.com/kotlinx")
     }
     dependencies {
-        classpath(kotlin("gradle-plugin", version = Versions.kotlin) )
+        classpath(kotlin("gradle-plugin", version = Versions.kotlin))
         classpath(kotlin("frontend-plugin", version = Versions.kotlinFrontendPlugin))
         classpath(kotlin("serialization", version = Versions.kotlin))
         classpath("com.android.tools.build:gradle:3.6.2")

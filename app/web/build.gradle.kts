@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackOutput.Target.COMMONJS
-
 plugins {
     kotlin("js")
 }
@@ -11,6 +9,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-js"))
     implementation(project(":domain:statemachine"))
+    implementation(project(":app:utils:color"))
     implementation(npm("text-encoding"))
     implementation(npm("abort-controller"))
     implementation(npm("utf-8-validate"))
@@ -30,6 +29,8 @@ dependencies {
     implementation(libraries.kotlinX.coroutines.core)
     implementation(libraries.kotlinX.coroutines.js)
     implementation("org.jetbrains.kotlinx:kotlinx-html-js:0.7.1")
+    implementation("com.ccfraser.muirwik:muirwik-components:0.4.1")
+    implementation(npm("@material-ui/core"))
 
     testImplementation("org.jetbrains.kotlin:kotlin-test-js")
 }
@@ -42,9 +43,9 @@ kotlin {
             dceTask {
                 keep("ktor-ktor-io.\$\$importsForInline\$\$.ktor-ktor-io.io.ktor.utils.io")
             }
-            webpackTask {
-                output.libraryTarget = COMMONJS
-            }
+//            webpackTask {
+//                output.libraryTarget = COMMONJS
+//            }
             distribution {
                 directory = rootProject.buildDir.resolve("pages")
             }

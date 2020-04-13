@@ -24,6 +24,8 @@ jobs:
 
       - name: Crawl Convid-19 Data from Repo
         run: ./gradlew :crawler:crawlConvidRepo
+      - name: Crawl Convid-19 Data from Repo
+        run: ./gradlew :app:web:build
 
       - name: Publish generated content to GitHub Pages
         if: success()
