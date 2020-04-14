@@ -2,6 +2,7 @@ package org.virustrend.android
 
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -10,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.viewModelScope
+import com.google.android.material.snackbar.Snackbar
 import com.pixplicity.sharp.Sharp
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers.IO
@@ -28,6 +30,7 @@ import org.virustrend.color.colorAt
 import org.virustrend.color.toPlatformColor
 import org.virustrend.country
 import org.virustrend.domain.*
+import org.virustrend.domain.SelectableCountry.None
 import org.virustrend.domain.SelectableCountry.Some
 import org.virustrend.domain.VirusTrendEvent.ChangeCountry
 import org.virustrend.domain.VirusTrendEvent.Start
@@ -53,14 +56,19 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         loadingViews.visibleOrGoneWhen { this@render is Loading }
         idleViews.visibleOrGoneWhen { this@render is Idle }
         if (this@render is Failed) {
-            // TODO Render error with SnackBar
+            Snackbar.make(mainRoot, "", Snackbar.LENGTH_INDEFINITE)
+                .setAction("Retry") { viewModel.trigger(Start) } // TODO: add retry event
+                .show()
         }
         content?.render()
         content?.casesByCountry?.render(
-            selectedCountry = content?.selectedCountry ?: SelectableCountry.None
+            selectedCountry = content?.selectedCountry ?: None
         )
         countrySelection.with(content?.countries ?: emptyList())
-            .onEach { country -> viewModel.trigger(ChangeCountry(country)) }
+            .onEach { country ->
+                Log.e("Main", "selectedCountry: $country")
+                viewModel.trigger(ChangeCountry(country))
+            }
             .launchIn(lifecycleScope)
     }
 
@@ -72,16 +80,21 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         Sharp.loadAsset(assets, "world.svg")
             .whenSvgElementReady { id, paint ->
                 val position: Double =
-                    cases.indexOfFirst { it.country?.code == id }.takeIf { it > 0 }?.let { it / size.toDouble() } ?: 0.0
+                    cases.indexOfFirst { it.country?.code == id }
+                        .takeIf { it > 0 }
+                        ?.let { it / size.toDouble() } ?: 0.0
                 paint?.color = ColorRange.whiteToRed.colorAt(position).toPlatformColor()
                 if (selectedCountry is Some && selectedCountry.country.code == id) {
-                    paint?.color = Color.BLUE
+                    paint?.color = Color.GREEN
                 }
             }.into(mapView)
     }
 
     private suspend fun Content.render() = withContext(Main) {
-        total.cases.let { (confirmed, deaths, recovered, active) ->
+        when(val selection = selectedCountry) {
+            is None -> total.cases
+            is Some -> total.countryCases.find { it.country == selection.country }?.cases
+        }?.let { (confirmed, deaths, recovered, active) ->
             confirmedView.count = confirmed
             deathsView.count = deaths
             recoveredView.count = recovered
@@ -103,13 +116,15 @@ private fun List<View>.visibleOrGoneWhen(block: () -> Boolean) {
 private fun AdapterView<*>.with(countries: List<SelectableCountry>): Flow<SelectableCountry> {
     val labels = countries.map {
         when (it) {
-            is SelectableCountry.None -> "All Countries"
+            is None -> "All Countries"
             is Some -> it.country.countryName
         }
     }
+    val itemPosition = selectedItemPosition
     adapter = ArrayAdapter(context, R.layout.item_country, labels)
+    setSelection(itemPosition)
     return selection.map { position ->
-        if (position == 0) SelectableCountry.None else countries[position - 1]
+        if (position == 0) None else countries[position]
     }
 }
 
@@ -118,7 +133,7 @@ private val AdapterView<*>.selection: Flow<Int>
     get() = callbackFlow {
         val listener = object : AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(parent: AdapterView<*>?) {
-//                offer(0)
+                offer(0)
             }
 
             override fun onItemSelected(p: AdapterView<*>?, v: View?, position: Int, id: Long) {
@@ -127,9 +142,7 @@ private val AdapterView<*>.selection: Flow<Int>
         }
         onItemSelectedListener = listener
         awaitClose {
-            if(onItemSelectedListener === listener) {
-                onItemSelectedListener = null
-            }
+            onItemSelectedListener = null
         }
     }
 

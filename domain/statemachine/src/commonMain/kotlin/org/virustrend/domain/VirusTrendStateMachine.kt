@@ -41,9 +41,11 @@ class VirusTrendStateMachine {
                     }
                 }
                 is ChangeCountry -> {
-                    send(currentState.copy {
-                        content?.copy(selectedCountry = event.country)
-                    })
+                    if (currentState.content?.selectedCountry != event.country) {
+                        send(currentState.copy {
+                            content?.copy(selectedCountry = event.country)
+                        })
+                    }
                 }
             }
         }

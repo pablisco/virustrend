@@ -1,5 +1,6 @@
 package org.virustrend.domain
 
+import org.virustrend.Country
 import org.virustrend.country
 import org.virustrend.domain.ContentQuery.GetAllWorldData
 import org.virustrend.network.VirusTrendClient
@@ -18,10 +19,12 @@ private suspend fun fetchContent(
     GetAllWorldData -> with(client.total()) {
         Content(
             selectedCountry = SelectableCountry.None,
-            countries = countryCases.mapNotNull { it.country }
-                .map { SelectableCountry.Some(it) },
+            countries = countryCases.mapNotNull { it.country }.asSelectableCountries(),
             casesByCountry = countryCases,
             total = this
         )
     }
 }
+
+private fun List<Country>.asSelectableCountries(): List<SelectableCountry> =
+    listOf(SelectableCountry.None) + map { SelectableCountry.Some(it) }

@@ -27,20 +27,6 @@ kotlin {
                 implementation(kotlin("test-annotations-common"))
             }
         }
-//        named("jvmMain") {
-//            dependencies {
-//                implementation(kotlin("stdlib-jdk8"))
-//                implementation(libraries.ktorClient.core)
-//                implementation(libraries.ktorClient.serializationJvm)
-//                implementation(libraries.ktorClient.okhttp)
-//            }
-//        }
-//        named("jvmTest") {
-//            dependencies {
-//                implementation(kotlin("test"))
-//                implementation(kotlin("test-junit"))
-//            }
-//        }
         named("androidMain") {
             dependencies {
                 implementation(kotlin("stdlib-jdk8"))

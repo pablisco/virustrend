@@ -23,12 +23,6 @@ kotlin {
                 implementation(libraries.kotlinX.serializable.jvm)
             }
         }
-//        named("androidMain") {
-//            dependencies {
-//                implementation(kotlin("stdlib-jdk8"))
-//                implementation(libraries.kotlinX.serializable.jvm)
-//            }
-//        }
         named("jsMain") {
             dependencies {
                 implementation(kotlin ("stdlib-js"))
