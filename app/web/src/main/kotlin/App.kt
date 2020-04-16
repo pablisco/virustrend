@@ -13,16 +13,15 @@ import kotlinx.coroutines.launch
 import kotlinx.css.*
 import kotlinx.html.classes
 import kotlinx.html.js.onLoadFunction
-import org.virustrend.CountryCases
+import org.virustrend.Country
 import org.virustrend.color.ColorRange
 import org.virustrend.color.colorAt
 import org.virustrend.color.toPlatformColor
-import org.virustrend.country
 import org.virustrend.domain.*
 import org.virustrend.domain.AppEvent.ChangeCountry
+import org.virustrend.domain.CountrySelection.All
+import org.virustrend.domain.CountrySelection.Target
 import org.virustrend.domain.Screen
-import org.virustrend.domain.SelectableCountry.None
-import org.virustrend.domain.SelectableCountry.Some
 import org.virustrend.web.toLocaleString
 import org.w3c.dom.*
 import org.w3c.dom.events.Event
@@ -64,10 +63,10 @@ private fun RBuilder.toolbar(state: AppState): Flow<AppEvent> = callbackFlow {
         state.countries.maybeData?.also { countries ->
             mFormControl {
                 mSelect(
-                    value = state.selectedCountry.code,
+                    value = state.countrySelection.code,
                     onChange = { event, _ ->
                         val code = (event.target as? HTMLInputElement)?.value
-                        val selectedCountry = countries.firstOrNull { it.code == code } ?: None
+                        val selectedCountry = countries.firstOrNull { it.code == code } ?: All
                         offer(ChangeCountry(selectedCountry))
                     }
                 ) {
@@ -125,11 +124,11 @@ class App(props: AppProperties) : RComponent<AppProperties, RAppState>(props) {
 }
 
 private fun RBuilder.render(screen: Screen) = when (screen) {
-    is Screen.Map -> render(screen)
+    is Screen.WorldMap -> render(screen)
 }
 
-private fun RBuilder.render(screen: Screen.Map) = with(screen) {
-    mapGraph(cases = casesByCountry)
+private fun RBuilder.render(screen: Screen.WorldMap) = with(screen) {
+    mapGraph(cases = countryToMetric)
     styledFooter {
         css {
             flex(flexGrow = 0.0)
@@ -141,7 +140,7 @@ private fun RBuilder.render(screen: Screen.Map) = with(screen) {
                 flexDirection = FlexDirection.row
             }
         }
-        val (confirmed, deaths, recovered, active) = total.cases
+        val (confirmed, deaths, recovered, active) = cases
         counterBox("Confirmed", confirmed)
         counterBox("Deaths", deaths)
         counterBox("Recovered", recovered)
@@ -149,13 +148,13 @@ private fun RBuilder.render(screen: Screen.Map) = with(screen) {
     }
 }
 
-private val SelectableCountry.label: String
-    get() = if (this is Some) country.name else "All Countries"
+private val CountrySelection.label: String
+    get() = if (this is Target) country.name else "All Countries"
 
-private val SelectableCountry.code: String
-    get() = if (this is Some) country.code else "ALL"
+private val CountrySelection.code: String
+    get() = if (this is Target) country.code else "ALL"
 
-private fun RBuilder.mapGraph(cases: List<CountryCases>) = styledObject_ {
+private fun RBuilder.mapGraph(cases: List<Pair<Country, Int>>) = styledObject_ {
     css {
         flex(flexGrow = 1.0)
     }
@@ -163,7 +162,8 @@ private fun RBuilder.mapGraph(cases: List<CountryCases>) = styledObject_ {
         classes += "map"
         data = "world.svg"
         type = "image/svg+xml"
-        width = "100%"
+//        width = "100%"
+//        height = 100.pct.toString()
         onLoadFunction = renderMapGraph(cases)
     }
 }
@@ -194,14 +194,12 @@ private fun RBuilder.counterBox(name: String, count: Int) = styledDiv {
     }
 }
 
-private fun renderMapGraph(cases: List<CountryCases>): (Event) -> Unit = {
-    cases.sortedBy { it.cases.confirmed }.forEachIndexed { index, case ->
-        case.country?.code?.also { code ->
+private fun renderMapGraph(cases: List<Pair<Country, Int>>): (Event) -> Unit = {
+    cases.sortedBy { (_, counter) -> counter }.forEachIndexed { index, (country, _) ->
+        country.code.also { code ->
             mapSvg.getElementById(code)?.apply {
-                val position = cases.size.takeIf { it > 0 }
-                    ?.let { index.toDouble() / it } ?: 0.0
+                val position = cases.size.takeIf { it > 0 }?.let { index.toDouble() / it } ?: 0.0
                 val color = ColorRange.whiteToRed.colorAt(position)
-
                 setAttribute("style", "fill: ${color.toPlatformColor()}")
             } ?: console.log("Didn't find $code")
         }

@@ -20,7 +20,11 @@ enum class Country(val countryName: String, val slug: String, val code: String) 
     Benin(countryName = "Benin", slug = "benin", code = "BJ"),
     Bhutan(countryName = "Bhutan", slug = "bhutan", code = "BT"),
     Bolivia(countryName = "Bolivia", slug = "bolivia", code = "BO"),
-    BosniaAndHerzegovina(countryName = "Bosnia and Herzegovina", slug = "bosnia-and-herzegovina", code = "BA"),
+    BosniaAndHerzegovina(
+        countryName = "Bosnia and Herzegovina",
+        slug = "bosnia-and-herzegovina",
+        code = "BA"
+    ),
     Brazil(countryName = "Brazil", slug = "brazil", code = "BR"),
     Brunei(countryName = "Brunei", slug = "brunei", code = "BN"),
     Bulgaria(countryName = "Bulgaria", slug = "bulgaria", code = "BG"),
@@ -29,12 +33,20 @@ enum class Country(val countryName: String, val slug: String, val code: String) 
     Cambodia(countryName = "Cambodia", slug = "cambodia", code = "KH"),
     Cameroon(countryName = "Cameroon", slug = "cameroon", code = "CM"),
     Canada(countryName = "Canada", slug = "canada", code = "CA"),
-    CentralAfricanRepublic(countryName = "Central African Republic", slug = "central-african-republic", code = "CF"),
+    CentralAfricanRepublic(
+        countryName = "Central African Republic",
+        slug = "central-african-republic",
+        code = "CF"
+    ),
     Chad(countryName = "Chad", slug = "chad", code = "TD"),
     Chile(countryName = "Chile", slug = "chile", code = "CL"),
     China(countryName = "China", slug = "china", code = "CN"),
     Colombia(countryName = "Colombia", slug = "colombia", code = "CO"),
-    CongoBrazzaville(countryName = "Congo (Brazzaville)", slug = "congo--brazzaville-", code = "CG"),
+    CongoBrazzaville(
+        countryName = "Congo (Brazzaville)",
+        slug = "congo--brazzaville-",
+        code = "CG"
+    ),
     CongoKinshasa(countryName = "Congo (Kinshasa)", slug = "congo--kinshasa-", code = "CD"),
     CostaRica(countryName = "Costa Rica", slug = "costa-rica", code = "CR"),
     CotedIvoire(countryName = "Cote d'Ivoire", slug = "cote-d-ivoire", code = "CI"),
@@ -130,9 +142,17 @@ enum class Country(val countryName: String, val slug: String, val code: String) 
     Romania(countryName = "Romania", slug = "romania", code = "RO"),
     Russia(countryName = "Russia", slug = "russia", code = "RU"),
     Rwanda(countryName = "Rwanda", slug = "rwanda", code = "RW"),
-    SaintKittsAndNevis(countryName = "Saint Kitts and Nevis", slug = "saint-kitts-and-nevis", code = "KN"),
+    SaintKittsAndNevis(
+        countryName = "Saint Kitts and Nevis",
+        slug = "saint-kitts-and-nevis",
+        code = "KN"
+    ),
     SaintLucia(countryName = "Saint Lucia", slug = "saint-lucia", code = "LC"),
-    SaintVincentAndTheGrenadines(countryName = "Saint Vincent and the Grenadines", slug = "saint-vincent-and-the-grenadines", code = "VC"),
+    SaintVincentAndTheGrenadines(
+        countryName = "Saint Vincent and the Grenadines",
+        slug = "saint-vincent-and-the-grenadines",
+        code = "VC"
+    ),
     SaudiArabia(countryName = "Saudi Arabia", slug = "saudi-arabia", code = "SA"),
     Senegal(countryName = "Senegal", slug = "senegal", code = "SN"),
     Serbia(countryName = "Serbia", slug = "serbia", code = "RS"),
@@ -154,13 +174,21 @@ enum class Country(val countryName: String, val slug: String, val code: String) 
     Thailand(countryName = "Thailand", slug = "thailand", code = "TH"),
     TimorLeste(countryName = "Timor-Leste", slug = "timor-leste", code = "TL"),
     Togo(countryName = "Togo", slug = "togo", code = "TG"),
-    TrinidadAndTobago(countryName = "Trinidad and Tobago", slug = "trinidad-and-tobago", code = "TT"),
+    TrinidadAndTobago(
+        countryName = "Trinidad and Tobago",
+        slug = "trinidad-and-tobago",
+        code = "TT"
+    ),
     Tunisia(countryName = "Tunisia", slug = "tunisia", code = "TN"),
     Turkey(countryName = "Turkey", slug = "turkey", code = "TR"),
     US(countryName = "US", slug = "us", code = "US"),
     Uganda(countryName = "Uganda", slug = "uganda", code = "UG"),
     Ukraine(countryName = "Ukraine", slug = "ukraine", code = "UA"),
-    UnitedArabEmirates(countryName = "United Arab Emirates", slug = "united-arab-emirates", code = "AE"),
+    UnitedArabEmirates(
+        countryName = "United Arab Emirates",
+        slug = "united-arab-emirates",
+        code = "AE"
+    ),
     UnitedKingdom(countryName = "United Kingdom", slug = "united-kingdom", code = "GB"),
     Uruguay(countryName = "Uruguay", slug = "uruguay", code = "UY"),
     Uzbekistan(countryName = "Uzbekistan", slug = "uzbekistan", code = "UZ"),
@@ -168,13 +196,12 @@ enum class Country(val countryName: String, val slug: String, val code: String) 
     Vietnam(countryName = "Vietnam", slug = "vietnam", code = "VN"),
     WestBankandGaza(countryName = "West Bank and Gaza", slug = "west-bank-and-gaza", code = "PS"),
     Zambia(countryName = "Zambia", slug = "zambia", code = "ZM"),
-    Zimbabwe(countryName = "Zimbabwe", slug = "zimbabwe", code = "ZW");
+    Zimbabwe(countryName = "Zimbabwe", slug = "zimbabwe", code = "ZW"),
+    Unknown(countryName = "Unknown", slug = "unknown", code = "");
 
     companion object {
-
-        operator fun invoke(countryName: String) : Country? =
-            values().firstOrNull { it.countryName == countryName }
-
+        operator fun invoke(countryName: String): Country =
+            values().firstOrNull { it.countryName == countryName } ?: Unknown
     }
 
 }

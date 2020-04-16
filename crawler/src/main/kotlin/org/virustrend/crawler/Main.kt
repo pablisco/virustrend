@@ -17,12 +17,7 @@ fun main(args: Array<String>) {
     val workingDirectory = args.firstOrNull() ?: error("missing working directory")
     val target = Paths.get(workingDirectory).resolve("../build/pages/api")
     val cache = Paths.get(workingDirectory).resolve("../build/pages/cache")
-    val (
-        casesByTimeRows,
-        casesRows,
-        casesByStateRows,
-        casesByCountryRows
-    ) = Csv.values().map { it.read(cache) }
+    val (casesByTimeRows, _, _, casesByCountryRows) = Csv.values().map { it.read(cache) }
 
     casesByTimeRows.asCasesByDayByCountry().also { daily ->
         saveJson(target, "daily") {
@@ -47,7 +42,7 @@ fun main(args: Array<String>) {
             ))
         }
         countryCases.forEach { cases ->
-            cases.country?.apply {
+            cases.country.apply {
                 saveJson(target.resolve("total"), slug) {
                     stringify(cases)
                 }
@@ -67,7 +62,7 @@ private fun saveJson(directory: Path, fileName: String, parse: Json.() -> String
 private fun List<Row>.asCasesByDayByCountry(): List<CasesByDayByCountry> =
     groupBy({ it.country }, { it.casesByDay })
         .mapNotNull { (country, days) ->
-            country?.let { CasesByDayByCountry(countryName = it.countryName, days = days) }
+            CasesByDayByCountry(countryName = country.countryName, days = days)
         }
 
 private val Row.casesByDay: CaseByDay
@@ -93,11 +88,11 @@ private val Row.delta
 
 private val Row.countryCases
     get() = CountryCases(
-        countryName = country?.countryName,
+        countryName = country.countryName,
         cases = cases
     )
 
-private val Row.country: Country?
+private val Row.country: Country
     get() = Country(string("Country_Region"))
 
 internal fun String.saveTo(output: Path) {

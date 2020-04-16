@@ -2,6 +2,7 @@ package org.virustrend.android
 
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -21,18 +22,17 @@ import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.virustrend.CountryCases
+import org.virustrend.Country
 import org.virustrend.R
 import org.virustrend.android.utils.whenSvgElementReady
 import org.virustrend.color.ColorRange
 import org.virustrend.color.colorAt
 import org.virustrend.color.toPlatformColor
-import org.virustrend.country
 import org.virustrend.domain.*
 import org.virustrend.domain.AppEvent.ChangeCountry
 import org.virustrend.domain.AppEvent.StartMapScreen
-import org.virustrend.domain.SelectableCountry.None
-import org.virustrend.domain.SelectableCountry.Some
+import org.virustrend.domain.CountrySelection.All
+import org.virustrend.domain.CountrySelection.Target
 
 @FlowPreview
 @ExperimentalCoroutinesApi
@@ -53,48 +53,44 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
     private suspend fun AppState.render() {
         loadingViews.visibleOrGoneWhen { screen is Async.Loading.Fresh }
         idleViews.visibleOrGoneWhen { screen is Async.Idle<*> }
-        if (screen is Async.Failed<*>) {
+        screen.takeAs<Async.Failed<*>>()?.also {
+            Log.e("Main", it.error.message, it.error)
             Snackbar.make(mainRoot, "", Snackbar.LENGTH_INDEFINITE)
                 .setAction("Retry") { viewModel.notify(StartMapScreen) }
                 .show()
         }
-        screen.maybeData?.render(selectedCountry)
+        screen.maybeData?.render(countrySelection)
         countrySelectionView.render(this)
             .onEach { viewModel.notify(ChangeCountry(it)) }
             .launchIn(lifecycleScope)
     }
 
-    private suspend fun Screen.Map.render(selectedCountry: SelectableCountry) {
-        casesByCountry.render(selectedCountry = selectedCountry)
-        when (selectedCountry) {
-            is None -> total.cases
-            is Some -> total.countryCases.find { it.country == selectedCountry.country }?.cases
-        }?.let { (confirmed, deaths, recovered, active) ->
-            confirmedView.count = confirmed
-            deathsView.count = deaths
-            recoveredView.count = recovered
-            activeView.count = active
-        }
+    private suspend fun Screen.WorldMap.render(countrySelection: CountrySelection) {
+        countryToMetric.render(countrySelection = countrySelection)
+        val (confirmed, deaths, recovered, active) = cases
+        confirmedView.count = confirmed
+        deathsView.count = deaths
+        recoveredView.count = recovered
+        activeView.count = active
     }
 
-    private suspend fun Screen.render(selectedCountry: SelectableCountry) {
+    private suspend fun Screen.render(countrySelection: CountrySelection) {
         when (this) {
-            is Screen.Map -> this.render(selectedCountry)
+            is Screen.WorldMap -> this.render(countrySelection)
         }
     }
 
-    private suspend fun List<CountryCases>.render(
-        selectedCountry: SelectableCountry
+    private suspend fun List<Pair<Country, Int>>.render(
+        countrySelection: CountrySelection
     ) = withContext(Main) {
-        val cases = sortedBy { it.cases.confirmed }
+        val cases = sortedBy { (_, count) -> count }
         Sharp.loadAsset(assets, "world.svg")
             .whenSvgElementReady { id, paint ->
                 val position: Double =
-                    cases.indexOfFirst { it.country?.code == id }
-                        .takeIf { it > 0 }
+                    cases.indexOfFirst { (country, _) -> country.code == id }.takeIf { it > 0 }
                         ?.let { it / size.toDouble() } ?: 0.0
                 paint?.color = ColorRange.whiteToRed.colorAt(position).toPlatformColor()
-                if (selectedCountry is Some && selectedCountry.country.code == id) {
+                if (countrySelection is Target && countrySelection.country.code == id) {
                     paint?.color = Color.GREEN
                 }
             }.into(mapView)
@@ -111,19 +107,19 @@ private fun List<View>.visibleOrGoneWhen(block: () -> Boolean) {
 }
 
 @ExperimentalCoroutinesApi
-private fun AdapterView<*>.render(appState: AppState): Flow<SelectableCountry> {
+private fun AdapterView<*>.render(appState: AppState): Flow<CountrySelection> {
     val countries = appState.countries.maybeData.orEmpty()
     adapter = ArrayAdapter(context, R.layout.item_country, countries.map { it.label })
-    setSelection(countries.indexOf(appState.selectedCountry))
+    setSelection(countries.indexOf(appState.countrySelection))
     return selection.map { position ->
-        if (position == 0) None else countries[position]
+        if (position == 0) All else countries[position]
     }
 }
 
-private val SelectableCountry.label
+private val CountrySelection.label
     get() = when (this) {
-        is None -> "All Countries"
-        is Some -> country.countryName
+        is All -> "All Countries"
+        is Target -> country.countryName
     }
 
 @ExperimentalCoroutinesApi

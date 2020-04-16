@@ -3,6 +3,7 @@ package org.virustrend
 import com.soywiz.klock.Date
 import com.soywiz.klock.DateTime
 import kotlinx.serialization.Serializable
+import org.virustrend.domain.DataMetric
 
 @Serializable
 data class GlobalTotal(
@@ -40,7 +41,16 @@ data class Cases(
     val deaths: Int,
     val recovered: Int,
     val active: Int
-)
+) {
+
+    operator fun get(metric: DataMetric): Int = when(metric) {
+        DataMetric.Confirmed -> confirmed
+        DataMetric.Deaths -> deaths
+        DataMetric.Recovered -> recovered
+        DataMetric.Active -> active
+    }
+
+}
 
 @Serializable
 data class Delta(val deltaConfirmed: Int, val deltaRecovered: Float)
@@ -65,9 +75,9 @@ data class Location(
 )
 
 @Serializable
-data class CountryCases(val countryName: String?, val cases: Cases)
-
-val CountryCases.country: Country? get() = countryName?.let { Country(it) }
+data class CountryCases(val countryName: String?, val cases: Cases) {
+    val country: Country = countryName?.let { Country(it) } ?: Country.Unknown
+}
 
 operator fun Cases.plus(other: Cases): Cases =
     copy(

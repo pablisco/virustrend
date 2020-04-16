@@ -7,10 +7,9 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.flow.receiveAsFlow
+import org.virustrend.Cases
 import org.virustrend.Country
-import org.virustrend.CountryCases
 import org.virustrend.GlobalTotal
-import org.virustrend.country
 import org.virustrend.domain.AppEvent.ChangeCountry
 import org.virustrend.domain.AppEvent.StartMapScreen
 import org.virustrend.domain.Async.*
@@ -34,94 +33,119 @@ class StateMachine {
     suspend fun notify(event: AppEvent) {
         when (event) {
             is StartMapScreen -> {
-                currentState into { loading() }
+                currentState.map { it.loading() }
                 try {
                     val total = query(Query.AllCountries)
-                    currentState into { idleMapScreen(total) }
+                    currentState.map { it.idleMapScreen(total) }
                 } catch (e: Exception) {
-                    currentState into { failed(e) }
+                    currentState.map { it.failed(e) }
                 }
             }
             is AppEvent.Reload -> {
 
             }
             is ChangeCountry -> {
-                event.country.takeIf { it != currentState.selectedCountry }?.let {
-                    currentState into { copy(selectedCountry = event.country) }
+                event.countrySelection.takeIf { it != currentState.countrySelection }?.let { country ->
+                    currentState.map {
+                        it.copy(
+                            countrySelection = event.countrySelection,
+                            screen = it.screen.changeCountry(country)
+                        )
+                    }
                 }
             }
             is AppEvent.ChangeMetric -> {
-                event.metric.takeIf { it != currentState.metric }?.let {
-                    currentState into { copy(metric = event.metric) }
-                }
+                val worldMap = currentState.screen.maybeData.takeAs<Screen.WorldMap>()
+                worldMap?.selectedMetric
+                    ?.let { metric -> event.metric.takeIf { it != metric } }
+                    ?.let { metric ->
+                        currentState.map {
+                            it.copy(screen = Idle(worldMap.copy(selectedMetric = metric)))
+                        }
+                    }
             }
-        }.extensive
+        }.exhaustive
     }
 
-    private val Any?.extensive: Any? get() = this
-
-    private suspend infix fun AppState.into(block: AppState.() -> AppState) {
-        stateChannel.send(block())
+    private suspend fun AppState.map(transform: suspend (AppState) -> AppState) {
+        stateChannel.send(transform(this))
     }
 }
+
+private suspend fun Async<Screen>.changeCountry(countrySelection: CountrySelection): Async<Screen> {
+    val total = query(Query.AllCountries)
+    return map { screen ->
+        when (screen) {
+            is Screen.WorldMap -> {
+                screen.copy(
+                    cases = total.countryCases.find { it.country == countrySelection.maybeCountry }?.cases
+                        ?: error("Missing country ${countrySelection.maybeCountry}")
+                )
+            }
+        }
+    }
+}
+
+
+
+val Any?.exhaustive: Any? get() = this
+inline fun <reified T> Any?.takeAs(): T? = (this as? T)
 
 sealed class AppEvent {
     object StartMapScreen : AppEvent()
     object Reload : AppEvent()
-    data class ChangeCountry(val country: SelectableCountry) : AppEvent()
+    data class ChangeCountry(val countrySelection: CountrySelection) : AppEvent()
     data class ChangeMetric(val metric: DataMetric) : AppEvent()
 }
 
 data class AppState(
     val screen: Async<Screen>,
-    val metric: DataMetric = DataMetric.Confirmed,
-    val countries: Async<List<SelectableCountry>> = Loading.Fresh,
-    val selectedCountry: SelectableCountry = SelectableCountry.None
-)
+    val countries: Async<List<CountrySelection>> = Loading.Fresh,
+    val countrySelection: CountrySelection = CountrySelection.All
+) {
 
-enum class DataMetric {
-    Confirmed, Deaths, Recovered, Active
-}
+    internal fun loading(): AppState =
+        copy(screen = screen.maybeData?.let { Loading.WithData(it) } ?: Loading.Fresh)
 
-sealed class Async<out T>(val maybeData: T? = null) {
-    sealed class Loading<T>(maybeData: T? = null) : Async<T>(maybeData) {
-        object Fresh : Loading<Nothing>()
-        data class WithData<T>(val data: T) : Loading<T>(data)
-    }
+    internal fun failed(error: Exception): AppState =
+        copy(screen = screen.maybeData?.let { Failed.OnReload(error, it) } ?: Failed.OnLoad(error))
 
-    data class Idle<T>(val data: T) : Async<T>(data)
-    sealed class Failed<T>(maybeData: T? = null) : Async<T>(maybeData) {
-        data class OnLoad(val error: Exception) : Failed<Nothing>()
-        data class OnReload<T>(val error: Exception, val data: T) : Failed<T>(data)
-    }
 }
 
 sealed class Screen {
-    data class Map(val casesByCountry: List<CountryCases>, val total: GlobalTotal) : Screen()
+    data class WorldMap(
+        val cases: Cases,
+        val countryToMetric: List<Pair<Country, Int>>,
+        val selectedMetric: DataMetric
+    ) : Screen()
 }
 
-sealed class SelectableCountry {
+sealed class CountrySelection {
 
-    object None : SelectableCountry()
-    data class Some(val country: Country) : SelectableCountry()
+    object All : CountrySelection()
+    data class Target(val country: Country) : CountrySelection()
+
+    val maybeCountry: Country? get() = takeAs<Target>()?.country
 
 }
 
-private fun AppState.loading(): AppState =
-    copy(screen = screen.maybeData?.let { Loading.WithData(it) } ?: Loading.Fresh)
-
-private fun AppState.failed(error: Exception): AppState =
-    copy(screen = screen.maybeData?.let { Failed.OnReload(error, it) } ?: Failed.OnLoad(error))
-
-private fun AppState.idleMapScreen(total: GlobalTotal): AppState = copy(
-    countries = Idle(total.countryCases.mapNotNull { it.country }.asSelectableCountries()),
-    screen = Idle(
-        data = Screen.Map(
-            casesByCountry = total.countryCases,
-            total = total
+private fun AppState.idleMapScreen(total: GlobalTotal): AppState {
+    val metric = screen.maybeData?.maybeMetric ?: DataMetric.default
+    return copy(
+        countries = Idle(total.countryCases.map { it.country }.asSelectableCountries()),
+        screen = Idle(
+            data = Screen.WorldMap(
+                countryToMetric = total.countryCases.map { it.country to it.cases[metric] },
+                cases = total.cases,
+                selectedMetric = metric
+            )
         )
     )
-)
+}
 
-private fun List<Country>.asSelectableCountries(): List<SelectableCountry> =
-    listOf(SelectableCountry.None) + map { SelectableCountry.Some(it) }
+private val Screen.maybeMetric get() = when(this) {
+    is Screen.WorldMap -> selectedMetric
+}
+
+private fun List<Country>.asSelectableCountries(): List<CountrySelection> =
+    listOf(CountrySelection.All) + map { CountrySelection.Target(it) }
