@@ -1,11 +1,13 @@
+import com.ccfraser.muirwik.components.*
 import com.ccfraser.muirwik.components.card.mCard
-import com.ccfraser.muirwik.components.mCircularProgress
-import com.ccfraser.muirwik.components.mCssBaseline
-import com.ccfraser.muirwik.components.mThemeProvider
+import com.ccfraser.muirwik.components.form.mFormControl
+import com.ccfraser.muirwik.components.menu.mMenuItem
 import com.ccfraser.muirwik.components.styles.createMuiTheme
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import kotlinx.css.*
@@ -16,15 +18,13 @@ import org.virustrend.color.ColorRange
 import org.virustrend.color.colorAt
 import org.virustrend.color.toPlatformColor
 import org.virustrend.country
-import org.virustrend.domain.VirusTrendEvent
-import org.virustrend.domain.VirusTrendState
-import org.virustrend.domain.VirusTrendStateMachine
+import org.virustrend.domain.*
+import org.virustrend.domain.AppEvent.ChangeCountry
+import org.virustrend.domain.Screen
+import org.virustrend.domain.SelectableCountry.None
+import org.virustrend.domain.SelectableCountry.Some
 import org.virustrend.web.toLocaleString
-import org.virustrend.web.visibleIf
-import org.w3c.dom.Document
-import org.w3c.dom.Element
-import org.w3c.dom.HTMLObjectElement
-import org.w3c.dom.asList
+import org.w3c.dom.*
 import org.w3c.dom.events.Event
 import react.*
 import react.dom.render
@@ -37,109 +37,135 @@ fun startApp() {
     render(appTag) {
         child(App::class) {
             attrs {
-                stateMachine = VirusTrendStateMachine()
-                virusTrendState = VirusTrendState.Loading()
+                stateMachine = StateMachine()
+                virusTrendState = AppState(screen = Async.Loading.Fresh)
             }
         }
     }
 }
 
-interface AppState : RState {
-    var virusTrendState: VirusTrendState
+interface RAppState : RState {
+    var appState: AppState
 }
 
 @FlowPreview
 @ExperimentalCoroutinesApi
 interface AppProperties : RProps {
-    var virusTrendState: VirusTrendState
-    var stateMachine: VirusTrendStateMachine
+    var virusTrendState: AppState
+    var stateMachine: StateMachine
+}
+
+@ExperimentalCoroutinesApi
+private fun RBuilder.toolbar(state: AppState): Flow<AppEvent> = callbackFlow {
+    mToolbar {
+        css {
+            backgroundColor = Color.darkGray
+        }
+        state.countries.maybeData?.also { countries ->
+            mFormControl {
+                mSelect(
+                    value = state.selectedCountry.code,
+                    onChange = { event, _ ->
+                        val code = (event.target as? HTMLInputElement)?.value
+                        val selectedCountry = countries.firstOrNull { it.code == code } ?: None
+                        offer(ChangeCountry(selectedCountry))
+                    }
+                ) {
+                    countries.forEach { mMenuItem(value = it.code) { +it.label } }
+                }
+            }
+        }
+    }
+}
+
+private val appTheme = createMuiTheme().apply {
+    palette.primary.main = "#fff"
+}
+
+private fun StyledBuilder<*>.centerOnScreen() {
+    css {
+        position = Position.absolute
+        left = 0.px
+        top = 0.px
+        right = 0.px
+        bottom = 0.px
+        margin = "auto"
+    }
 }
 
 @FlowPreview
 @ExperimentalCoroutinesApi
-class App(props: AppProperties) : RComponent<AppProperties, AppState>(props) {
+class App(props: AppProperties) : RComponent<AppProperties, RAppState>(props) {
 
     override fun RBuilder.render() {
         mCssBaseline()
-        mThemeProvider(
-            theme = createMuiTheme().apply {
-                palette.primary.main = "#fff"
-            }
-        ) {
-            if (!state.hasContent) {
-                mCircularProgress {
-                    css {
-                        position = Position.absolute
-                        left = 0.px
-                        top = 0.px
-                        right = 0.px
-                        bottom = 0.px
-                        margin = "auto"
-                    }
-                }
-            } else {
-                styledDiv {
-                    css {
-//                        visibleIf { state.hasContent }
-                        flex(flexGrow = 1.0, flexBasis = FlexBasis.fill)
-                        display = Display.flex
-                        backgroundColor = Color.aquamarine
-                        alignItems = Align.center
-                    }
-                }
-                mapGraph(cases = state.virusTrendState.content?.casesByCountry ?: emptyList())
-                styledFooter {
-                    css {
-//                        visibleIf { state.hasContent }
-                        flex(flexGrow = 0.0, flexBasis = FlexBasis.fill)
-                        margin(8.px)
-                        display = Display.flex
-                        justifyContent = JustifyContent.spaceEvenly
-                        flexDirection = FlexDirection.column
-                        media("only screen and (min-width: 600px)") {
-                            flexDirection = FlexDirection.row
-                        }
-                    }
-                    state.virusTrendState.content?.total
-                        ?.cases?.also { (confirmed, deaths, recovered, active) ->
-                            counterBox("Confirmed", confirmed)
-                            counterBox("Deaths", deaths)
-                            counterBox("Recovered", recovered)
-                            counterBox("Active", active)
-                        }
-                }
+        mThemeProvider(theme = appTheme) {
+            toolbar(state.appState)
+            when (val screen = state.appState.screen) {
+                is Async.Loading.Fresh -> mCircularProgress { centerOnScreen() }
+                is Async.Loading.WithData -> mLinearProgress()
+                else -> screen.maybeData?.let { render(it) }
             }
         }
     }
 
-    override fun AppState.init(props: AppProperties) {
+    override fun RAppState.init(props: AppProperties) {
         applyGlobalStyles()
-        virusTrendState = props.virusTrendState
+        appState = props.virusTrendState
         GlobalScope.launch {
-            props.stateMachine.notify(VirusTrendEvent.Start)
+            props.stateMachine.notify(AppEvent.StartMapScreen)
         }
         GlobalScope.launch {
             props.stateMachine.states.collect {
-                setState { virusTrendState = it }
+                setState { appState = it }
             }
         }
     }
 
+}
 
-    private fun RBuilder.mapGraph(cases: List<CountryCases>) = styledObject_ {
+private fun RBuilder.render(screen: Screen) = when (screen) {
+    is Screen.Map -> render(screen)
+}
+
+private fun RBuilder.render(screen: Screen.Map) = with(screen) {
+    mapGraph(cases = casesByCountry)
+    styledFooter {
         css {
-            visibleIf { state.hasContent }
+            flex(flexGrow = 0.0)
+            margin(8.px)
+            display = Display.flex
+            justifyContent = JustifyContent.spaceEvenly
+            flexDirection = FlexDirection.column
+            media("only screen and (min-width: 600px)") {
+                flexDirection = FlexDirection.row
+            }
         }
-        attrs {
-            classes += "map"
-            data = "world.svg"
-            type = "image/svg+xml"
-            width = "100%"
-            height = "100%"
-            onLoadFunction = renderMapGraph(cases)
-        }
+        val (confirmed, deaths, recovered, active) = total.cases
+        counterBox("Confirmed", confirmed)
+        counterBox("Deaths", deaths)
+        counterBox("Recovered", recovered)
+        counterBox("Active", active)
     }
+}
 
+private val SelectableCountry.label: String
+    get() = if (this is Some) country.name else "All Countries"
+
+private val SelectableCountry.code: String
+    get() = if (this is Some) country.code else "ALL"
+
+private fun RBuilder.mapGraph(cases: List<CountryCases>) = styledObject_ {
+    css {
+        flex(flexGrow = 1.0)
+    }
+    attrs {
+        classes += "map"
+        data = "world.svg"
+        type = "image/svg+xml"
+        width = "100%"
+        onLoadFunction = renderMapGraph(cases)
+    }
 }
 
 private fun RBuilder.counterBox(name: String, count: Int) = styledDiv {
@@ -211,5 +237,3 @@ private val mapSvg: Document
 private val mapObject: HTMLObjectElement
     get() = (document.querySelector(".map") as? HTMLObjectElement)
         ?: error("map object tag not found")
-
-private val AppState.hasContent: Boolean get() = virusTrendState.content != null

@@ -15,7 +15,7 @@
 
     <ConstraintSet android:id="@+id/expanded">
         <Constraint
-            android:id="@id/countrySelection"
+            android:id="@id/countrySelectionView"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
             app:layout_constraintDimensionRatio="16:9"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/countrySelection">
+            app:layout_constraintTop_toBottomOf="@id/countrySelectionView">
             <CustomAttribute
                 app:attributeName="imageAlpha"
                 app:customIntegerValue="255" />
@@ -43,7 +43,7 @@
 
     <ConstraintSet android:id="@+id/collapsed">
         <Constraint
-            android:id="@id/countrySelection"
+            android:id="@id/countrySelectionView"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:layout_constraintStart_toStartOf="parent"

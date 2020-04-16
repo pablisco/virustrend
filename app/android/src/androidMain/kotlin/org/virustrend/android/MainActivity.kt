@@ -2,7 +2,6 @@ package org.virustrend.android
 
 import android.graphics.Color
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -30,11 +29,10 @@ import org.virustrend.color.colorAt
 import org.virustrend.color.toPlatformColor
 import org.virustrend.country
 import org.virustrend.domain.*
+import org.virustrend.domain.AppEvent.ChangeCountry
+import org.virustrend.domain.AppEvent.StartMapScreen
 import org.virustrend.domain.SelectableCountry.None
 import org.virustrend.domain.SelectableCountry.Some
-import org.virustrend.domain.VirusTrendEvent.ChangeCountry
-import org.virustrend.domain.VirusTrendEvent.Start
-import org.virustrend.domain.VirusTrendState.*
 
 @FlowPreview
 @ExperimentalCoroutinesApi
@@ -44,34 +42,46 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     private val loadingViews: List<View> by lazy { listOf(loadingView) }
     private val idleViews: List<View> by lazy {
-        listOf(countrySelection, mapView, globalCasesView)
+        listOf(countrySelectionView, mapView, globalCasesView)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewModel.states.onEach { it.render() }.launchIn(lifecycleScope)
+        viewModel.state.onEach { it.render() }.launchIn(lifecycleScope)
     }
 
-    private suspend fun VirusTrendState.render() = withContext(Main) {
-        loadingViews.visibleOrGoneWhen { this@render is Loading }
-        idleViews.visibleOrGoneWhen { this@render is Idle }
-        if (this@render is Failed) {
+    private suspend fun AppState.render() {
+        loadingViews.visibleOrGoneWhen { screen is Async.Loading.Fresh }
+        idleViews.visibleOrGoneWhen { screen is Async.Idle<*> }
+        if (screen is Async.Failed<*>) {
             Snackbar.make(mainRoot, "", Snackbar.LENGTH_INDEFINITE)
-                .setAction("Retry") { viewModel.trigger(Start) } // TODO: add retry event
+                .setAction("Retry") { viewModel.notify(StartMapScreen) }
                 .show()
         }
-        content?.render()
-        content?.casesByCountry?.render(
-            selectedCountry = content?.selectedCountry ?: None
-        )
-        countrySelection.with(content?.countries ?: emptyList())
-            .onEach { country ->
-                Log.e("Main", "selectedCountry: $country")
-                viewModel.trigger(ChangeCountry(country))
-            }
+        screen.maybeData?.render(selectedCountry)
+        countrySelectionView.render(this)
+            .onEach { viewModel.notify(ChangeCountry(it)) }
             .launchIn(lifecycleScope)
     }
 
+    private suspend fun Screen.Map.render(selectedCountry: SelectableCountry) {
+        casesByCountry.render(selectedCountry = selectedCountry)
+        when (selectedCountry) {
+            is None -> total.cases
+            is Some -> total.countryCases.find { it.country == selectedCountry.country }?.cases
+        }?.let { (confirmed, deaths, recovered, active) ->
+            confirmedView.count = confirmed
+            deathsView.count = deaths
+            recoveredView.count = recovered
+            activeView.count = active
+        }
+    }
+
+    private suspend fun Screen.render(selectedCountry: SelectableCountry) {
+        when (this) {
+            is Screen.Map -> this.render(selectedCountry)
+        }
+    }
 
     private suspend fun List<CountryCases>.render(
         selectedCountry: SelectableCountry
@@ -90,18 +100,6 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             }.into(mapView)
     }
 
-    private suspend fun Content.render() = withContext(Main) {
-        when(val selection = selectedCountry) {
-            is None -> total.cases
-            is Some -> total.countryCases.find { it.country == selection.country }?.cases
-        }?.let { (confirmed, deaths, recovered, active) ->
-            confirmedView.count = confirmed
-            deathsView.count = deaths
-            recoveredView.count = recovered
-            activeView.count = active
-        }
-    }
-
 }
 
 private fun View.visibleOrGoneWhen(block: () -> Boolean) {
@@ -113,20 +111,20 @@ private fun List<View>.visibleOrGoneWhen(block: () -> Boolean) {
 }
 
 @ExperimentalCoroutinesApi
-private fun AdapterView<*>.with(countries: List<SelectableCountry>): Flow<SelectableCountry> {
-    val labels = countries.map {
-        when (it) {
-            is None -> "All Countries"
-            is Some -> it.country.countryName
-        }
-    }
-    val itemPosition = selectedItemPosition
-    adapter = ArrayAdapter(context, R.layout.item_country, labels)
-    setSelection(itemPosition)
+private fun AdapterView<*>.render(appState: AppState): Flow<SelectableCountry> {
+    val countries = appState.countries.maybeData.orEmpty()
+    adapter = ArrayAdapter(context, R.layout.item_country, countries.map { it.label })
+    setSelection(countries.indexOf(appState.selectedCountry))
     return selection.map { position ->
         if (position == 0) None else countries[position]
     }
 }
+
+private val SelectableCountry.label
+    get() = when (this) {
+        is None -> "All Countries"
+        is Some -> country.countryName
+    }
 
 @ExperimentalCoroutinesApi
 private val AdapterView<*>.selection: Flow<Int>
@@ -149,17 +147,19 @@ private val AdapterView<*>.selection: Flow<Int>
 @FlowPreview
 @ExperimentalCoroutinesApi
 class MainViewModel(
-    private val stateMachine: VirusTrendStateMachine = VirusTrendStateMachine()
+    private val stateMachine: StateMachine = StateMachine()
 ) : ViewModel() {
 
     init {
-        trigger(Start)
+        notify(StartMapScreen)
     }
 
-    val states get() = stateMachine.states
+    val state: Flow<AppState> get() = stateMachine.states
 
-    fun trigger(event: VirusTrendEvent) {
-        viewModelScope.launch(IO) { stateMachine.notify(event) }
+    fun notify(event: AppEvent) {
+        viewModelScope.launch(IO) {
+            stateMachine.notify(event)
+        }
     }
 
 }

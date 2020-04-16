@@ -1,30 +1,28 @@
 package org.virustrend.domain
 
-import org.virustrend.Country
-import org.virustrend.country
-import org.virustrend.domain.ContentQuery.GetAllWorldData
-import org.virustrend.network.VirusTrendClient
+import org.virustrend.network.fetch
+import org.virustrend.query.Query
 
-suspend fun Content.Companion.query(query: ContentQuery): Content =
-    fetchContent(query)
+internal suspend fun <T : Any> query(
+    query: Query<T>,
+    cache: InMemoryCache = InMemoryCache.default
+): T = cache.cached(query) ?: fetch(query).also { cache.save(query, it) }
 
-sealed class ContentQuery {
-    object GetAllWorldData : ContentQuery()
-}
 
-private suspend fun fetchContent(
-    query: ContentQuery,
-    client: VirusTrendClient = VirusTrendClient()
-): Content = when (query) {
-    GetAllWorldData -> with(client.total()) {
-        Content(
-            selectedCountry = SelectableCountry.None,
-            countries = countryCases.mapNotNull { it.country }.asSelectableCountries(),
-            casesByCountry = countryCases,
-            total = this
-        )
+class InMemoryCache(
+    private val keyValues:  MutableMap<Query<*>, Any> = mutableMapOf()
+) {
+
+    companion object {
+        val default: InMemoryCache = InMemoryCache()
     }
-}
 
-private fun List<Country>.asSelectableCountries(): List<SelectableCountry> =
-    listOf(SelectableCountry.None) + map { SelectableCountry.Some(it) }
+    @Suppress("UNCHECKED_CAST")
+    fun <T: Any> cached(query: Query<T>) : T? =
+        keyValues[query] as? T
+
+    fun <T: Any> save(query: Query<T>, value: Any) {
+        keyValues[query] = value
+    }
+
+}

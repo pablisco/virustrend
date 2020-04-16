@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
         <Spinner
-                android:id="@+id/countrySelection"
+                android:id="@+id/countrySelectionView"
                 android:layout_width="300dp"
                 android:layout_height="?attr/actionBarSize"
                 android:layout_gravity="center"

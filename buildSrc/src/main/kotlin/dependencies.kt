@@ -7,11 +7,15 @@ object libraries {
     const val klock = "com.soywiz.korlibs.klock:klock:1.10.3"
 
     object androidX {
+
+        private const val lifecycleVersion = "2.2.0"
+
         const val appcompat = "androidx.appcompat:appcompat:1.1.0"
         const val core = "androidx.core:core-ktx:1.2.0"
         const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.0.0-beta4"
-        const val lifecycle = "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
-        const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+        const val lifecycle = "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion"
+        const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
+        const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
         const val fragment = "androidx.fragment:fragment-ktx:1.2.4"
     }
 
