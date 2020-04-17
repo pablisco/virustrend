@@ -144,13 +144,11 @@ private fun RBuilder.renderWorldMap(screen: Screen.WorldMap) = with(screen) {
     styledFooter {
         css {
             flex(flexGrow = 0.0)
-            margin(8.px)
+            padding(.5.vw)
             display = Display.flex
             justifyContent = JustifyContent.spaceEvenly
-            flexDirection = FlexDirection.column
-            media("only screen and (min-width: 600px)") {
-                flexDirection = FlexDirection.row
-            }
+            flexDirection = FlexDirection.row
+            flexWrap = FlexWrap.wrap
         }
         val (confirmed, deaths, recovered, active) = cases
         counterBox("Confirmed", confirmed)
@@ -170,6 +168,7 @@ private fun RBuilder.mapGraph(cases: List<Pair<Country, Int>>) =
     styledObject_ {
         css {
             flex(flexGrow = 1.0)
+            height = 0.px // make sure it follows flex-box
         }
         attrs {
             classes += "map"
@@ -182,7 +181,10 @@ private fun RBuilder.mapGraph(cases: List<Pair<Country, Int>>) =
 private fun RBuilder.counterBox(name: String, count: Int) = styledDiv {
     css {
         flexGrow = 1.0
-        margin(8.px)
+        margin(.5.vw)
+        media("only screen and (max-width: 600px)") {
+            width = 45.vw
+        }
     }
     mCard {
         css {
@@ -227,7 +229,6 @@ private fun applyGlobalStyles() {
     StyledComponents.injectGlobal {
         app {
             display = Display.flex
-            position = Position.relative
             flexDirection = FlexDirection.column
             justifyContent = JustifyContent.spaceBetween
             alignItems = Align.stretch

@@ -90,6 +90,7 @@ private suspend fun Async<Screen>.changeCountry(countrySelection: CountrySelecti
 
 val Any?.exhaustive: Any? get() = this
 inline fun <reified T> Any?.takeAs(): T? = (this as? T)
+inline fun <reified T> Any?.requireAs(): T = (this as? T) ?: error("Expected $this to be ${T::class}")
 
 sealed class AppEvent {
     object StartMapScreen : AppEvent()
