@@ -6,9 +6,11 @@ import com.ccfraser.muirwik.components.styles.createMuiTheme
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.onEach
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import kotlinx.css.*
 import kotlinx.html.classes
@@ -21,9 +23,11 @@ import org.virustrend.domain.*
 import org.virustrend.domain.AppEvent.ChangeCountry
 import org.virustrend.domain.CountrySelection.All
 import org.virustrend.domain.CountrySelection.Target
-import org.virustrend.domain.Screen
 import org.virustrend.web.toLocaleString
-import org.w3c.dom.*
+import org.w3c.dom.Document
+import org.w3c.dom.Element
+import org.w3c.dom.HTMLObjectElement
+import org.w3c.dom.asList
 import org.w3c.dom.events.Event
 import react.*
 import react.dom.render
@@ -55,7 +59,8 @@ interface AppProperties : RProps {
 }
 
 @ExperimentalCoroutinesApi
-private fun RBuilder.toolbar(state: AppState): Flow<AppEvent> = callbackFlow {
+private fun RBuilder.toolbar(state: AppState): Flow<ChangeCountry> {
+    val channel = Channel<ChangeCountry>(Channel.CONFLATED)
     mToolbar {
         css {
             backgroundColor = Color.darkGray
@@ -65,9 +70,10 @@ private fun RBuilder.toolbar(state: AppState): Flow<AppEvent> = callbackFlow {
                 mSelect(
                     value = state.countrySelection.code,
                     onChange = { event, _ ->
-                        val code = (event.target as? HTMLInputElement)?.value
+                        val code = event.target.asDynamic().value.toString()
+                        println("selected event: ${JSON.stringify(event.target)}")
                         val selectedCountry = countries.firstOrNull { it.code == code } ?: All
-                        offer(ChangeCountry(selectedCountry))
+                        channel.offer(ChangeCountry(selectedCountry))
                     }
                 ) {
                     countries.forEach { mMenuItem(value = it.code) { +it.label } }
@@ -75,6 +81,7 @@ private fun RBuilder.toolbar(state: AppState): Flow<AppEvent> = callbackFlow {
             }
         }
     }
+    return channel.receiveAsFlow()
 }
 
 private val appTheme = createMuiTheme().apply {
@@ -99,11 +106,16 @@ class App(props: AppProperties) : RComponent<AppProperties, RAppState>(props) {
     override fun RBuilder.render() {
         mCssBaseline()
         mThemeProvider(theme = appTheme) {
-            toolbar(state.appState)
+            val changeCountryEvents = toolbar(state.appState)
+            GlobalScope.launch {
+                changeCountryEvents
+                    .onEach { event -> props.stateMachine.notify(event) }
+                    .collect()
+            }
             when (val screen = state.appState.screen) {
                 is Async.Loading.Fresh -> mCircularProgress { centerOnScreen() }
                 is Async.Loading.WithData -> mLinearProgress()
-                else -> screen.maybeData?.let { render(it) }
+                else -> screen.maybeData?.let(::renderScreen)
             }
         }
     }
@@ -123,11 +135,11 @@ class App(props: AppProperties) : RComponent<AppProperties, RAppState>(props) {
 
 }
 
-private fun RBuilder.render(screen: Screen) = when (screen) {
-    is Screen.WorldMap -> render(screen)
+private fun RBuilder.renderScreen(screen: Screen) = when (screen) {
+    is Screen.WorldMap -> renderWorldMap(screen)
 }
 
-private fun RBuilder.render(screen: Screen.WorldMap) = with(screen) {
+private fun RBuilder.renderWorldMap(screen: Screen.WorldMap) = with(screen) {
     mapGraph(cases = countryToMetric)
     styledFooter {
         css {
@@ -154,19 +166,18 @@ private val CountrySelection.label: String
 private val CountrySelection.code: String
     get() = if (this is Target) country.code else "ALL"
 
-private fun RBuilder.mapGraph(cases: List<Pair<Country, Int>>) = styledObject_ {
-    css {
-        flex(flexGrow = 1.0)
+private fun RBuilder.mapGraph(cases: List<Pair<Country, Int>>) =
+    styledObject_ {
+        css {
+            flex(flexGrow = 1.0)
+        }
+        attrs {
+            classes += "map"
+            data = "world.svg"
+            type = "image/svg+xml"
+            onLoadFunction = renderMapGraph(cases)
+        }
     }
-    attrs {
-        classes += "map"
-        data = "world.svg"
-        type = "image/svg+xml"
-//        width = "100%"
-//        height = 100.pct.toString()
-        onLoadFunction = renderMapGraph(cases)
-    }
-}
 
 private fun RBuilder.counterBox(name: String, count: Int) = styledDiv {
     css {

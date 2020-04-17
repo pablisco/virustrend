@@ -33,12 +33,12 @@ class StateMachine {
     suspend fun notify(event: AppEvent) {
         when (event) {
             is StartMapScreen -> {
-                currentState.map { it.loading() }
+                currentState.into { loading() }
                 try {
                     val total = query(Query.AllCountries)
-                    currentState.map { it.idleMapScreen(total) }
+                    currentState into { idleMapScreen(total) }
                 } catch (e: Exception) {
-                    currentState.map { it.failed(e) }
+                    currentState into { failed(e) }
                 }
             }
             is AppEvent.Reload -> {
@@ -46,10 +46,10 @@ class StateMachine {
             }
             is ChangeCountry -> {
                 event.countrySelection.takeIf { it != currentState.countrySelection }?.let { country ->
-                    currentState.map {
-                        it.copy(
+                    currentState into {
+                        copy(
                             countrySelection = event.countrySelection,
-                            screen = it.screen.changeCountry(country)
+                            screen = screen.changeCountry(country)
                         )
                     }
                 }
@@ -59,16 +59,16 @@ class StateMachine {
                 worldMap?.selectedMetric
                     ?.let { metric -> event.metric.takeIf { it != metric } }
                     ?.let { metric ->
-                        currentState.map {
-                            it.copy(screen = Idle(worldMap.copy(selectedMetric = metric)))
+                        currentState into {
+                            copy(screen = Idle(worldMap.copy(selectedMetric = metric)))
                         }
                     }
             }
         }.exhaustive
     }
 
-    private suspend fun AppState.map(transform: suspend (AppState) -> AppState) {
-        stateChannel.send(transform(this))
+    private suspend infix fun AppState.into(transform: suspend AppState.() -> AppState) {
+        stateChannel.send(transform())
     }
 }
 
