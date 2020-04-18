@@ -24,6 +24,7 @@ dependencies {
     implementation(libraries.kotlinX.javascript.styled)
     implementation(npm("styled-components"))
     implementation(npm("inline-style-prefixer"))
+    implementation(npm("mapbox-gl"))
 //    implementation(npm("material-components-web-react"))
 
     implementation(libraries.kotlinX.coroutines.core)

@@ -24,3 +24,6 @@ sealed class Async<out T>(val maybeData: T? = null) {
     }
 
 }
+
+fun <T, R> Async<T>.maybeData(block: T.() -> R): R? =
+    maybeData?.block()

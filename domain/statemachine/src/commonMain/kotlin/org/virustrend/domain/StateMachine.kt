@@ -100,7 +100,7 @@ sealed class AppEvent {
 }
 
 data class AppState(
-    val screen: Async<Screen>,
+    val screen: Async<Screen> = Loading.Fresh,
     val countries: Async<List<CountrySelection>> = Loading.Fresh,
     val countrySelection: CountrySelection = CountrySelection.All
 ) {
